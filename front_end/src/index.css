@@ -35,3 +35,8 @@ oari-purple {
 .dropdown-menu {
   background-color: #3A3F91 !important;
 }
+
+.tooltip {
+  background-color: #3A3F91 !important;
+  text-align: left;
+}
