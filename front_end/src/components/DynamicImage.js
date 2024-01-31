@@ -1118,6 +1118,7 @@ function DynamicImage() {
                 rx="11.296"
                 ry="11.014"
             ></ellipse>
+            <OverlayTrigger placement="right" overlay={<Tooltip>EN 12 or EN First Peoples 12</Tooltip>}>
             <ellipse
                 cx="845.235"
                 cy="548.468"
@@ -1126,6 +1127,8 @@ function DynamicImage() {
                 rx="11.296"
                 ry="11.014"
             ></ellipse>
+            </OverlayTrigger>
+            <OverlayTrigger placement="right" overlay={<Tooltip>Work Experience</Tooltip>}>
             <ellipse
                 cx="844.949"
                 cy="583.707"
@@ -1134,6 +1137,8 @@ function DynamicImage() {
                 rx="11.296"
                 ry="11.014"
             ></ellipse>
+            </OverlayTrigger>
+            <OverlayTrigger placement="right" overlay={<Tooltip>Chem 11/12</Tooltip>}>
             <ellipse
                 cx="845.583"
                 cy="619.822"
@@ -1142,6 +1147,8 @@ function DynamicImage() {
                 rx="11.296"
                 ry="11.014"
             ></ellipse>
+            </OverlayTrigger>
+            <OverlayTrigger placement="right" overlay={<Tooltip>Bio 12</Tooltip>}>
             <ellipse
                 cx="845.762"
                 cy="655.327"
@@ -1150,6 +1157,8 @@ function DynamicImage() {
                 rx="11.296"
                 ry="11.014"
             ></ellipse>
+            </OverlayTrigger>
+            <OverlayTrigger placement="right" overlay={<Tooltip>Degree</Tooltip>}>
             <ellipse
                 cx="845.159"
                 cy="821.446"
@@ -1159,6 +1168,8 @@ function DynamicImage() {
                 rx="14.826"
                 ry="15.108"
             ></ellipse>
+            </OverlayTrigger>
+            <OverlayTrigger placement="right" overlay={<Tooltip>Doctor</Tooltip>}>
             <ellipse
                 cx="893.84"
                 cy="874.299"
@@ -1168,6 +1179,8 @@ function DynamicImage() {
                 rx="11.296"
                 ry="11.014"
             ></ellipse>
+            </OverlayTrigger>
+            <OverlayTrigger placement="right" overlay={<Tooltip>Environmental Health Specialist</Tooltip>}>
             <ellipse
                 cx="969.578"
                 cy="858.217"
@@ -1177,6 +1190,8 @@ function DynamicImage() {
                 rx="11.296"
                 ry="11.014"
             ></ellipse>
+            </OverlayTrigger>
+            <OverlayTrigger placement="right" overlay={<Tooltip>Nurse Practioner</Tooltip>}>
             <ellipse
                 cx="1101.761"
                 cy="787.593"
@@ -1186,6 +1201,8 @@ function DynamicImage() {
                 rx="11.296"
                 ry="11.014"
             ></ellipse>
+            </OverlayTrigger>
+            <OverlayTrigger placement="right" overlay={<Tooltip>Occupational Therapist</Tooltip>}>
             <ellipse
                 cx="1157.89"
                 cy="735.097"
@@ -1195,6 +1212,8 @@ function DynamicImage() {
                 rx="11.296"
                 ry="11.014"
             ></ellipse>
+            </OverlayTrigger>
+            <OverlayTrigger placement="right" overlay={<Tooltip>Registered Nurse</Tooltip>}>
             <ellipse
                 cx="1204.333"
                 cy="668.741"
@@ -1204,6 +1223,7 @@ function DynamicImage() {
                 rx="11.296"
                 ry="11.014"
             ></ellipse>
+            </OverlayTrigger>
             <ellipse
                 cx="967.935"
                 cy="463.244"
@@ -1308,6 +1328,7 @@ function DynamicImage() {
                 rx="11.296"
                 ry="11.014"
             ></ellipse>
+            <OverlayTrigger placement="right" overlay={<Tooltip>Midwife</Tooltip>}>
             <ellipse
                 cx="1042.68"
                 cy="828.008"
@@ -1317,6 +1338,7 @@ function DynamicImage() {
                 rx="11.296"
                 ry="11.014"
             ></ellipse>
+            </OverlayTrigger>
             <ellipse
                 cx="747.495"
                 cy="59.496"
