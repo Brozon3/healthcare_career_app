@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavBar() {
+  
   return (
     <Navbar collapseOnSelect expand="lg" className="blue-background">
       <Container>
