@@ -7,7 +7,7 @@ function NavBar() {
   return (
     <Navbar collapseOnSelect expand="lg" className="blue-background">
       <Container>
-        <Navbar.Brand href="#home" className='py-3 white-text'>
+        <Navbar.Brand className='py-3 white-text'>
           HealthCare Careers
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
