@@ -1119,9 +1119,9 @@ function DynamicImage() {
                         <Popover id="popover-basic">
                             <Popover.Header as="h">Professional Cook</Popover.Header>
                             <Popover.Body>
-                            <b>Average Salary: </b> 
+                            <b>Average Salary: </b> $12,345
                             <hr/>
-                            <b>Program Name: </b>
+                            <b>Program Name: </b> Health Sciences
                             <hr/>
                             <b>Program Length: </b>
                             <hr/>
@@ -1251,9 +1251,9 @@ function DynamicImage() {
                         <Popover id="popover-basic">
                             <Popover.Header as="h1">Doctor</Popover.Header>
                             <Popover.Body>
-                            <b>Average Salary: </b> 
+                            <b>Average Salary: </b> $12,345
                             <hr/>
-                            <b>Program Name: </b>
+                            <b>Program Name: </b> Health Sciences
                             <hr/>
                             <b>Program Length: </b>
                             <hr/>
@@ -1284,9 +1284,9 @@ function DynamicImage() {
                         <Popover id="popover-basic">
                             <Popover.Header as="h1">Environmental Health Specialist</Popover.Header>
                             <Popover.Body>
-                            <b>Average Salary: </b> 
+                            <b>Average Salary: </b> $12,345
                             <hr/>
-                            <b>Program Name: </b>
+                            <b>Program Name: </b> Health Sciences
                             <hr/>
                             <b>Program Length: </b>
                             <hr/>
@@ -1317,9 +1317,9 @@ function DynamicImage() {
                         <Popover id="popover-basic">
                             <Popover.Header as="h1">Nurse Practicioner</Popover.Header>
                             <Popover.Body>
-                            <b>Average Salary: </b> 
+                            <b>Average Salary: </b> $12,345
                             <hr/>
-                            <b>Program Name: </b>
+                            <b>Program Name: </b> Health Sciences
                             <hr/>
                             <b>Program Length: </b>
                             <hr/>
@@ -1350,9 +1350,9 @@ function DynamicImage() {
                         <Popover id="popover-basic">
                             <Popover.Header as="h1">Occupational Therapist</Popover.Header>
                             <Popover.Body>
-                            <b>Average Salary: </b> 
+                            <b>Average Salary: </b> $12,345
                             <hr/>
-                            <b>Program Name: </b>
+                            <b>Program Name: </b> Health Sciences
                             <hr/>
                             <b>Program Length: </b>
                             <hr/>
@@ -1383,9 +1383,9 @@ function DynamicImage() {
                         <Popover id="popover-basic">
                             <Popover.Header as="h1">Registered Nurse</Popover.Header>
                             <Popover.Body>
-                            <b>Average Salary: </b> 
+                            <b>Average Salary: </b> $12,345
                             <hr/>
-                            <b>Program Name: </b>
+                            <b>Program Name: </b> Health Sciences
                             <hr/>
                             <b>Program Length: </b>
                             <hr/>
@@ -1537,9 +1537,9 @@ function DynamicImage() {
                         <Popover id="popover-basic">
                             <Popover.Header as="h1">Dietary Aid</Popover.Header>
                             <Popover.Body>
-                            <b>Average Salary: </b> 
+                            <b>Average Salary: </b> $12,345
                             <hr/>
-                            <b>Program Name: </b>
+                            <b>Program Name: </b> Health Sciences
                             <hr/>
                             <b>Program Length: </b>
                             <hr/>
@@ -1569,9 +1569,9 @@ function DynamicImage() {
                         <Popover id="popover-basic">
                             <Popover.Header as="h1">Community Health Worker</Popover.Header>
                             <Popover.Body>
-                            <b>Average Salary: </b> 
+                            <b>Average Salary: </b> $12,345
                             <hr/>
-                            <b>Program Name: </b>
+                            <b>Program Name: </b> Health Sciences
                             <hr/>
                             <b>Program Length: </b>
                             <hr/>
@@ -1601,9 +1601,9 @@ function DynamicImage() {
                         <Popover id="popover-basic">
                             <Popover.Header as="h1">Healthcare Aid</Popover.Header>
                             <Popover.Body>
-                            <b>Average Salary: </b> 
+                            <b>Average Salary: </b> $12,345
                             <hr/>
-                            <b>Program Name: </b>
+                            <b>Program Name: </b> Health Sciences
                             <hr/>
                             <b>Program Length: </b>
                             <hr/>
@@ -1633,9 +1633,9 @@ function DynamicImage() {
                         <Popover id="popover-basic">
                             <Popover.Header as="h1">Mental Health and Addictions Worker</Popover.Header>
                             <Popover.Body>
-                            <b>Average Salary: </b> 
+                            <b>Average Salary: </b> $12,345
                             <hr/>
-                            <b>Program Name: </b>
+                            <b>Program Name: </b> Health Sciences
                             <hr/>
                             <b>Program Length: </b>
                             <hr/>
@@ -1665,9 +1665,9 @@ function DynamicImage() {
                         <Popover id="popover-basic">
                             <Popover.Header as="h1">Paramedic</Popover.Header>
                             <Popover.Body>
-                            <b>Average Salary: </b> 
+                            <b>Average Salary: </b> $12,345
                             <hr/>
-                            <b>Program Name: </b>
+                            <b>Program Name: </b> Health Sciences
                             <hr/>
                             <b>Program Length: </b>
                             <hr/>
@@ -1697,9 +1697,9 @@ function DynamicImage() {
                         <Popover id="popover-basic">
                             <Popover.Header as="h1">Public Health Communications Officer</Popover.Header>
                             <Popover.Body>
-                            <b>Average Salary: </b> 
+                            <b>Average Salary: </b> $12,345
                             <hr/>
-                            <b>Program Name: </b>
+                            <b>Program Name: </b> Health Sciences
                             <hr/>
                             <b>Program Length: </b>
                             <hr/>
@@ -1729,9 +1729,9 @@ function DynamicImage() {
                         <Popover id="popover-basic">
                             <Popover.Header as="h1">Respitory Therapist</Popover.Header>
                             <Popover.Body>
-                            <b>Average Salary: </b> 
+                            <b>Average Salary: </b> $12,345
                             <hr/>
-                            <b>Program Name: </b>
+                            <b>Program Name: </b> Health Sciences
                             <hr/>
                             <b>Program Length: </b>
                             <hr/>
@@ -1761,9 +1761,9 @@ function DynamicImage() {
                         <Popover id="popover-basic">
                             <Popover.Header as="h1">Midwife</Popover.Header>
                             <Popover.Body>
-                            <b>Average Salary: </b> 
+                            <b>Average Salary: </b> $12,345
                             <hr/>
-                            <b>Program Name: </b>
+                            <b>Program Name: </b> Health Sciences
                             <hr/>
                             <b>Program Length: </b>
                             <hr/>
@@ -1794,9 +1794,9 @@ function DynamicImage() {
                         <Popover id="popover-basic">
                             <Popover.Header as="h1">Funeral Director</Popover.Header>
                             <Popover.Body>
-                            <b>Average Salary: </b> 
+                            <b>Average Salary: </b> $12,345
                             <hr/>
-                            <b>Program Name: </b>
+                            <b>Program Name: </b> Health Sciences
                             <hr/>
                             <b>Program Length: </b>
                             <hr/>
@@ -1826,9 +1826,9 @@ function DynamicImage() {
                         <Popover id="popover-basic">
                             <Popover.Header as="h1">Embalmer</Popover.Header>
                             <Popover.Body>
-                            <b>Average Salary: </b> 
+                            <b>Average Salary: </b> $12,345
                             <hr/>
-                            <b>Program Name: </b>
+                            <b>Program Name: </b> Health Sciences
                             <hr/>
                             <b>Program Length: </b>
                             <hr/>
@@ -2095,15 +2095,15 @@ function DynamicImage() {
                         <Popover id="popover-basic">
                             <Popover.Header as="h1">Cleaner</Popover.Header>
                             <Popover.Body>
-                            <b>Average Salary: </b> 
+                            <b>Average Salary: </b> $12,345
                             <hr/>
-                            <b>Program Name: </b>
+                            <b>Program Name: </b> Health Sciences
                             <hr/>
-                            <b>Program Length: </b>
+                            <b>Program Length: </b> 1 Year
                             <hr/>
-                            <b>Certification: </b>
+                            <b>Certification: </b> Diploma
                             <hr/>
-                            <b>School: </b>
+                            <b>School: </b> CNA
                             <hr/>
                             <b>Website: </b><a href="#">Link</a>
                             <hr/>
@@ -2127,15 +2127,15 @@ function DynamicImage() {
                         <Popover id="popover-basic">
                             <Popover.Header as="h1">Dietary Aid</Popover.Header>
                             <Popover.Body>
-                            <b>Average Salary: </b> 
+                            <b>Average Salary: </b> $12,345
                             <hr/>
-                            <b>Program Name: </b>
+                            <b>Program Name: </b> Health Sciences
                             <hr/>
-                            <b>Program Length: </b>
+                            <b>Program Length: </b> 1 Year
                             <hr/>
-                            <b>Certification: </b>
+                            <b>Certification: </b> Diploma
                             <hr/>
-                            <b>School: </b>
+                            <b>School: </b> 1 Year
                             <hr/>
                             <b>Website: </b><a href="#">Link</a>
                             <hr/>
@@ -2159,15 +2159,15 @@ function DynamicImage() {
                         <Popover id="popover-basic">
                             <Popover.Header as="h1">Emergency Medical Responder (Ambulance)</Popover.Header>
                             <Popover.Body>
-                            <b>Average Salary: </b> 
+                            <b>Average Salary: </b> $12,345
                             <hr/>
-                            <b>Program Name: </b>
+                            <b>Program Name: </b> Health Sciences
                             <hr/>
-                            <b>Program Length: </b>
+                            <b>Program Length: </b> 1 Year
                             <hr/>
-                            <b>Certification: </b>
+                            <b>Certification: </b> Diploma
                             <hr/>
-                            <b>School: </b>
+                            <b>School: </b> CNA
                             <hr/>
                             <b>Website: </b><a href="#">Link</a>
                             <hr/>
@@ -2191,15 +2191,15 @@ function DynamicImage() {
                         <Popover id="popover-basic">
                             <Popover.Header as="h1">Medical Office Support Worker</Popover.Header>
                             <Popover.Body>
-                            <b>Average Salary: </b> 
+                            <b>Average Salary: </b> $12,345
                             <hr/>
-                            <b>Program Name: </b>
+                            <b>Program Name: </b> Health Sciences
                             <hr/>
-                            <b>Program Length: </b>
+                            <b>Program Length: </b> 1 Year
                             <hr/>
-                            <b>Certification: </b>
+                            <b>Certification: </b> Diploma
                             <hr/>
-                            <b>School: </b>
+                            <b>School: </b> CNA
                             <hr/>
                             <b>Website: </b><a href="#">Link</a>
                             <hr/>
@@ -2223,15 +2223,15 @@ function DynamicImage() {
                         <Popover id="popover-basic">
                             <Popover.Header as="h1">Social Media Liason</Popover.Header>
                             <Popover.Body>
-                            <b>Average Salary: </b> 
+                            <b>Average Salary: </b> $12,345
                             <hr/>
-                            <b>Program Name: </b>
+                            <b>Program Name: </b> Health Sciences
                             <hr/>
-                            <b>Program Length: </b>
+                            <b>Program Length: </b> 1 Year
                             <hr/>
-                            <b>Certification: </b>
+                            <b>Certification: </b> Diploma
                             <hr/>
-                            <b>School: </b>
+                            <b>School: </b> CNA
                             <hr/>
                             <b>Website: </b><a href="#">Link</a>
                             <hr/>
