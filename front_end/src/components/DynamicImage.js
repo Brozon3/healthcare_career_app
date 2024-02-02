@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useRef } from "react";
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
-import PopoverWindow from "./PopoverWindow";
+import TooltipWindow from './TooltipWindow';
+import Popover from 'react-bootstrap/Popover';
 
 function DynamicImage() {
 
@@ -13,7 +14,6 @@ function DynamicImage() {
             preserveAspectRatio="xMidYMid"
             version="1"
             viewBox="0 0 1600 930"
-
         >
             <defs>
                 <path d="M713.158 -63.258H944.351V-1.5060000000000002H713.158z"></path>
@@ -1112,57 +1112,127 @@ function DynamicImage() {
                 </text>
             </g>
             <g>
-                <OverlayTrigger placement="bottom" overlay={<Tooltip>Professional Cook</Tooltip>}>
-                    <ellipse
-                        cx="683.412"
-                        cy="80.767"
-                        fill="#fd5"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="bottom" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Professional Cook</Popover.Header>
+                            <Popover.Body>
+                            <b>Average Salary: </b> 
+                            <hr/>
+                            <b>Program Name: </b>
+                            <hr/>
+                            <b>Program Length: </b>
+                            <hr/>
+                            <b>Certification: </b>
+                            <hr/>
+                            <b>School: </b>
+                            <hr/>
+                            <b>Website: </b>
+                            <hr/>
+                            <b>Notes: </b>
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="683.412"
+                            cy="80.767"
+                            fill="#fd5"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="left" overlay={<Tooltip>EN 12 or EN First Peoples 12</Tooltip>}>
-                    <ellipse
-                        cx="845.235"
-                        cy="548.468"
-                        fill="#000"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="left" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">EN 12 or EN First Peoples 12</Popover.Header>
+                            <Popover.Body>
+                            <b>Passing Grade: </b> 60%
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="845.235"
+                            cy="548.468"
+                            fill="#000"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="left" overlay={<Tooltip>Work Experience</Tooltip>}>
-                    <ellipse
-                        cx="844.949"
-                        cy="583.707"
-                        fill="#000"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="left" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Work Experience</Popover.Header>
+                            <Popover.Body>
+                            <b>Years: </b> 1+
+                            <hr/>
+                            <b>Industry: </b> Healthcare or Retail
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="844.949"
+                            cy="583.707"
+                            fill="#000"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="left" overlay={<Tooltip>Chem 11/12</Tooltip>}>
-                    <ellipse
-                        cx="845.583"
-                        cy="619.822"
-                        fill="#000"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="left" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Chem 11/12</Popover.Header>
+                            <Popover.Body>
+                            <b>Passing Grade: </b> 60%
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="845.583"
+                            cy="619.822"
+                            fill="#000"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="left" overlay={<Tooltip>Bio 12</Tooltip>}>
-                    <ellipse
-                        cx="845.762"
-                        cy="655.327"
-                        fill="#000"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="left" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Bio 12</Popover.Header>
+                            <Popover.Body>
+                            <b>Passing Grade: </b> 60%
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="845.762"
+                            cy="655.327"
+                            fill="#000"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="left" overlay={<Tooltip>Degree</Tooltip>}>
+                <OverlayTrigger 
+                    placement="left" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Degree</Popover.Header>
+                            <Popover.Body>
+                            A degree is a formal recognition of completion awarded by an educational institution,
+                            typically after a student has successfully fulfilled a specific set of academic requirements
+                            within a particular field of study, such as Bachelor's, Master's, or Doctorate degrees.
+                            </Popover.Body>
+                        </Popover>
+                        }>
                     <ellipse
                         cx="845.159"
                         cy="821.446"
@@ -1173,122 +1243,309 @@ function DynamicImage() {
                         ry="15.108"
                     ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="top" trigger={"click"} overlay={<PopoverWindow/>}>
-                    <ellipse
-                        cx="893.84"
-                        cy="874.299"
-                        fill="red"
-                        fillOpacity="1"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="top" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Doctor</Popover.Header>
+                            <Popover.Body>
+                            <b>Average Salary: </b> 
+                            <hr/>
+                            <b>Program Name: </b>
+                            <hr/>
+                            <b>Program Length: </b>
+                            <hr/>
+                            <b>Certification: </b>
+                            <hr/>
+                            <b>School: </b>
+                            <hr/>
+                            <b>Website: </b>
+                            <hr/>
+                            <b>Notes: </b>
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="893.84"
+                            cy="874.299"
+                            fill="red"
+                            fillOpacity="1"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="top" overlay={<Tooltip>Environmental Health Specialist</Tooltip>}>
-                    <ellipse
-                        cx="969.578"
-                        cy="858.217"
-                        fill="red"
-                        fillOpacity="1"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="top" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Environmental Health Specialist</Popover.Header>
+                            <Popover.Body>
+                            <b>Average Salary: </b> 
+                            <hr/>
+                            <b>Program Name: </b>
+                            <hr/>
+                            <b>Program Length: </b>
+                            <hr/>
+                            <b>Certification: </b>
+                            <hr/>
+                            <b>School: </b>
+                            <hr/>
+                            <b>Website: </b>
+                            <hr/>
+                            <b>Notes: </b>
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="969.578"
+                            cy="858.217"
+                            fill="red"
+                            fillOpacity="1"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="top" overlay={<Tooltip>Nurse Practioner</Tooltip>}>
-                    <ellipse
-                        cx="1101.761"
-                        cy="787.593"
-                        fill="red"
-                        fillOpacity="1"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="top" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Nurse Practicioner</Popover.Header>
+                            <Popover.Body>
+                            <b>Average Salary: </b> 
+                            <hr/>
+                            <b>Program Name: </b>
+                            <hr/>
+                            <b>Program Length: </b>
+                            <hr/>
+                            <b>Certification: </b>
+                            <hr/>
+                            <b>School: </b>
+                            <hr/>
+                            <b>Website: </b>
+                            <hr/>
+                            <b>Notes: </b>
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="1101.761"
+                            cy="787.593"
+                            fill="red"
+                            fillOpacity="1"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="top" overlay={<Tooltip>Occupational Therapist</Tooltip>}>
-                    <ellipse
-                        cx="1157.89"
-                        cy="735.097"
-                        fill="red"
-                        fillOpacity="1"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="top" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Occupational Therapist</Popover.Header>
+                            <Popover.Body>
+                            <b>Average Salary: </b> 
+                            <hr/>
+                            <b>Program Name: </b>
+                            <hr/>
+                            <b>Program Length: </b>
+                            <hr/>
+                            <b>Certification: </b>
+                            <hr/>
+                            <b>School: </b>
+                            <hr/>
+                            <b>Website: </b>
+                            <hr/>
+                            <b>Notes: </b>
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="1157.89"
+                            cy="735.097"
+                            fill="red"
+                            fillOpacity="1"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="top" overlay={<Tooltip>Registered Nurse</Tooltip>}>
-                    <ellipse
-                        cx="1204.333"
-                        cy="668.741"
-                        fill="red"
-                        fillOpacity="1"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="top" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Registered Nurse</Popover.Header>
+                            <Popover.Body>
+                            <b>Average Salary: </b> 
+                            <hr/>
+                            <b>Program Name: </b>
+                            <hr/>
+                            <b>Program Length: </b>
+                            <hr/>
+                            <b>Certification: </b>
+                            <hr/>
+                            <b>School: </b>
+                            <hr/>
+                            <b>Website: </b>
+                            <hr/>
+                            <b>Notes: </b>
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="1204.333"
+                            cy="668.741"
+                            fill="red"
+                            fillOpacity="1"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="bottom" overlay={<Tooltip>Bio 12</Tooltip>}>
-                    <ellipse
-                        cx="967.935"
-                        cy="463.244"
-                        fill="#000"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="bottom" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Bio 12</Popover.Header>
+                            <Popover.Body>
+                            <b>Passing Grade: </b> 60%
+                            </Popover.Body>
+                        </Popover>
+                    }>
+
+                        <ellipse
+                            cx="967.935"
+                            cy="463.244"
+                            fill="#000"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="bottom" overlay={<Tooltip>Work Experience</Tooltip>}>
-                    <ellipse
-                        cx="1000.231"
-                        cy="462.703"
-                        fill="#000"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="bottom" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Work Experience</Popover.Header>
+                            <Popover.Body>
+                            <b>Years: </b> 1+
+                            <hr/>
+                            <b>Industry: </b> Healthcare or Retail
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="1000.231"
+                            cy="462.703"
+                            fill="#000"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="bottom" overlay={<Tooltip>WHMIS</Tooltip>}>
-                    <ellipse
-                        cx="1094.633"
-                        cy="463.347"
-                        fill="#000"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="bottom" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">WHMIS</Popover.Header>
+                            <Popover.Body>
+                            Available through WorkSafeBC
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="1094.633"
+                            cy="463.347"
+                            fill="#000"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="bottom" overlay={<Tooltip>OFA 1, 2, 3</Tooltip>}>
-                    <ellipse
-                        cx="1122.231"
-                        cy="462.175"
-                        fill="#000"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="bottom" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">OFA 1, 2, 3</Popover.Header>
+                            <Popover.Body>
+                            Available through WorkSafeBC
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="1122.231"
+                            cy="462.175"
+                            fill="#000"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="bottom" overlay={<Tooltip>Medical Terminology</Tooltip>}>
-                    <ellipse
-                        cx="1149.893"
-                        cy="462.369"
-                        fill="#000"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="bottom" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Medical Terminology</Popover.Header>
+                            <Popover.Body>
+                            Available through WorkSafeBC
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="1149.893"
+                            cy="462.369"
+                            fill="#000"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="bottom" overlay={<Tooltip>Diploma</Tooltip>}>
-                    <ellipse
-                        cx="1205.264"
-                        cy="463.325"
-                        fill="#00f"
-                        strokeWidth="0.978"
-                        rx="14.685"
-                        ry="14.402"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="bottom"
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Diploma</Popover.Header>
+                            <Popover.Body>
+                            A diploma is a formal document awarded by an educational institution or organization
+                            to certify that a student has completed a specific course of study or training program.
+                            It typically signifies a level of proficiency or accomplishmnt in a particular field or 
+                            subject area, but it may not carry the same academic weight or breadth of study as a 
+                            degree.
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="1205.264"
+                            cy="463.325"
+                            fill="#00f"
+                            strokeWidth="0.978"
+                            rx="14.685"
+                            ry="14.402"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="left" overlay={<Tooltip>Dietary Aid</Tooltip>}>
+                <OverlayTrigger 
+                    placement="left"
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Dietary Aid</Popover.Header>
+                            <Popover.Body>
+                            <b>Average Salary: </b> 
+                            <hr/>
+                            <b>Program Name: </b>
+                            <hr/>
+                            <b>Program Length: </b>
+                            <hr/>
+                            <b>Certification: </b>
+                            <hr/>
+                            <b>School: </b>
+                            <hr/>
+                            <b>Website: </b>
+                            <hr/>
+                            <b>Notes: </b>
+                            </Popover.Body>
+                        </Popover>
+                }>
                     <ellipse
                         cx="1258.023"
                         cy="414.458"
@@ -1298,178 +1555,455 @@ function DynamicImage() {
                         ry="11.014"
                     ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="left" overlay={<Tooltip>Community Health Worker</Tooltip>}>
-                    <ellipse
-                        cx="1245.572"
-                        cy="355.846"
-                        fill="#00f"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="left" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Community Health Worker</Popover.Header>
+                            <Popover.Body>
+                            <b>Average Salary: </b> 
+                            <hr/>
+                            <b>Program Name: </b>
+                            <hr/>
+                            <b>Program Length: </b>
+                            <hr/>
+                            <b>Certification: </b>
+                            <hr/>
+                            <b>School: </b>
+                            <hr/>
+                            <b>Website: </b>
+                            <hr/>
+                            <b>Notes: </b>
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="1245.572"
+                            cy="355.846"
+                            fill="#00f"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="left" overlay={<Tooltip>Healthcare Aid</Tooltip>}>
-                    <ellipse
-                        cx="1226.369"
-                        cy="301.49"
-                        fill="#00f"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="left" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Healthcare Aid</Popover.Header>
+                            <Popover.Body>
+                            <b>Average Salary: </b> 
+                            <hr/>
+                            <b>Program Name: </b>
+                            <hr/>
+                            <b>Program Length: </b>
+                            <hr/>
+                            <b>Certification: </b>
+                            <hr/>
+                            <b>School: </b>
+                            <hr/>
+                            <b>Website: </b>
+                            <hr/>
+                            <b>Notes: </b>
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="1226.369"
+                            cy="301.49"
+                            fill="#00f"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="left" overlay={<Tooltip>Mental Health and Addictions Worker</Tooltip>}>
-                    <ellipse
-                        cx="1199.258"
-                        cy="245.355"
-                        fill="#00f"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="left" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Mental Health and Addictions Worker</Popover.Header>
+                            <Popover.Body>
+                            <b>Average Salary: </b> 
+                            <hr/>
+                            <b>Program Name: </b>
+                            <hr/>
+                            <b>Program Length: </b>
+                            <hr/>
+                            <b>Certification: </b>
+                            <hr/>
+                            <b>School: </b>
+                            <hr/>
+                            <b>Website: </b>
+                            <hr/>
+                            <b>Notes: </b>
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="1199.258"
+                            cy="245.355"
+                            fill="#00f"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="left" overlay={<Tooltip>Paramedic</Tooltip>}>
-                    <ellipse
-                        cx="1161.334"
-                        cy="193.472"
-                        fill="#00f"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="left" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Paramedic</Popover.Header>
+                            <Popover.Body>
+                            <b>Average Salary: </b> 
+                            <hr/>
+                            <b>Program Name: </b>
+                            <hr/>
+                            <b>Program Length: </b>
+                            <hr/>
+                            <b>Certification: </b>
+                            <hr/>
+                            <b>School: </b>
+                            <hr/>
+                            <b>Website: </b>
+                            <hr/>
+                            <b>Notes: </b>
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="1161.334"
+                            cy="193.472"
+                            fill="#00f"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="left" overlay={<Tooltip>Public Health Communications Officer</Tooltip>}>
-                    <ellipse
-                        cx="1111.914"
-                        cy="144.759"
-                        fill="#00f"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="left" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Public Health Communications Officer</Popover.Header>
+                            <Popover.Body>
+                            <b>Average Salary: </b> 
+                            <hr/>
+                            <b>Program Name: </b>
+                            <hr/>
+                            <b>Program Length: </b>
+                            <hr/>
+                            <b>Certification: </b>
+                            <hr/>
+                            <b>School: </b>
+                            <hr/>
+                            <b>Website: </b>
+                            <hr/>
+                            <b>Notes: </b>
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="1111.914"
+                            cy="144.759"
+                            fill="#00f"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="left" overlay={<Tooltip>Respitory Therapist</Tooltip>}>
-                    <ellipse
-                        cx="1061.972"
-                        cy="109.394"
-                        fill="#00f"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="left" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Respitory Therapist</Popover.Header>
+                            <Popover.Body>
+                            <b>Average Salary: </b> 
+                            <hr/>
+                            <b>Program Name: </b>
+                            <hr/>
+                            <b>Program Length: </b>
+                            <hr/>
+                            <b>Certification: </b>
+                            <hr/>
+                            <b>School: </b>
+                            <hr/>
+                            <b>Website: </b>
+                            <hr/>
+                            <b>Notes: </b>
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="1061.972"
+                            cy="109.394"
+                            fill="#00f"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="top" overlay={<Tooltip>Midwife</Tooltip>}>
-                    <ellipse
-                        cx="1042.68"
-                        cy="828.008"
-                        fill="red"
-                        fillOpacity="1"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="top" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Midwife</Popover.Header>
+                            <Popover.Body>
+                            <b>Average Salary: </b> 
+                            <hr/>
+                            <b>Program Name: </b>
+                            <hr/>
+                            <b>Program Length: </b>
+                            <hr/>
+                            <b>Certification: </b>
+                            <hr/>
+                            <b>School: </b>
+                            <hr/>
+                            <b>Website: </b>
+                            <hr/>
+                            <b>Notes: </b>
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="1042.68"
+                            cy="828.008"
+                            fill="red"
+                            fillOpacity="1"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="bottom" overlay={<Tooltip>Funeral Director</Tooltip>}>
-                    <ellipse
-                        cx="747.495"
-                        cy="59.496"
-                        fill="#fd5"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="bottom" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Funeral Director</Popover.Header>
+                            <Popover.Body>
+                            <b>Average Salary: </b> 
+                            <hr/>
+                            <b>Program Name: </b>
+                            <hr/>
+                            <b>Program Length: </b>
+                            <hr/>
+                            <b>Certification: </b>
+                            <hr/>
+                            <b>School: </b>
+                            <hr/>
+                            <b>Website: </b>
+                            <hr/>
+                            <b>Notes: </b>
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="747.495"
+                            cy="59.496"
+                            fill="#fd5"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="bottom" overlay={<Tooltip>Embalmer</Tooltip>}>
-                    <ellipse
-                        cx="806.934"
-                        cy="49.509"
-                        fill="#fd5"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="bottom" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Embalmer</Popover.Header>
+                            <Popover.Body>
+                            <b>Average Salary: </b> 
+                            <hr/>
+                            <b>Program Name: </b>
+                            <hr/>
+                            <b>Program Length: </b>
+                            <hr/>
+                            <b>Certification: </b>
+                            <hr/>
+                            <b>School: </b>
+                            <hr/>
+                            <b>Website: </b>
+                            <hr/>
+                            <b>Notes: </b>
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="806.934"
+                            cy="49.509"
+                            fill="#fd5"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="right" overlay={<Tooltip>Apprenticeship</Tooltip>}>
-                    <ellipse
-                        cx="844.727"
-                        cy="102.15"
-                        fill="#fd5"
-                        strokeWidth="1.035"
-                        rx="15.673"
-                        ry="15.108"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="right" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Apprenticeship</Popover.Header>
+                            <Popover.Body>
+                            An apprenticeship is a vocational training program where individuals learn a sklled trade
+                            or profession through hands-on-experience under the guidance of a mentor or experienced
+                            practionier. Unlike tradtional schooling, apprenticeships emphasize practical skills development
+                            within a specific industry or craft, often leading to certification or journeyman status.
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="844.727"
+                            cy="102.15"
+                            fill="#fd5"
+                            strokeWidth="1.035"
+                            rx="15.673"
+                            ry="15.108"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="right" overlay={<Tooltip>WHMIS</Tooltip>}>
-                    <ellipse
-                        cx="844.928"
-                        cy="157.522"
-                        fill="#000"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="right" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">WHMIS</Popover.Header>
+                            <Popover.Body>
+                            Available through WorkSafeBC
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="844.928"
+                            cy="157.522"
+                            fill="#000"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="right" overlay={<Tooltip>CPR</Tooltip>}>
-                    <ellipse
-                        cx="844.56"
-                        cy="186.383"
-                        fill="#000"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="right" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">CPR</Popover.Header>
+                            <Popover.Body>
+                            Available through WorkSafeBC
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="844.56"
+                            cy="186.383"
+                            fill="#000"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="right" overlay={<Tooltip>Foodsafe</Tooltip>}>
-                    <ellipse
-                        cx="845.167"
-                        cy="214.457"
-                        fill="#000"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="right" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Foodsafe</Popover.Header>
+                            <Popover.Body>
+                            Available through WorkSafeBC
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="845.167"
+                            cy="214.457"
+                            fill="#000"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="right" overlay={<Tooltip>SSA</Tooltip>}>
-                    <ellipse
-                        cx="844.45"
-                        cy="287.397"
-                        fill="#000"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="right" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">SSA</Popover.Header>
+                            <Popover.Body>
+                            Available through WorkSafeBC
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="844.45"
+                            cy="287.397"
+                            fill="#000"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="right" overlay={<Tooltip>ACE-IT</Tooltip>}>
-                    <ellipse
-                        cx="844.685"
-                        cy="322.749"
-                        fill="#000"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="right" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">ACE-IT</Popover.Header>
+                            <Popover.Body>
+                            Available through WorkSafeBC
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="844.685"
+                            cy="322.749"
+                            fill="#000"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="right" overlay={<Tooltip>Work Experience</Tooltip>}>
-                    <ellipse
-                        cx="844.556"
-                        cy="357.753"
-                        fill="#000"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="right" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Work Experience</Popover.Header>
+                            <Popover.Body>
+                            <b>Years: </b> 1+
+                            <hr/>
+                            <b>Industry: </b> Healthcare or Retail
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="844.556"
+                            cy="357.753"
+                            fill="#000"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="top" overlay={<Tooltip>Bio 12</Tooltip>}>
-                    <ellipse
-                        cx="725.139"
-                        cy="462.332"
-                        fill="#000"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="top" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Bio 12</Popover.Header>
+                            <Popover.Body>
+                            <b>Passing Grade: </b> 60%
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="725.139"
+                            cy="462.332"
+                            fill="#000"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="top" overlay={<Tooltip>Work Experience</Tooltip>}>
+                <OverlayTrigger 
+                    placement="top" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Work Experience</Popover.Header>
+                            <Popover.Body>
+                            <b>Years: </b> 1+
+                            <hr/>
+                            <b>Industry: </b> Healthcare or Retail
+                            </Popover.Body>
+                        </Popover>
+                    }>
                     <ellipse
                         cx="689.255"
                         cy="462.526"
@@ -1479,95 +2013,243 @@ function DynamicImage() {
                         ry="11.014"
                     ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="top" overlay={<Tooltip>Health Care Aid <br/> Dual Credit</Tooltip>}>
-                    <ellipse
-                        cx="597.91"
-                        cy="463.067"
-                        fill="#000"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="top" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Health Care Aid</Popover.Header>
+                            <Popover.Body>
+                            <b>Dual Credit</b> 
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="597.91"
+                            cy="463.067"
+                            fill="#000"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="top" overlay={<Tooltip>EMR <br/> Paramedic <br/> Dual Credit</Tooltip>}>
-                    <ellipse
-                        cx="568.015"
-                        cy="463.253"
-                        fill="#000"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="top" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">EMR</Popover.Header>
+                            <Popover.Body>
+                            <b>Paramedic</b> 
+                            <hr/>
+                            <b>Dual Credit</b>
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="568.015"
+                            cy="463.253"
+                            fill="#000"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="top" overlay={<Tooltip>Medical Terminology</Tooltip>}>
-                    <ellipse
-                        cx="540.945"
-                        cy="462.477"
-                        fill="#000"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="top" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Medical Terminology</Popover.Header>
+                            <Popover.Body>
+                            Available through WorkSafeBC
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="540.945"
+                            cy="462.477"
+                            fill="#000"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="right" overlay={<Tooltip>Cleaner</Tooltip>}>
-                    <ellipse
-                        cx="433.759"
-                        cy="511.069"
-                        fill="green"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="right" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Cleaner</Popover.Header>
+                            <Popover.Body>
+                            <b>Average Salary: </b> 
+                            <hr/>
+                            <b>Program Name: </b>
+                            <hr/>
+                            <b>Program Length: </b>
+                            <hr/>
+                            <b>Certification: </b>
+                            <hr/>
+                            <b>School: </b>
+                            <hr/>
+                            <b>Website: </b>
+                            <hr/>
+                            <b>Notes: </b>
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="433.759"
+                            cy="511.069"
+                            fill="green"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="right" overlay={<Tooltip>Dietary Aid</Tooltip>}>
-                    <ellipse
-                        cx="444.241"
-                        cy="565.401"
-                        fill="green"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="right" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Dietary Aid</Popover.Header>
+                            <Popover.Body>
+                            <b>Average Salary: </b> 
+                            <hr/>
+                            <b>Program Name: </b>
+                            <hr/>
+                            <b>Program Length: </b>
+                            <hr/>
+                            <b>Certification: </b>
+                            <hr/>
+                            <b>School: </b>
+                            <hr/>
+                            <b>Website: </b>
+                            <hr/>
+                            <b>Notes: </b>
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="444.241"
+                            cy="565.401"
+                            fill="green"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="right" overlay={<Tooltip>Emergency Medical Responder <br/> Ambulance</Tooltip>}>
-                    <ellipse
-                        cx="458.57"
-                        cy="612.244"
-                        fill="green"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="right" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Emergency Medical Responder (Ambulance)</Popover.Header>
+                            <Popover.Body>
+                            <b>Average Salary: </b> 
+                            <hr/>
+                            <b>Program Name: </b>
+                            <hr/>
+                            <b>Program Length: </b>
+                            <hr/>
+                            <b>Certification: </b>
+                            <hr/>
+                            <b>School: </b>
+                            <hr/>
+                            <b>Website: </b>
+                            <hr/>
+                            <b>Notes: </b>
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="458.57"
+                            cy="612.244"
+                            fill="green"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="right" overlay={<Tooltip>Medical Office Support Worker</Tooltip>}>
-                    <ellipse
-                        cx="480.112"
-                        cy="659.914"
-                        fill="green"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="right" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Medical Office Support Worker</Popover.Header>
+                            <Popover.Body>
+                            <b>Average Salary: </b> 
+                            <hr/>
+                            <b>Program Name: </b>
+                            <hr/>
+                            <b>Program Length: </b>
+                            <hr/>
+                            <b>Certification: </b>
+                            <hr/>
+                            <b>School: </b>
+                            <hr/>
+                            <b>Website: </b>
+                            <hr/>
+                            <b>Notes: </b>
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="480.112"
+                            cy="659.914"
+                            fill="green"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="right" overlay={<Tooltip>Social Media Liason</Tooltip>}>
-                    <ellipse
-                        cx="512.264"
-                        cy="710.285"
-                        fill="green"
-                        strokeWidth="0.75"
-                        rx="11.296"
-                        ry="11.014"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="right" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Social Media Liason</Popover.Header>
+                            <Popover.Body>
+                            <b>Average Salary: </b> 
+                            <hr/>
+                            <b>Program Name: </b>
+                            <hr/>
+                            <b>Program Length: </b>
+                            <hr/>
+                            <b>Certification: </b>
+                            <hr/>
+                            <b>School: </b>
+                            <hr/>
+                            <b>Website: </b>
+                            <hr/>
+                            <b>Notes: </b>
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="512.264"
+                            cy="710.285"
+                            fill="green"
+                            strokeWidth="0.75"
+                            rx="11.296"
+                            ry="11.014"
+                        ></ellipse>
                 </OverlayTrigger>
-                <OverlayTrigger placement="right" overlay={<Tooltip>Direct-To-Work</Tooltip>}>
-                    <ellipse
-                        cx="485.953"
-                        cy="462.88"
-                        fill="green"
-                        strokeWidth="0.968"
-                        rx="14.261"
-                        ry="14.544"
-                    ></ellipse>
+                <OverlayTrigger 
+                    placement="right" 
+                    overlay={
+                        <Popover id="popover-basic">
+                            <Popover.Header as="h3">Direct-To-Work</Popover.Header>
+                            <Popover.Body>
+                            The direct-to-work career path involves entering the workforce immediately after
+                            completing high school or a similar level of education, without pursuing further
+                            formal education such as college or vocational training. Individuals in this path 
+                            typically acquire skills and knowledge through on-the-job training, internships, 
+                            or entry-level positions, gradually advancing within their chosen field through 
+                            work experience and professional development opportunities.
+                            </Popover.Body>
+                        </Popover>
+                    }>
+                        <ellipse
+                            cx="485.953"
+                            cy="462.88"
+                            fill="green"
+                            strokeWidth="0.968"
+                            rx="14.261"
+                            ry="14.544"
+                        ></ellipse>
                 </OverlayTrigger>
             </g>
         </svg>
