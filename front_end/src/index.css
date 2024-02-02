@@ -7,16 +7,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.ellipse{
-  display: inline-block;
+.popover-header{
+  background-color: #3A3F91 !important;
+  color: white;
 }
 
-.popover-window{
-  position: absolute;
+.popover.bs-popover-top .popover-arrow:after {
+  border-top-color: #3A3F91;
 }
 
-.dynamic-image{
-  position: relative;
+.popover.bs-popover-end .popover-arrow:after {
+  border-right-color: #3A3F91;
+}
+
+.popover.bs-popover-bottom .popover-arrow:after {
+  border-bottom-color: #3A3F91;
+}
+
+.popover.bs-popover-start .popover-arrow:after {
+  border-left-color: #3A3F91;
 }
 
 .app {

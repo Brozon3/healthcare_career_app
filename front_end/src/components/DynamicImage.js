@@ -10,10 +10,10 @@ function DynamicImage() {
         <svg
             xmlns="http://www.w3.org/2000/svg"
             width="1600pt"
-            height="1240"
+            height="1240pt"
             preserveAspectRatio="xMidYMid"
             version="1"
-            viewBox="0 0 1600 930"
+            viewBox="0 0 1600 1240"
         >
             <defs>
                 <path d="M713.158 -63.258H944.351V-1.5060000000000002H713.158z"></path>
@@ -78,7 +78,7 @@ function DynamicImage() {
                     ></path>
                     <path
                         fill="green"
-                        d="M1994 4603c-4-14-4-106 0-204 6-168 5-179-13-188-29-16-54-78-47-115 6-34 38-70 78-90 14-7 25-24 29-46 3-19 17-91 30-159 21-110 22-124 8-135-40-29-52-113-23-155 9-12 34-30 56-40 40-17 40-17 78-141l38-124-24-29c-27-32-31-75-10-116 20-38 41-53 82-60 32-6 37-12 77-101 24-52 51-112 61-132 18-37 18-38-4-82-39-82 10-166 97-166 25 0 34-9 67-67 22-38 68-111 103-165 55-82 63-99 54-116-26-49-2-121 51-148 92-48 198 54 154 148-22 46-68 72-115 65-28-3-40 0-48 12-6 9-50 79-98 155-87 138-88 139-71 166 29 50 16 125-28 154-12 7-36 17-54 21-28 6-38 17-66 73-19 37-46 96-61 131l-26 64 22 41c39 73 2 153-79 171-27 5-31 14-66 125l-38 119 26 34c28 37 34 88 15 130-11 25-57 57-81 57-15 0-25 38-63 240-14 74-14 75 9 95 68 58 56 162-21 194-29 12-30 15-37 94-3 45-6 121-6 170v87h310v60h-360z"
+                        d="M1994 4603c-4-14-4-106 0-204 6-168 5-179-13-188-29-16-54-78-47-115 6-34 38-70 78-90 14-7 25-24 29-46 3-19 17-91 30-159 21-110 22-124 8-135-40-29-52-113-23-155 9-12 34-30 56-40 40-17 40-17 78-141l38-124-24-29c-27-32-31-75-10-116 20-38 41-53 82-60 32-6 37-12 77-101 24-52 51-112 61-132 18-37 18-38-4-82-39-82 10-166 97-166 25 0 34-9 67-67 22-38 68-111 103-165 55-82 63-99 54-116-26-49-2-121 51-148 92-48 198 54 154 148-22 46-68 72-115 65-28-3-40 0-48 12-6 9-50 79-98 155-87 138-88 139-71 166 29 50 16 125-28 154-12 7-36 17-54 21-28 6-38 17-66 73-19 37-46 96-61 131l-26 64 22 41c39 73 2 153-79 171-27 5-31 14-66 125l-38 119 26 34c28 37 34 88 15 130-11 25-57 57-81 57-15 0-25 38-63 240-14 74-14 75 9 95 68 58 56 162-21 194-29 12-30 15-37 94-3 45-6 121-6 170v87h110v60h-360z"
                     ></path>
                     <path
                         fill="green"
@@ -1114,9 +1114,10 @@ function DynamicImage() {
             <g>
                 <OverlayTrigger 
                     placement="bottom" 
+                    trigger="click"
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Professional Cook</Popover.Header>
+                            <Popover.Header as="h">Professional Cook</Popover.Header>
                             <Popover.Body>
                             <b>Average Salary: </b> 
                             <hr/>
@@ -1128,7 +1129,7 @@ function DynamicImage() {
                             <hr/>
                             <b>School: </b>
                             <hr/>
-                            <b>Website: </b>
+                            <b>Website: </b><a href="#">Link</a>
                             <hr/>
                             <b>Notes: </b>
                             </Popover.Body>
@@ -1144,10 +1145,10 @@ function DynamicImage() {
                         ></ellipse>
                 </OverlayTrigger>
                 <OverlayTrigger 
-                    placement="left" 
+                    placement="left"
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">EN 12 or EN First Peoples 12</Popover.Header>
+                            <Popover.Header as="h1">EN 12 or EN First Peoples 12</Popover.Header>
                             <Popover.Body>
                             <b>Passing Grade: </b> 60%
                             </Popover.Body>
@@ -1163,10 +1164,10 @@ function DynamicImage() {
                         ></ellipse>
                 </OverlayTrigger>
                 <OverlayTrigger 
-                    placement="left" 
+                    placement="left"
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Work Experience</Popover.Header>
+                            <Popover.Header as="h1">Work Experience</Popover.Header>
                             <Popover.Body>
                             <b>Years: </b> 1+
                             <hr/>
@@ -1187,7 +1188,7 @@ function DynamicImage() {
                     placement="left" 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Chem 11/12</Popover.Header>
+                            <Popover.Header as="h1">Chem 11/12</Popover.Header>
                             <Popover.Body>
                             <b>Passing Grade: </b> 60%
                             </Popover.Body>
@@ -1203,10 +1204,10 @@ function DynamicImage() {
                         ></ellipse>
                 </OverlayTrigger>
                 <OverlayTrigger 
-                    placement="left" 
+                    placement="left"
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Bio 12</Popover.Header>
+                            <Popover.Header as="h1">Bio 12</Popover.Header>
                             <Popover.Body>
                             <b>Passing Grade: </b> 60%
                             </Popover.Body>
@@ -1225,7 +1226,7 @@ function DynamicImage() {
                     placement="left" 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Degree</Popover.Header>
+                            <Popover.Header as="h1">Degree</Popover.Header>
                             <Popover.Body>
                             A degree is a formal recognition of completion awarded by an educational institution,
                             typically after a student has successfully fulfilled a specific set of academic requirements
@@ -1244,10 +1245,11 @@ function DynamicImage() {
                     ></ellipse>
                 </OverlayTrigger>
                 <OverlayTrigger 
-                    placement="top" 
+                    placement="top"
+                    trigger="click" 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Doctor</Popover.Header>
+                            <Popover.Header as="h1">Doctor</Popover.Header>
                             <Popover.Body>
                             <b>Average Salary: </b> 
                             <hr/>
@@ -1259,7 +1261,7 @@ function DynamicImage() {
                             <hr/>
                             <b>School: </b>
                             <hr/>
-                            <b>Website: </b>
+                            <b>Website: </b><a href="#">Link</a>
                             <hr/>
                             <b>Notes: </b>
                             </Popover.Body>
@@ -1276,10 +1278,11 @@ function DynamicImage() {
                         ></ellipse>
                 </OverlayTrigger>
                 <OverlayTrigger 
-                    placement="top" 
+                    placement="top"
+                    trigger="click" 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Environmental Health Specialist</Popover.Header>
+                            <Popover.Header as="h1">Environmental Health Specialist</Popover.Header>
                             <Popover.Body>
                             <b>Average Salary: </b> 
                             <hr/>
@@ -1291,7 +1294,7 @@ function DynamicImage() {
                             <hr/>
                             <b>School: </b>
                             <hr/>
-                            <b>Website: </b>
+                            <b>Website: </b><a href="#">Link</a>
                             <hr/>
                             <b>Notes: </b>
                             </Popover.Body>
@@ -1308,10 +1311,11 @@ function DynamicImage() {
                         ></ellipse>
                 </OverlayTrigger>
                 <OverlayTrigger 
-                    placement="top" 
+                    placement="top"
+                    trigger="click" 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Nurse Practicioner</Popover.Header>
+                            <Popover.Header as="h1">Nurse Practicioner</Popover.Header>
                             <Popover.Body>
                             <b>Average Salary: </b> 
                             <hr/>
@@ -1323,7 +1327,7 @@ function DynamicImage() {
                             <hr/>
                             <b>School: </b>
                             <hr/>
-                            <b>Website: </b>
+                            <b>Website: </b><a href="#">Link</a>
                             <hr/>
                             <b>Notes: </b>
                             </Popover.Body>
@@ -1340,10 +1344,11 @@ function DynamicImage() {
                         ></ellipse>
                 </OverlayTrigger>
                 <OverlayTrigger 
-                    placement="top" 
+                    placement="top"
+                    trigger="click" 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Occupational Therapist</Popover.Header>
+                            <Popover.Header as="h1">Occupational Therapist</Popover.Header>
                             <Popover.Body>
                             <b>Average Salary: </b> 
                             <hr/>
@@ -1355,7 +1360,7 @@ function DynamicImage() {
                             <hr/>
                             <b>School: </b>
                             <hr/>
-                            <b>Website: </b>
+                            <b>Website: </b><a href="#">Link</a>
                             <hr/>
                             <b>Notes: </b>
                             </Popover.Body>
@@ -1372,10 +1377,11 @@ function DynamicImage() {
                         ></ellipse>
                 </OverlayTrigger>
                 <OverlayTrigger 
-                    placement="top" 
+                    placement="top"
+                    trigger="click" 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Registered Nurse</Popover.Header>
+                            <Popover.Header as="h1">Registered Nurse</Popover.Header>
                             <Popover.Body>
                             <b>Average Salary: </b> 
                             <hr/>
@@ -1387,7 +1393,7 @@ function DynamicImage() {
                             <hr/>
                             <b>School: </b>
                             <hr/>
-                            <b>Website: </b>
+                            <b>Website: </b><a href="#">Link</a>
                             <hr/>
                             <b>Notes: </b>
                             </Popover.Body>
@@ -1404,10 +1410,10 @@ function DynamicImage() {
                         ></ellipse>
                 </OverlayTrigger>
                 <OverlayTrigger 
-                    placement="bottom" 
+                    placement="bottom"
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Bio 12</Popover.Header>
+                            <Popover.Header as="h1">Bio 12</Popover.Header>
                             <Popover.Body>
                             <b>Passing Grade: </b> 60%
                             </Popover.Body>
@@ -1427,7 +1433,7 @@ function DynamicImage() {
                     placement="bottom" 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Work Experience</Popover.Header>
+                            <Popover.Header as="h1">Work Experience</Popover.Header>
                             <Popover.Body>
                             <b>Years: </b> 1+
                             <hr/>
@@ -1448,7 +1454,7 @@ function DynamicImage() {
                     placement="bottom" 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">WHMIS</Popover.Header>
+                            <Popover.Header as="h1">WHMIS</Popover.Header>
                             <Popover.Body>
                             Available through WorkSafeBC
                             </Popover.Body>
@@ -1467,7 +1473,7 @@ function DynamicImage() {
                     placement="bottom" 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">OFA 1, 2, 3</Popover.Header>
+                            <Popover.Header as="h1">OFA 1, 2, 3</Popover.Header>
                             <Popover.Body>
                             Available through WorkSafeBC
                             </Popover.Body>
@@ -1486,7 +1492,7 @@ function DynamicImage() {
                     placement="bottom" 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Medical Terminology</Popover.Header>
+                            <Popover.Header as="h1">Medical Terminology</Popover.Header>
                             <Popover.Body>
                             Available through WorkSafeBC
                             </Popover.Body>
@@ -1505,7 +1511,7 @@ function DynamicImage() {
                     placement="bottom"
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Diploma</Popover.Header>
+                            <Popover.Header as="h1">Diploma</Popover.Header>
                             <Popover.Body>
                             A diploma is a formal document awarded by an educational institution or organization
                             to certify that a student has completed a specific course of study or training program.
@@ -1526,9 +1532,10 @@ function DynamicImage() {
                 </OverlayTrigger>
                 <OverlayTrigger 
                     placement="left"
+                    trigger={"click"}
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Dietary Aid</Popover.Header>
+                            <Popover.Header as="h1">Dietary Aid</Popover.Header>
                             <Popover.Body>
                             <b>Average Salary: </b> 
                             <hr/>
@@ -1540,7 +1547,7 @@ function DynamicImage() {
                             <hr/>
                             <b>School: </b>
                             <hr/>
-                            <b>Website: </b>
+                            <b>Website: </b><a href="#">Link</a>
                             <hr/>
                             <b>Notes: </b>
                             </Popover.Body>
@@ -1556,10 +1563,11 @@ function DynamicImage() {
                     ></ellipse>
                 </OverlayTrigger>
                 <OverlayTrigger 
-                    placement="left" 
+                    placement="left"
+                    trigger={"click"} 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Community Health Worker</Popover.Header>
+                            <Popover.Header as="h1">Community Health Worker</Popover.Header>
                             <Popover.Body>
                             <b>Average Salary: </b> 
                             <hr/>
@@ -1571,7 +1579,7 @@ function DynamicImage() {
                             <hr/>
                             <b>School: </b>
                             <hr/>
-                            <b>Website: </b>
+                            <b>Website: </b><a href="#">Link</a>
                             <hr/>
                             <b>Notes: </b>
                             </Popover.Body>
@@ -1587,10 +1595,11 @@ function DynamicImage() {
                         ></ellipse>
                 </OverlayTrigger>
                 <OverlayTrigger 
-                    placement="left" 
+                    placement="left"
+                    trigger={"click"} 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Healthcare Aid</Popover.Header>
+                            <Popover.Header as="h1">Healthcare Aid</Popover.Header>
                             <Popover.Body>
                             <b>Average Salary: </b> 
                             <hr/>
@@ -1602,7 +1611,7 @@ function DynamicImage() {
                             <hr/>
                             <b>School: </b>
                             <hr/>
-                            <b>Website: </b>
+                            <b>Website: </b><a href="#">Link</a>
                             <hr/>
                             <b>Notes: </b>
                             </Popover.Body>
@@ -1618,10 +1627,11 @@ function DynamicImage() {
                         ></ellipse>
                 </OverlayTrigger>
                 <OverlayTrigger 
-                    placement="left" 
+                    placement="left"
+                    trigger={"click"} 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Mental Health and Addictions Worker</Popover.Header>
+                            <Popover.Header as="h1">Mental Health and Addictions Worker</Popover.Header>
                             <Popover.Body>
                             <b>Average Salary: </b> 
                             <hr/>
@@ -1633,7 +1643,7 @@ function DynamicImage() {
                             <hr/>
                             <b>School: </b>
                             <hr/>
-                            <b>Website: </b>
+                            <b>Website: </b><a href="#">Link</a>
                             <hr/>
                             <b>Notes: </b>
                             </Popover.Body>
@@ -1649,10 +1659,11 @@ function DynamicImage() {
                         ></ellipse>
                 </OverlayTrigger>
                 <OverlayTrigger 
-                    placement="left" 
+                    placement="left"
+                    trigger={"click"} 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Paramedic</Popover.Header>
+                            <Popover.Header as="h1">Paramedic</Popover.Header>
                             <Popover.Body>
                             <b>Average Salary: </b> 
                             <hr/>
@@ -1664,7 +1675,7 @@ function DynamicImage() {
                             <hr/>
                             <b>School: </b>
                             <hr/>
-                            <b>Website: </b>
+                            <b>Website: </b><a href="#">Link</a>
                             <hr/>
                             <b>Notes: </b>
                             </Popover.Body>
@@ -1680,10 +1691,11 @@ function DynamicImage() {
                         ></ellipse>
                 </OverlayTrigger>
                 <OverlayTrigger 
-                    placement="left" 
+                    placement="left"
+                    trigger={"click"} 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Public Health Communications Officer</Popover.Header>
+                            <Popover.Header as="h1">Public Health Communications Officer</Popover.Header>
                             <Popover.Body>
                             <b>Average Salary: </b> 
                             <hr/>
@@ -1695,7 +1707,7 @@ function DynamicImage() {
                             <hr/>
                             <b>School: </b>
                             <hr/>
-                            <b>Website: </b>
+                            <b>Website: </b><a href="#">Link</a>
                             <hr/>
                             <b>Notes: </b>
                             </Popover.Body>
@@ -1711,10 +1723,11 @@ function DynamicImage() {
                         ></ellipse>
                 </OverlayTrigger>
                 <OverlayTrigger 
-                    placement="left" 
+                    placement="left"
+                    trigger={"click"} 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Respitory Therapist</Popover.Header>
+                            <Popover.Header as="h1">Respitory Therapist</Popover.Header>
                             <Popover.Body>
                             <b>Average Salary: </b> 
                             <hr/>
@@ -1726,7 +1739,7 @@ function DynamicImage() {
                             <hr/>
                             <b>School: </b>
                             <hr/>
-                            <b>Website: </b>
+                            <b>Website: </b><a href="#">Link</a>
                             <hr/>
                             <b>Notes: </b>
                             </Popover.Body>
@@ -1742,10 +1755,11 @@ function DynamicImage() {
                         ></ellipse>
                 </OverlayTrigger>
                 <OverlayTrigger 
-                    placement="top" 
+                    placement="top"
+                    trigger={"click"} 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Midwife</Popover.Header>
+                            <Popover.Header as="h1">Midwife</Popover.Header>
                             <Popover.Body>
                             <b>Average Salary: </b> 
                             <hr/>
@@ -1757,7 +1771,7 @@ function DynamicImage() {
                             <hr/>
                             <b>School: </b>
                             <hr/>
-                            <b>Website: </b>
+                            <b>Website: </b><a href="#">Link</a>
                             <hr/>
                             <b>Notes: </b>
                             </Popover.Body>
@@ -1774,10 +1788,11 @@ function DynamicImage() {
                         ></ellipse>
                 </OverlayTrigger>
                 <OverlayTrigger 
-                    placement="bottom" 
+                    placement="bottom"
+                    trigger={"click"} 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Funeral Director</Popover.Header>
+                            <Popover.Header as="h1">Funeral Director</Popover.Header>
                             <Popover.Body>
                             <b>Average Salary: </b> 
                             <hr/>
@@ -1789,7 +1804,7 @@ function DynamicImage() {
                             <hr/>
                             <b>School: </b>
                             <hr/>
-                            <b>Website: </b>
+                            <b>Website: </b><a href="#">Link</a>
                             <hr/>
                             <b>Notes: </b>
                             </Popover.Body>
@@ -1805,10 +1820,11 @@ function DynamicImage() {
                         ></ellipse>
                 </OverlayTrigger>
                 <OverlayTrigger 
-                    placement="bottom" 
+                    placement="bottom"
+                    trigger={"click"} 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Embalmer</Popover.Header>
+                            <Popover.Header as="h1">Embalmer</Popover.Header>
                             <Popover.Body>
                             <b>Average Salary: </b> 
                             <hr/>
@@ -1820,7 +1836,7 @@ function DynamicImage() {
                             <hr/>
                             <b>School: </b>
                             <hr/>
-                            <b>Website: </b>
+                            <b>Website: </b><a href="#">Link</a>
                             <hr/>
                             <b>Notes: </b>
                             </Popover.Body>
@@ -1839,7 +1855,7 @@ function DynamicImage() {
                     placement="right" 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Apprenticeship</Popover.Header>
+                            <Popover.Header as="h1">Apprenticeship</Popover.Header>
                             <Popover.Body>
                             An apprenticeship is a vocational training program where individuals learn a sklled trade
                             or profession through hands-on-experience under the guidance of a mentor or experienced
@@ -1861,7 +1877,7 @@ function DynamicImage() {
                     placement="right" 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">WHMIS</Popover.Header>
+                            <Popover.Header as="h1">WHMIS</Popover.Header>
                             <Popover.Body>
                             Available through WorkSafeBC
                             </Popover.Body>
@@ -1880,7 +1896,7 @@ function DynamicImage() {
                     placement="right" 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">CPR</Popover.Header>
+                            <Popover.Header as="h1">CPR</Popover.Header>
                             <Popover.Body>
                             Available through WorkSafeBC
                             </Popover.Body>
@@ -1899,7 +1915,7 @@ function DynamicImage() {
                     placement="right" 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Foodsafe</Popover.Header>
+                            <Popover.Header as="h1">Foodsafe</Popover.Header>
                             <Popover.Body>
                             Available through WorkSafeBC
                             </Popover.Body>
@@ -1918,7 +1934,7 @@ function DynamicImage() {
                     placement="right" 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">SSA</Popover.Header>
+                            <Popover.Header as="h1">SSA</Popover.Header>
                             <Popover.Body>
                             Available through WorkSafeBC
                             </Popover.Body>
@@ -1937,7 +1953,7 @@ function DynamicImage() {
                     placement="right" 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">ACE-IT</Popover.Header>
+                            <Popover.Header as="h1">ACE-IT</Popover.Header>
                             <Popover.Body>
                             Available through WorkSafeBC
                             </Popover.Body>
@@ -1956,7 +1972,7 @@ function DynamicImage() {
                     placement="right" 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Work Experience</Popover.Header>
+                            <Popover.Header as="h1">Work Experience</Popover.Header>
                             <Popover.Body>
                             <b>Years: </b> 1+
                             <hr/>
@@ -1977,7 +1993,7 @@ function DynamicImage() {
                     placement="top" 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Bio 12</Popover.Header>
+                            <Popover.Header as="h1">Bio 12</Popover.Header>
                             <Popover.Body>
                             <b>Passing Grade: </b> 60%
                             </Popover.Body>
@@ -1996,7 +2012,7 @@ function DynamicImage() {
                     placement="top" 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Work Experience</Popover.Header>
+                            <Popover.Header as="h1">Work Experience</Popover.Header>
                             <Popover.Body>
                             <b>Years: </b> 1+
                             <hr/>
@@ -2017,7 +2033,7 @@ function DynamicImage() {
                     placement="top" 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Health Care Aid</Popover.Header>
+                            <Popover.Header as="h1">Health Care Aid</Popover.Header>
                             <Popover.Body>
                             <b>Dual Credit</b> 
                             </Popover.Body>
@@ -2036,7 +2052,7 @@ function DynamicImage() {
                     placement="top" 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">EMR</Popover.Header>
+                            <Popover.Header as="h1">EMR</Popover.Header>
                             <Popover.Body>
                             <b>Paramedic</b> 
                             <hr/>
@@ -2057,7 +2073,7 @@ function DynamicImage() {
                     placement="top" 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Medical Terminology</Popover.Header>
+                            <Popover.Header as="h1">Medical Terminology</Popover.Header>
                             <Popover.Body>
                             Available through WorkSafeBC
                             </Popover.Body>
@@ -2073,10 +2089,11 @@ function DynamicImage() {
                         ></ellipse>
                 </OverlayTrigger>
                 <OverlayTrigger 
-                    placement="right" 
+                    placement="right"
+                    trigger={"click"}
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Cleaner</Popover.Header>
+                            <Popover.Header as="h1">Cleaner</Popover.Header>
                             <Popover.Body>
                             <b>Average Salary: </b> 
                             <hr/>
@@ -2088,7 +2105,7 @@ function DynamicImage() {
                             <hr/>
                             <b>School: </b>
                             <hr/>
-                            <b>Website: </b>
+                            <b>Website: </b><a href="#">Link</a>
                             <hr/>
                             <b>Notes: </b>
                             </Popover.Body>
@@ -2104,10 +2121,11 @@ function DynamicImage() {
                         ></ellipse>
                 </OverlayTrigger>
                 <OverlayTrigger 
-                    placement="right" 
+                    placement="right"
+                    trigger={"click"} 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Dietary Aid</Popover.Header>
+                            <Popover.Header as="h1">Dietary Aid</Popover.Header>
                             <Popover.Body>
                             <b>Average Salary: </b> 
                             <hr/>
@@ -2119,7 +2137,7 @@ function DynamicImage() {
                             <hr/>
                             <b>School: </b>
                             <hr/>
-                            <b>Website: </b>
+                            <b>Website: </b><a href="#">Link</a>
                             <hr/>
                             <b>Notes: </b>
                             </Popover.Body>
@@ -2135,10 +2153,11 @@ function DynamicImage() {
                         ></ellipse>
                 </OverlayTrigger>
                 <OverlayTrigger 
-                    placement="right" 
+                    placement="right"
+                    trigger={"click"} 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Emergency Medical Responder (Ambulance)</Popover.Header>
+                            <Popover.Header as="h1">Emergency Medical Responder (Ambulance)</Popover.Header>
                             <Popover.Body>
                             <b>Average Salary: </b> 
                             <hr/>
@@ -2150,7 +2169,7 @@ function DynamicImage() {
                             <hr/>
                             <b>School: </b>
                             <hr/>
-                            <b>Website: </b>
+                            <b>Website: </b><a href="#">Link</a>
                             <hr/>
                             <b>Notes: </b>
                             </Popover.Body>
@@ -2166,10 +2185,11 @@ function DynamicImage() {
                         ></ellipse>
                 </OverlayTrigger>
                 <OverlayTrigger 
-                    placement="right" 
+                    placement="right"
+                    trigger={"click"} 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Medical Office Support Worker</Popover.Header>
+                            <Popover.Header as="h1">Medical Office Support Worker</Popover.Header>
                             <Popover.Body>
                             <b>Average Salary: </b> 
                             <hr/>
@@ -2181,7 +2201,7 @@ function DynamicImage() {
                             <hr/>
                             <b>School: </b>
                             <hr/>
-                            <b>Website: </b>
+                            <b>Website: </b><a href="#">Link</a>
                             <hr/>
                             <b>Notes: </b>
                             </Popover.Body>
@@ -2197,10 +2217,11 @@ function DynamicImage() {
                         ></ellipse>
                 </OverlayTrigger>
                 <OverlayTrigger 
-                    placement="right" 
+                    placement="right"
+                    trigger={"click"} 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Social Media Liason</Popover.Header>
+                            <Popover.Header as="h1">Social Media Liason</Popover.Header>
                             <Popover.Body>
                             <b>Average Salary: </b> 
                             <hr/>
@@ -2212,7 +2233,7 @@ function DynamicImage() {
                             <hr/>
                             <b>School: </b>
                             <hr/>
-                            <b>Website: </b>
+                            <b>Website: </b><a href="#">Link</a>
                             <hr/>
                             <b>Notes: </b>
                             </Popover.Body>
@@ -2231,7 +2252,7 @@ function DynamicImage() {
                     placement="right" 
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h3">Direct-To-Work</Popover.Header>
+                            <Popover.Header as="h1">Direct-To-Work</Popover.Header>
                             <Popover.Body>
                             The direct-to-work career path involves entering the workforce immediately after
                             completing high school or a similar level of education, without pursuing further
