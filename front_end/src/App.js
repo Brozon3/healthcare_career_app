@@ -1,8 +1,17 @@
-import DynamicImage from "./components/DynamicImage"
+import DynamicImage from "./components/DynamicImage";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import NavBar from "./components/Navbar";
+import Homepage from "./components/Homepage";
 
 function App() {
   return (
-    <DynamicImage />
+    <BrowserRouter>
+      <NavBar/>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/overview" element={<DynamicImage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -73,3 +73,15 @@ oari-purple {
   background-color: #3A3F91 !important;
   text-align: left;
 }
+
+.center-text{
+  text-align: center;
+}
+
+.purple-button{
+  background-color: #3A3F91;
+}
+
+.purple-text{
+  color: #3A3F91;
+}

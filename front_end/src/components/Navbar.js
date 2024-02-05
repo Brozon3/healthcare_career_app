@@ -6,11 +6,11 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 function NavBar() {
   
   return (
-    <Navbar collapseOnSelect expand="lg" className="blue-background">
+    <Navbar collapseOnSelect expand="lg" className="blue-background" fixed="top">
       <Container>
-        <Navbar.Text className='py-3 white-text'>
-          <h3>Healthcare Careers</h3>
-        </Navbar.Text>
+        <Navbar.Brand href="/" className='py-3 white-text'>
+          <h3>NL Healthcare Careers</h3>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
@@ -28,7 +28,7 @@ function NavBar() {
                 Degree
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4" className='white-text'>
+              <NavDropdown.Item href="/overview" className='white-text'>
                 Overview
               </NavDropdown.Item>
             </NavDropdown>
