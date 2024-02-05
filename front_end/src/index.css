@@ -7,6 +7,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.popover{
+  border: 3px solid #6B6FFF !important;
+  border-radius: 3% !important;
+}
+
 .popover-header{
   background-color: #3A3F91 !important;
   color: white;
@@ -67,4 +72,16 @@ oari-purple {
 .tooltip {
   background-color: #3A3F91 !important;
   text-align: left;
+}
+
+.center-text{
+  text-align: center;
+}
+
+.purple-button{
+  background-color: #3A3F91;
+}
+
+.purple-text{
+  color: #3A3F91;
 }
