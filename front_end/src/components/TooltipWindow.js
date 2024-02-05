@@ -1,5 +1,4 @@
 import React from 'react';
-import Popover from 'react-bootstrap/Popover';
 import Tooltip from 'react-bootstrap/Tooltip';
 
 const TooltipWindow = (({jobTitle}) => {

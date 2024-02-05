@@ -8,19 +8,13 @@ function NavBar() {
   return (
     <Navbar collapseOnSelect expand="lg" className="blue-background">
       <Container>
-        <Navbar.Brand className='py-3 white-text'>
-          HealthCare Careers
-        </Navbar.Brand>
+        <Navbar.Text className='py-3 white-text'>
+          <h3>Healthcare Careers</h3>
+        </Navbar.Text>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features" className='px-3 white-text'>
-              Community Health Care
-            </Nav.Link>
-            <Nav.Link href="#pricing" className='px-3 white-text'>
-              Hospital Health Care
-            </Nav.Link>
-            <NavDropdown title="Careers" id="collapsible-nav-dropdown" className='px-3 blue-background'>
+            <NavDropdown title="Career Routes" id="collapsible-nav-dropdown" className='px-3 blue-background'>
               <NavDropdown.Item href="#action/3.1" className='white-text'>
                 Direct-to-Work
               </NavDropdown.Item>

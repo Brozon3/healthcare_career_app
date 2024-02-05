@@ -1,7 +1,5 @@
-import React, { useRef } from "react";
+import React from "react";
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
-import Tooltip from 'react-bootstrap/Tooltip';
-import TooltipWindow from './TooltipWindow';
 import Popover from 'react-bootstrap/Popover';
 
 function DynamicImage() {
@@ -1117,17 +1115,17 @@ function DynamicImage() {
                     trigger="click"
                     overlay={
                         <Popover id="popover-basic">
-                            <Popover.Header as="h">Professional Cook</Popover.Header>
+                            <Popover.Header as="h1">Professional Cook</Popover.Header>
                             <Popover.Body>
                             <b>Average Salary: </b> $12,345
                             <hr/>
                             <b>Program Name: </b> Health Sciences
                             <hr/>
-                            <b>Program Length: </b>
+                            <b>Program Length: </b> 1 Year
                             <hr/>
-                            <b>Certification: </b>
+                            <b>Certification: </b> Diploma
                             <hr/>
-                            <b>School: </b>
+                            <b>School: </b> CNA
                             <hr/>
                             <b>Website: </b><a href="#">Link</a>
                             <hr/>
@@ -1255,11 +1253,11 @@ function DynamicImage() {
                             <hr/>
                             <b>Program Name: </b> Health Sciences
                             <hr/>
-                            <b>Program Length: </b>
+                            <b>Program Length: </b> 1 Year
                             <hr/>
-                            <b>Certification: </b>
+                            <b>Certification: </b> Diploma
                             <hr/>
-                            <b>School: </b>
+                            <b>School: </b> CNA
                             <hr/>
                             <b>Website: </b><a href="#">Link</a>
                             <hr/>
@@ -1288,11 +1286,11 @@ function DynamicImage() {
                             <hr/>
                             <b>Program Name: </b> Health Sciences
                             <hr/>
-                            <b>Program Length: </b>
+                            <b>Program Length: </b> 1 Year
                             <hr/>
-                            <b>Certification: </b>
+                            <b>Certification: </b> Diploma
                             <hr/>
-                            <b>School: </b>
+                            <b>School: </b> CNA
                             <hr/>
                             <b>Website: </b><a href="#">Link</a>
                             <hr/>
@@ -1321,11 +1319,11 @@ function DynamicImage() {
                             <hr/>
                             <b>Program Name: </b> Health Sciences
                             <hr/>
-                            <b>Program Length: </b>
+                            <b>Program Length: </b> 1 Year
                             <hr/>
-                            <b>Certification: </b>
+                            <b>Certification: </b> Diploma
                             <hr/>
-                            <b>School: </b>
+                            <b>School: </b> CNA
                             <hr/>
                             <b>Website: </b><a href="#">Link</a>
                             <hr/>
@@ -1354,11 +1352,11 @@ function DynamicImage() {
                             <hr/>
                             <b>Program Name: </b> Health Sciences
                             <hr/>
-                            <b>Program Length: </b>
+                            <b>Program Length: </b> 1 Year
                             <hr/>
-                            <b>Certification: </b>
+                            <b>Certification: </b> Diploma
                             <hr/>
-                            <b>School: </b>
+                            <b>School: </b> CNA
                             <hr/>
                             <b>Website: </b><a href="#">Link</a>
                             <hr/>
@@ -1387,11 +1385,11 @@ function DynamicImage() {
                             <hr/>
                             <b>Program Name: </b> Health Sciences
                             <hr/>
-                            <b>Program Length: </b>
+                            <b>Program Length: </b> 1 Year
                             <hr/>
-                            <b>Certification: </b>
+                            <b>Certification: </b> Diploma
                             <hr/>
-                            <b>School: </b>
+                            <b>School: </b> CNA
                             <hr/>
                             <b>Website: </b><a href="#">Link</a>
                             <hr/>
@@ -1541,11 +1539,11 @@ function DynamicImage() {
                             <hr/>
                             <b>Program Name: </b> Health Sciences
                             <hr/>
-                            <b>Program Length: </b>
+                            <b>Program Length: </b> 1 Year
                             <hr/>
-                            <b>Certification: </b>
+                            <b>Certification: </b> Diploma
                             <hr/>
-                            <b>School: </b>
+                            <b>School: </b> CNA
                             <hr/>
                             <b>Website: </b><a href="#">Link</a>
                             <hr/>
@@ -1573,11 +1571,11 @@ function DynamicImage() {
                             <hr/>
                             <b>Program Name: </b> Health Sciences
                             <hr/>
-                            <b>Program Length: </b>
+                            <b>Program Length: </b> 1 Year
                             <hr/>
-                            <b>Certification: </b>
+                            <b>Certification: </b> Diploma
                             <hr/>
-                            <b>School: </b>
+                            <b>School: </b> CNA
                             <hr/>
                             <b>Website: </b><a href="#">Link</a>
                             <hr/>
@@ -1605,11 +1603,11 @@ function DynamicImage() {
                             <hr/>
                             <b>Program Name: </b> Health Sciences
                             <hr/>
-                            <b>Program Length: </b>
+                            <b>Program Length: </b> 1 Year
                             <hr/>
-                            <b>Certification: </b>
+                            <b>Certification: </b> Diploma
                             <hr/>
-                            <b>School: </b>
+                            <b>School: </b> CNA
                             <hr/>
                             <b>Website: </b><a href="#">Link</a>
                             <hr/>
@@ -1637,11 +1635,11 @@ function DynamicImage() {
                             <hr/>
                             <b>Program Name: </b> Health Sciences
                             <hr/>
-                            <b>Program Length: </b>
+                            <b>Program Length: </b> 1 Year
                             <hr/>
-                            <b>Certification: </b>
+                            <b>Certification: </b> Diploma
                             <hr/>
-                            <b>School: </b>
+                            <b>School: </b> CNA
                             <hr/>
                             <b>Website: </b><a href="#">Link</a>
                             <hr/>
@@ -1669,11 +1667,11 @@ function DynamicImage() {
                             <hr/>
                             <b>Program Name: </b> Health Sciences
                             <hr/>
-                            <b>Program Length: </b>
+                            <b>Program Length: </b> 1 Year
                             <hr/>
-                            <b>Certification: </b>
+                            <b>Certification: </b> Diploma
                             <hr/>
-                            <b>School: </b>
+                            <b>School: </b> CNA
                             <hr/>
                             <b>Website: </b><a href="#">Link</a>
                             <hr/>
@@ -1701,11 +1699,11 @@ function DynamicImage() {
                             <hr/>
                             <b>Program Name: </b> Health Sciences
                             <hr/>
-                            <b>Program Length: </b>
+                            <b>Program Length: </b> 1 Year
                             <hr/>
-                            <b>Certification: </b>
+                            <b>Certification: </b> Diploma
                             <hr/>
-                            <b>School: </b>
+                            <b>School: </b> CNA
                             <hr/>
                             <b>Website: </b><a href="#">Link</a>
                             <hr/>
@@ -1733,11 +1731,11 @@ function DynamicImage() {
                             <hr/>
                             <b>Program Name: </b> Health Sciences
                             <hr/>
-                            <b>Program Length: </b>
+                            <b>Program Length: </b> 1 Year
                             <hr/>
-                            <b>Certification: </b>
+                            <b>Certification: </b> Diploma
                             <hr/>
-                            <b>School: </b>
+                            <b>School: </b> CNA
                             <hr/>
                             <b>Website: </b><a href="#">Link</a>
                             <hr/>
@@ -1765,11 +1763,11 @@ function DynamicImage() {
                             <hr/>
                             <b>Program Name: </b> Health Sciences
                             <hr/>
-                            <b>Program Length: </b>
+                            <b>Program Length: </b> 1 Year
                             <hr/>
-                            <b>Certification: </b>
+                            <b>Certification: </b> Diploma
                             <hr/>
-                            <b>School: </b>
+                            <b>School: </b> CNA
                             <hr/>
                             <b>Website: </b><a href="#">Link</a>
                             <hr/>
@@ -1798,11 +1796,11 @@ function DynamicImage() {
                             <hr/>
                             <b>Program Name: </b> Health Sciences
                             <hr/>
-                            <b>Program Length: </b>
+                            <b>Program Length: </b> 1 Year
                             <hr/>
-                            <b>Certification: </b>
+                            <b>Certification: </b> Diploma
                             <hr/>
-                            <b>School: </b>
+                            <b>School: </b> CNA
                             <hr/>
                             <b>Website: </b><a href="#">Link</a>
                             <hr/>
@@ -1830,11 +1828,11 @@ function DynamicImage() {
                             <hr/>
                             <b>Program Name: </b> Health Sciences
                             <hr/>
-                            <b>Program Length: </b>
+                            <b>Program Length: </b> 1 Year
                             <hr/>
-                            <b>Certification: </b>
+                            <b>Certification: </b> Diploma
                             <hr/>
-                            <b>School: </b>
+                            <b>School: </b> CNA
                             <hr/>
                             <b>Website: </b><a href="#">Link</a>
                             <hr/>
