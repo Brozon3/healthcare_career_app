@@ -2,6 +2,7 @@ import DynamicImage from "./components/DynamicImage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/Navbar";
 import Homepage from "./components/Homepage";
+import DynamicImageCNA from "./components/DynamicImageCNA";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/overview" element={<DynamicImage />} />
+        <Route path="/cnaexample" element={<DynamicImageCNA />} />
       </Routes>
     </BrowserRouter>
   );

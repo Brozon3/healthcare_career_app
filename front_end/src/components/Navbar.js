@@ -31,6 +31,10 @@ function NavBar() {
               <NavDropdown.Item href="/overview" className='white-text'>
                 Overview
               </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href='/cnaexample' className='white-text'>
+                CNAOverview
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Nav>
