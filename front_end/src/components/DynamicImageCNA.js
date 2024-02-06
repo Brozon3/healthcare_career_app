@@ -588,9 +588,7 @@ function DynamicImageCNA() {
                         fontVariant="normal"
                         fontWeight="normal"
                     >
-                    <tspan x="755.15" y="164.211">
-                        WHMIS
-                    </tspan>
+                    
                     </text>
                     <text
                         xmlSpace="preserve"
@@ -611,9 +609,7 @@ function DynamicImageCNA() {
                         fontWeight="normal"
                         transform="rotate(90)"
                     >
-                    <tspan x="301.311" y="-997.201">
-                    experience 
-                    </tspan>
+                    
                     </text>
                     <text
                         xmlSpace="preserve"
@@ -634,9 +630,7 @@ function DynamicImageCNA() {
                         fontWeight="normal"
                         transform="rotate(90)"
                     >
-                        <tspan x="247.871" y="-1084.548">
-                        Entrance requirements
-                    </tspan>
+                        
                     </text>
                     <text
                         xmlSpace="preserve"
@@ -657,9 +651,7 @@ function DynamicImageCNA() {
                         fontWeight="normal"
                         transform="rotate(90)"
                     >
-                    <tspan x="236.712" y="-1117.38">
-                        Addional requirements
-                    </tspan>
+                    
                     </text>
                     <text
                         xmlSpace="preserve"
@@ -726,9 +718,7 @@ function DynamicImageCNA() {
                         fontVariant="normal"
                         fontWeight="normal"
                     >
-                    <tspan x="741.018" y="221.862">
-                        Foodsafe
-                    </tspan>
+                    
                     </text>
                     <text
                         xmlSpace="preserve"
@@ -748,9 +738,7 @@ function DynamicImageCNA() {
                         fontVariant="normal"
                         fontWeight="normal"
                     >
-                    <tspan x="786.564" y="294.247">
-                        SSA
-                    </tspan>
+                    
                     </text>
                     <text
                         xmlSpace="preserve"
@@ -770,9 +758,7 @@ function DynamicImageCNA() {
                         fontVariant="normal"
                         fontWeight="normal"
                     >
-                    <tspan x="758.349" y="330.23">
-                        ACE-IT
-                    </tspan>
+                    
                     </text>
                     <text
                         xmlSpace="preserve"
@@ -792,9 +778,7 @@ function DynamicImageCNA() {
                         fontVariant="normal"
                         fontWeight="normal"
                     >
-                    <tspan x="660.443" y="364.378">
-                        Work Experience
-                    </tspan>
+                    
                     </text>
                     <text
                         xmlSpace="preserve"
@@ -814,9 +798,7 @@ function DynamicImageCNA() {
                         fontVariant="normal"
                         fontWeight="normal"
                     >
-                    <tspan x="861.412" y="591.488">
-                        Work Experience
-                    </tspan>
+                    
                     </text>
                     <text
                         xmlSpace="preserve"
@@ -836,9 +818,7 @@ function DynamicImageCNA() {
                         fontVariant="normal"
                         fontWeight="normal"
                     >
-                    <tspan x="860.227" y="554.646">
-                        EN 12 or EN First Peoples 12
-                    </tspan>
+                    
                     </text>
                     <text
                         xmlSpace="preserve"
@@ -858,9 +838,7 @@ function DynamicImageCNA() {
                         fontVariant="normal"
                         fontWeight="normal"
                     >
-                    <tspan x="861.953" y="626.62">
-                        Chem 11/12
-                    </tspan>
+                   
                     </text>
                     <text
                         xmlSpace="preserve"
@@ -880,9 +858,7 @@ function DynamicImageCNA() {
                         fontVariant="normal"
                         fontWeight="normal"
                     >
-                    <tspan x="861.57" y="662.62">
-                        Bio 12
-                    </tspan>
+                   
                     </text>
                     <text
                         xmlSpace="preserve"
@@ -903,9 +879,7 @@ function DynamicImageCNA() {
                         fontWeight="normal"
                         transform="rotate(90)"
                     >
-                    <tspan x="306.673" y="-958.976">
-                    PCP knowledge
-                    </tspan>
+                    
                     </text>
                     <text
                         xmlSpace="preserve"
@@ -926,9 +900,7 @@ function DynamicImageCNA() {
                         fontWeight="normal"
                         transform="rotate(90)"
                     >
-                    <tspan x="481.858" y="-683.111">
-                        Additional requirements
-                    </tspan>
+                    
                     </text>
                     <text
                         xmlSpace="preserve"
@@ -949,9 +921,7 @@ function DynamicImageCNA() {
                         fontWeight="normal"
                         transform="rotate(90)"
                     >
-                    <tspan x="180.765" y="-920.552">
-                    Paramedic diploma / certificate
-                    </tspan>
+                    
                     </text>
                     <text
                         xmlSpace="preserve"
@@ -972,9 +942,7 @@ function DynamicImageCNA() {
                         fontWeight="normal"
                         transform="rotate(90)"
                     >
-                    <tspan x="479.639" y="-718.703">
-                        Casper Admissions exam
-                    </tspan>
+                    
                     </text>
                     <text
                         xmlSpace="preserve"
@@ -1065,237 +1033,7 @@ function DynamicImageCNA() {
                     </text>
                 </g>
                 <g>
-                    <OverlayTrigger 
-                        placement="bottom" 
-                        trigger="click"
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h">Professional Cook</Popover.Header>
-                                <Popover.Body>
-                                <b>Average Salary: </b> $12,345
-                                <hr/>
-                                <b>Program Name: </b> Health Sciences
-                                <hr/>
-                                <b>Program Length: </b>
-                                <hr/>
-                                <b>Certification: </b>
-                                <hr/>
-                                <b>School: </b>
-                                <hr/>
-                                <b>Website: </b><a href="#">Link</a>
-                                <hr/>
-                                <b>Notes: </b>
-                                </Popover.Body>
-                            </Popover>
-                        }>
-                            <ellipse
-                                cx="683.412"
-                                cy="80.767"
-                                fill="#fd5"
-                                strokeWidth="0.75"
-                                rx="11.296"
-                                ry="11.014"
-                            ></ellipse>
-                    </OverlayTrigger>
-                    <OverlayTrigger 
-                        placement="left"
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h1">EN 12 or EN First Peoples 12</Popover.Header>
-                                <Popover.Body>
-                                <b>Passing Grade: </b> 60%
-                                </Popover.Body>
-                            </Popover>
-                        }>
-                            <ellipse
-                                cx="845.235"
-                                cy="548.468"
-                                fill="#000"
-                                strokeWidth="0.75"
-                                rx="11.296"
-                                ry="11.014"
-                            ></ellipse>
-                    </OverlayTrigger>
-                    <OverlayTrigger 
-                        placement="left"
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h1">Work Experience</Popover.Header>
-                                <Popover.Body>
-                                <b>Years: </b> 1+
-                                <hr/>
-                                <b>Industry: </b> Healthcare or Retail
-                                </Popover.Body>
-                            </Popover>
-                        }>
-                            <ellipse
-                                cx="844.949"
-                                cy="583.707"
-                                fill="#000"
-                                strokeWidth="0.75"
-                                rx="11.296"
-                                ry="11.014"
-                            ></ellipse>
-                    </OverlayTrigger>
-                    <OverlayTrigger 
-                        placement="left" 
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h1">Chem 11/12</Popover.Header>
-                                <Popover.Body>
-                                <b>Passing Grade: </b> 60%
-                                </Popover.Body>
-                            </Popover>
-                        }>
-                            <ellipse
-                                cx="845.583"
-                                cy="619.822"
-                                fill="#000"
-                                strokeWidth="0.75"
-                                rx="11.296"
-                                ry="11.014"
-                            ></ellipse>
-                    </OverlayTrigger>
-                    <OverlayTrigger 
-                        placement="left"
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h1">Bio 12</Popover.Header>
-                                <Popover.Body>
-                                <b>Passing Grade: </b> 60%
-                                </Popover.Body>
-                            </Popover>
-                        }>
-                            <ellipse
-                                cx="845.762"
-                                cy="655.327"
-                                fill="#000"
-                                strokeWidth="0.75"
-                                rx="11.296"
-                                ry="11.014"
-                            ></ellipse>
-                    </OverlayTrigger>
-                    <OverlayTrigger 
-                        placement="left" 
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h1">Degree</Popover.Header>
-                                <Popover.Body>
-                                A degree is a formal recognition of completion awarded by an educational institution,
-                                typically after a student has successfully fulfilled a specific set of academic requirements
-                                within a particular field of study, such as Bachelor's, Master's, or Doctorate degrees.
-                                </Popover.Body>
-                            </Popover>
-                            }>
-                        <ellipse
-                            cx="845.159"
-                            cy="821.446"
-                            fill="red"
-                            fillOpacity="1"
-                            strokeWidth="1.006"
-                            rx="14.826"
-                            ry="15.108"
-                        ></ellipse>
-                    </OverlayTrigger>
-                    <OverlayTrigger 
-                        placement="top"
-                        trigger="click" 
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h1">Doctor</Popover.Header>
-                                <Popover.Body>
-                                <b>Average Salary: </b> $12,345
-                                <hr/>
-                                <b>Program Name: </b> Health Sciences
-                                <hr/>
-                                <b>Program Length: </b>
-                                <hr/>
-                                <b>Certification: </b>
-                                <hr/>
-                                <b>School: </b>
-                                <hr/>
-                                <b>Website: </b><a href="#">Link</a>
-                                <hr/>
-                                <b>Notes: </b>
-                                </Popover.Body>
-                            </Popover>
-                        }>
-                            <ellipse
-                                cx="893.84"
-                                cy="874.299"
-                                fill="red"
-                                fillOpacity="1"
-                                strokeWidth="0.75"
-                                rx="11.296"
-                                ry="11.014"
-                            ></ellipse>
-                    </OverlayTrigger>
-                    <OverlayTrigger 
-                        placement="top"
-                        trigger="click" 
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h1">Environmental Health Specialist</Popover.Header>
-                                <Popover.Body>
-                                <b>Average Salary: </b> $12,345
-                                <hr/>
-                                <b>Program Name: </b> Health Sciences
-                                <hr/>
-                                <b>Program Length: </b>
-                                <hr/>
-                                <b>Certification: </b>
-                                <hr/>
-                                <b>School: </b>
-                                <hr/>
-                                <b>Website: </b><a href="#">Link</a>
-                                <hr/>
-                                <b>Notes: </b>
-                                </Popover.Body>
-                            </Popover>
-                        }>
-                            <ellipse
-                                cx="969.578"
-                                cy="858.217"
-                                fill="red"
-                                fillOpacity="1"
-                                strokeWidth="0.75"
-                                rx="11.296"
-                                ry="11.014"
-                            ></ellipse>
-                    </OverlayTrigger>
-                    <OverlayTrigger 
-                        placement="top"
-                        trigger="click" 
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h1">Nurse Practicioner</Popover.Header>
-                                <Popover.Body>
-                                <b>Average Salary: </b> $12,345
-                                <hr/>
-                                <b>Program Name: </b> Health Sciences
-                                <hr/>
-                                <b>Program Length: </b>
-                                <hr/>
-                                <b>Certification: </b>
-                                <hr/>
-                                <b>School: </b>
-                                <hr/>
-                                <b>Website: </b><a href="#">Link</a>
-                                <hr/>
-                                <b>Notes: </b>
-                                </Popover.Body>
-                            </Popover>
-                        }>
-                            <ellipse
-                                cx="1101.761"
-                                cy="787.593"
-                                fill="red"
-                                fillOpacity="1"
-                                strokeWidth="0.75"
-                                rx="11.296"
-                                ry="11.014"
-                            ></ellipse>
-                    </OverlayTrigger>
+                    
                     <OverlayTrigger 
                         placement="top"
                         trigger="click" 
@@ -1362,124 +1100,7 @@ function DynamicImageCNA() {
                                 ry="11.014"
                             ></ellipse>
                     </OverlayTrigger>
-                    <OverlayTrigger 
-                        placement="bottom"
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h1">Bio 12</Popover.Header>
-                                <Popover.Body>
-                                <b>Passing Grade: </b> 60%
-                                </Popover.Body>
-                            </Popover>
-                        }>
-
-                            <ellipse
-                                cx="923.935"
-                                cy="463.244"
-                                fill="#000"
-                                strokeWidth="0.75"
-                                rx="11.296"
-                                ry="11.014"
-                            ></ellipse>
-                    </OverlayTrigger>
-                    <OverlayTrigger 
-                        placement="bottom" 
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h1">Work Experience</Popover.Header>
-                                <Popover.Body>
-                                <b>Years: </b> 1+
-                                <hr/>
-                                <b>Industry: </b> Healthcare or Retail
-                                </Popover.Body>
-                            </Popover>
-                        }>
-                            <ellipse
-                                cx="965.231"
-                                cy="462.703"
-                                fill="#000"
-                                strokeWidth="0.75"
-                                rx="11.296"
-                                ry="11.014"
-                            ></ellipse>
-                    </OverlayTrigger>
-                    <OverlayTrigger 
-                        placement="bottom" 
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h1">WHMIS</Popover.Header>
-                                <Popover.Body>
-                                Available through WorkSafeBC
-                                </Popover.Body>
-                            </Popover>
-                        }>
-                            <ellipse
-                                cx="1001.633"
-                                cy="463.347"
-                                fill="#000"
-                                strokeWidth="0.75"
-                                rx="11.296"
-                                ry="11.014"
-                            ></ellipse>
-                    </OverlayTrigger>
-                    <OverlayTrigger 
-                        placement="bottom" 
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h1">OFA 1, 2, 3</Popover.Header>
-                                <Popover.Body>
-                                Available through WorkSafeBC
-                                </Popover.Body>
-                            </Popover>
-                        }>
-                            <ellipse
-                                cx="1122.231"
-                                cy="462.175"
-                                fill="#000"
-                                strokeWidth="0.75"
-                                rx="11.296"
-                                ry="11.014"
-                            ></ellipse>
-                    </OverlayTrigger>
                     
-                    <OverlayTrigger 
-                        placement="bottom" 
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h1">Medical Terminology</Popover.Header>
-                                <Popover.Body>
-                                Available through WorkSafeBC
-                                </Popover.Body>
-                            </Popover>
-                        }>
-                            <ellipse
-                                cx="1149.893"
-                                cy="462.369"
-                                fill="#000"
-                                strokeWidth="0.75"
-                                rx="11.296"
-                                ry="11.014"
-                            ></ellipse>
-                    </OverlayTrigger>
-                    <OverlayTrigger 
-                        placement="bottom" 
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h1">OFA 1, 2, 3</Popover.Header>
-                                <Popover.Body>
-                                Available through WorkSafeBC
-                                </Popover.Body>
-                            </Popover>
-                        }>
-                            <ellipse
-                                cx="1092.231"
-                                cy="462.175"
-                                fill="#000"
-                                strokeWidth="0.75"
-                                rx="11.296"
-                                ry="11.014"
-                            ></ellipse>
-                    </OverlayTrigger>
                     <OverlayTrigger 
                         placement="bottom"
                         overlay={
@@ -1839,221 +1460,10 @@ function DynamicImageCNA() {
                                 ry="15.108"
                             ></ellipse>
                     </OverlayTrigger>
-                    <OverlayTrigger 
-                        placement="right" 
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h1">WHMIS</Popover.Header>
-                                <Popover.Body>
-                                Available through WorkSafeBC
-                                </Popover.Body>
-                            </Popover>
-                        }>
-                            <ellipse
-                                cx="844.928"
-                                cy="157.522"
-                                fill="#000"
-                                strokeWidth="0.75"
-                                rx="11.296"
-                                ry="11.014"
-                            ></ellipse>
-                    </OverlayTrigger>
-                    <OverlayTrigger 
-                        placement="right" 
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h1">CPR</Popover.Header>
-                                <Popover.Body>
-                                Available through WorkSafeBC
-                                </Popover.Body>
-                            </Popover>
-                        }>
-                            <ellipse
-                                cx="844.56"
-                                cy="186.383"
-                                fill="#000"
-                                strokeWidth="0.75"
-                                rx="11.296"
-                                ry="11.014"
-                            ></ellipse>
-                    </OverlayTrigger>
-                    <OverlayTrigger 
-                        placement="right" 
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h1">Foodsafe</Popover.Header>
-                                <Popover.Body>
-                                Available through WorkSafeBC
-                                </Popover.Body>
-                            </Popover>
-                        }>
-                            <ellipse
-                                cx="845.167"
-                                cy="214.457"
-                                fill="#000"
-                                strokeWidth="0.75"
-                                rx="11.296"
-                                ry="11.014"
-                            ></ellipse>
-                    </OverlayTrigger>
-                    <OverlayTrigger 
-                        placement="right" 
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h1">SSA</Popover.Header>
-                                <Popover.Body>
-                                Available through WorkSafeBC
-                                </Popover.Body>
-                            </Popover>
-                        }>
-                            <ellipse
-                                cx="844.45"
-                                cy="287.397"
-                                fill="#000"
-                                strokeWidth="0.75"
-                                rx="11.296"
-                                ry="11.014"
-                            ></ellipse>
-                    </OverlayTrigger>
-                    <OverlayTrigger 
-                        placement="right" 
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h1">ACE-IT</Popover.Header>
-                                <Popover.Body>
-                                Available through WorkSafeBC
-                                </Popover.Body>
-                            </Popover>
-                        }>
-                            <ellipse
-                                cx="844.685"
-                                cy="322.749"
-                                fill="#000"
-                                strokeWidth="0.75"
-                                rx="11.296"
-                                ry="11.014"
-                            ></ellipse>
-                    </OverlayTrigger>
-                    <OverlayTrigger 
-                        placement="right" 
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h1">Work Experience</Popover.Header>
-                                <Popover.Body>
-                                <b>Years: </b> 1+
-                                <hr/>
-                                <b>Industry: </b> Healthcare or Retail
-                                </Popover.Body>
-                            </Popover>
-                        }>
-                            <ellipse
-                                cx="844.556"
-                                cy="357.753"
-                                fill="#000"
-                                strokeWidth="0.75"
-                                rx="11.296"
-                                ry="11.014"
-                            ></ellipse>
-                    </OverlayTrigger>
-                    <OverlayTrigger 
-                        placement="top" 
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h1">Bio 12</Popover.Header>
-                                <Popover.Body>
-                                <b>Passing Grade: </b> 60%
-                                </Popover.Body>
-                            </Popover>
-                        }>
-                            <ellipse
-                                cx="725.139"
-                                cy="462.332"
-                                fill="#000"
-                                strokeWidth="0.75"
-                                rx="11.296"
-                                ry="11.014"
-                            ></ellipse>
-                    </OverlayTrigger>
-                    <OverlayTrigger 
-                        placement="top" 
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h1">Work Experience</Popover.Header>
-                                <Popover.Body>
-                                <b>Years: </b> 1+
-                                <hr/>
-                                <b>Industry: </b> Healthcare or Retail
-                                </Popover.Body>
-                            </Popover>
-                        }>
-                        <ellipse
-                            cx="689.255"
-                            cy="462.526"
-                            fill="#000"
-                            strokeWidth="0.75"
-                            rx="11.296"
-                            ry="11.014"
-                        ></ellipse>
-                    </OverlayTrigger>
-                    <OverlayTrigger 
-                        placement="top" 
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h1"></Popover.Header>
-                                <Popover.Body>
-                                <b>Dual Credit</b> 
-                                </Popover.Body>
-                            </Popover>
-                        }>
-                            <ellipse
-                                cx="597.91"
-                                cy="463.067"
-                                fill="#000"
-                                strokeWidth="0.75"
-                                rx="11.296"
-                                ry="11.014"
-                            ></ellipse>
-                    </OverlayTrigger>
-                    <OverlayTrigger 
-                        placement="top" 
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h1">EMR</Popover.Header>
-                                <Popover.Body>
-                                <b>Paramedic</b> 
-                                <hr/>
-                                <b>Dual Credit</b>
-                                </Popover.Body>
-                            </Popover>
-                        }>
-                            <ellipse
-                                cx="568.015"
-                                cy="463.253"
-                                fill="#000"
-                                strokeWidth="0.75"
-                                rx="11.296"
-                                ry="11.014"
-                            ></ellipse>
-                    </OverlayTrigger>
-                    <OverlayTrigger 
-                        placement="top" 
-                        overlay={
-                            <Popover id="popover-basic">
-                                <Popover.Header as="h1">Medical Terminology</Popover.Header>
-                                <Popover.Body>
-                                Available through WorkSafeBC
-                                </Popover.Body>
-                            </Popover>
-                        }>
-                            <ellipse
-                                cx="540.945"
-                                cy="462.477"
-                                fill="#000"
-                                strokeWidth="0.75"
-                                rx="11.296"
-                                ry="11.014"
-                            ></ellipse>
-                    </OverlayTrigger>
+
+                    
+                    
+                    
                     <OverlayTrigger 
                         placement="right"
                         trigger={"click"}
