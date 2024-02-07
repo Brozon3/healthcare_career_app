@@ -89,3 +89,12 @@ oari-purple {
 .purple-text{
   color: #3A3F91;
 }
+
+.big-pic{
+  max-width: 600px;
+  max-height: 600px;
+}
+
+ul, li{
+  list-style-type: none;
+}

@@ -15,17 +15,14 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <NavDropdown title="Career Routes" id="collapsible-nav-dropdown" className='px-3 blue-background'>
-              <NavDropdown.Item href="#action/3.1" className='white-text'>
-                Direct-to-Work
+              <NavDropdown.Item href="/certificate" className='white-text'>
+                Certificate
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2" className='white-text'>
-                Apprenticeship
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3" className='white-text'>
-                Certificate/Diploma
+              <NavDropdown.Item href="/diploma" className='white-text'>
+                Diploma
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3" className='white-text'>
-                Degree
+                Post-Diploma
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/overview" className='white-text'>
