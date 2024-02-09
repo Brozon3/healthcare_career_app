@@ -21,7 +21,7 @@ function NavBar() {
               <NavDropdown.Item href="/diploma" className='white-text'>
                 Diploma
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3" className='white-text'>
+              <NavDropdown.Item href="/postdiploma" className='white-text'>
                 Post-Diploma
               </NavDropdown.Item>
               <NavDropdown.Divider />

@@ -5,6 +5,7 @@ import Homepage from "./components/Homepage";
 import DynamicImageCNA from "./components/DynamicImageCNA";
 import CertificatePage from "./components/CertificatePage";
 import DiplomaPage from "./components/DiplomaPage";
+import PostDiplomaPage from "./components/PostDiplomaPage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/cnaexample" element={<DynamicImageCNA />} />
         <Route path="/certificate" element={<CertificatePage />} />
         <Route path="/diploma" element={<DiplomaPage />} />
+        <Route path="/postdiploma" element={<PostDiplomaPage />} />
       </Routes>
     </BrowserRouter>
   );

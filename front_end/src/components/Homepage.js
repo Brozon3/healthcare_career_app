@@ -9,7 +9,7 @@ function Homepage() {
                     <Image src="images\NLHCHomePagePhoto.jpg" thumbnail className="m-5"/>
                 </Col>
 
-                <Col className="center-text p-5 m-5">
+                <Col className="center-text p-4 m-4">
                     <h1 className="purple-text p-2 m-2">Welcome to Careers in Healthcare NL</h1>
                     <p className="medium-text p-2 m-2">Discover exciting opportunities in the healthcare sector in Newfoundland. 
                         Whether you're looking for a career change or wondering what you want to do after high school, 
