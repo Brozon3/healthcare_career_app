@@ -98,3 +98,8 @@ oari-purple {
 ul, li{
   list-style-type: none;
 }
+
+.pic-container {
+  width: 100vh;
+  height: 100vh;
+}

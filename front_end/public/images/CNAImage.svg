@@ -60,14 +60,14 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="pt"
      inkscape:zoom="0.46948232"
-     inkscape:cx="801.94713"
-     inkscape:cy="544.21645"
-     inkscape:window-width="1560"
-     inkscape:window-height="1009"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
+     inkscape:cx="803.01213"
+     inkscape:cy="546.34645"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer3" />
   <g
      inkscape:groupmode="layer"
      id="layer2"
@@ -384,36 +384,33 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.75;image-rendering:auto"
-       x="-64.263069"
-       y="689.38629"
-       id="text40"
-       transform="rotate(-90)"><tspan
+       x="501.98541"
+       y="67.263741"
+       id="text40"><tspan
          sodipodi:role="line"
          id="tspan47"
-         x="-64.263069"
-         y="689.38629">Lab Assistant</tspan></text>
+         x="501.98541"
+         y="67.263741">Lab Assistant</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.75"
-       x="-42.464828"
-       y="755.70447"
-       id="hca-text"
-       transform="rotate(-90)"><tspan
+       x="683.61816"
+       y="37.35033"
+       id="hca-text"><tspan
          sodipodi:role="line"
          id="tspan48"
-         x="-42.464828"
-         y="755.70447">HCA</tspan></text>
+         x="683.61816"
+         y="37.35033">HCA</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.75"
-       x="-30.782326"
-       y="815.19611"
-       id="text42"
-       transform="rotate(-90)"><tspan
+       x="760.86603"
+       y="22.656565"
+       id="text42"><tspan
          sodipodi:role="line"
          id="tspan49"
-         x="-30.782326"
-         y="815.19611">PCA</tspan></text>
+         x="760.86603"
+         y="22.656565">PCA</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';fill:#1a1a1a;stroke-width:0.75"

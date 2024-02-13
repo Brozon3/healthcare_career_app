@@ -1,11 +1,10 @@
-import DynamicImage from "./components/DynamicImage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/Navbar";
 import Homepage from "./components/Homepage";
-import DynamicImageCNA from "./components/DynamicImageCNA";
 import CertificatePage from "./components/CertificatePage";
 import DiplomaPage from "./components/DiplomaPage";
 import PostDiplomaPage from "./components/PostDiplomaPage";
+import DraftImage from "./components/DraftImage";
 
 function App() {
   return (
@@ -13,8 +12,7 @@ function App() {
       <NavBar/>
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/overview" element={<DynamicImage />} />
-        <Route path="/cnaexample" element={<DynamicImageCNA />} />
+        <Route path="/overview" element={<DraftImage />} />
         <Route path="/certificate" element={<CertificatePage />} />
         <Route path="/diploma" element={<DiplomaPage />} />
         <Route path="/postdiploma" element={<PostDiplomaPage />} />
