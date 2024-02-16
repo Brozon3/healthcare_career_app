@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.0"
-   width="1333.9855pt"
-   height="983.6084pt"
-   viewBox="0 0 1333.9855 983.60841"
+   width="1254.1115pt"
+   height="878.49658pt"
+   viewBox="0 0 1254.1115 878.49659"
    preserveAspectRatio="xMidYMid"
    id="svg707"
-   sodipodi:docname="CNAImage.svg"
+   sodipodi:docname="PDImage.svg"
    inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -59,20 +59,20 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      inkscape:document-units="pt"
-     inkscape:zoom="0.46948232"
-     inkscape:cx="801.94713"
-     inkscape:cy="714.6169"
+     inkscape:zoom="0.66394826"
+     inkscape:cx="853.22914"
+     inkscape:cy="663.45531"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer3" />
+     inkscape:current-layer="layer1" />
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="image layer"
-     transform="translate(-208.06557,95.428337)">
+     transform="translate(-208.06557,-9.6834526)">
     <g
        transform="matrix(0.1,0,0,-0.1,229.31004,922.88816)"
        fill="#000000"
@@ -115,7 +115,7 @@
      id="layer3"
      inkscape:label="text"
      style="fill:#000000"
-     transform="translate(-208.06557,95.428337)">
+     transform="translate(-208.06557,-9.6834526)">
     <text
        xml:space="preserve"
        style="font-size:24px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';fill:#1a1a1a;stroke-width:0.75"
@@ -142,18 +142,6 @@
     <text
        xml:space="preserve"
        style="font-size:24px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';fill:#1a1a1a;stroke-width:0.75"
-       x="-448.64642"
-       y="758.3786"
-       id="text27-4-3"
-       transform="rotate(-90)"><tspan
-         sodipodi:role="line"
-         id="tspan27-3-4"
-         style="fill:#1a1a1a;stroke-width:0.75"
-         x="-448.64642"
-         y="758.3786">English</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:24px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';fill:#1a1a1a;stroke-width:0.75"
        x="858.65857"
        y="340.2684"
        id="text28"><tspan
@@ -174,18 +162,6 @@
          x="478.91415"
          y="-967.00592"
          id="tspan29-1">Science</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:24px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';fill:#1a1a1a;stroke-width:0.75"
-       x="-448.68237"
-       y="715.26825"
-       id="text28-9"
-       transform="rotate(-90)"><tspan
-         sodipodi:role="line"
-         style="stroke-width:0.75"
-         x="-448.68237"
-         y="715.26825"
-         id="tspan29-5">Science</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';fill:#1a1a1a;stroke-width:0.75"
@@ -212,29 +188,6 @@
     <text
        xml:space="preserve"
        style="font-size:24px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';fill:#1a1a1a;stroke-width:0.75"
-       x="-449.02625"
-       y="671.21301"
-       id="text30-6"
-       transform="rotate(-90)"><tspan
-         sodipodi:role="line"
-         id="tspan30-4"
-         style="stroke-width:0.75"
-         x="-449.02625"
-         y="671.21301">Math</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:24px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';fill:#1a1a1a;stroke-width:0.75"
-       x="857.8598"
-       y="225.24811"
-       id="text31"><tspan
-         sodipodi:role="line"
-         id="tspan31"
-         style="stroke-width:0.75"
-         x="857.8598"
-         y="225.24811">Casper</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:24px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';fill:#1a1a1a;stroke-width:0.75"
        x="477.76291"
        y="-1084.1322"
        id="text31-5"
@@ -244,18 +197,6 @@
          style="stroke-width:0.75"
          x="477.76291"
          y="-1084.1322">Casper</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:24px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';fill:#1a1a1a;stroke-width:0.75"
-       x="-448.06412"
-       y="596.81439"
-       id="text31-4"
-       transform="rotate(-90)"><tspan
-         sodipodi:role="line"
-         id="tspan31-7"
-         style="stroke-width:0.75"
-         x="-448.06412"
-         y="596.81439">Casper</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';fill:#1a1a1a;stroke-width:0.75"
@@ -271,13 +212,13 @@
        xml:space="preserve"
        style="font-size:24px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';fill:#1a1a1a;stroke-width:0.75"
        x="754.4433"
-       y="761.20667"
+       y="742.00336"
        id="text32-2"><tspan
          sodipodi:role="line"
          id="tspan32-1"
          style="stroke-width:0.75"
          x="754.4433"
-         y="761.20667">Extras</tspan></text>
+         y="742.00336">Extras</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';fill:#1a1a1a;stroke-width:0.75"
@@ -293,15 +234,15 @@
     <text
        xml:space="preserve"
        style="font-size:24px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';fill:#1a1a1a;stroke-width:0.75"
-       x="-447.10083"
-       y="558.26459"
-       id="text32-0"
+       x="-449.13101"
+       y="583.75336"
+       id="text32-6-4"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
-         id="tspan32-2"
+         id="tspan32-9-2"
          style="stroke-width:0.75"
-         x="-447.10083"
-         y="558.26459">Extras</tspan></text>
+         x="-449.13101"
+         y="583.75336">Extras</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';fill:#1a1a1a;stroke-width:0.75"
@@ -436,25 +377,25 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.75"
-       x="1242.5667"
-       y="310.64166"
+       x="1081.0331"
+       y="116.34943"
        id="text50"><tspan
          sodipodi:role="line"
          id="tspan50"
          style="stroke-width:0.75"
-         x="1242.5667"
-         y="310.64166">Radiological Technologist</tspan></text>
+         x="1081.0331"
+         y="116.34943">Radiological Technologist</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.75"
-       x="1214.3265"
-       y="254.16138"
+       x="1243.6963"
+       y="309.51205"
        id="text51"><tspan
          sodipodi:role="line"
          id="tspan51"
          style="stroke-width:0.75"
-         x="1214.3265"
-         y="254.16138">LPN</tspan></text>
+         x="1243.6963"
+         y="309.51205">LPN</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.75"
@@ -469,14 +410,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.75"
-       x="1076.5146"
-       y="111.831"
+       x="1216.5858"
+       y="254.16136"
        id="text53"><tspan
          sodipodi:role="line"
          id="tspan53"
          style="stroke-width:0.75"
-         x="1076.5146"
-         y="111.831">Respitory Therapist</tspan></text>
+         x="1216.5858"
+         y="254.16136">Respitory Therapist</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke-width:0.75"
@@ -493,7 +434,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="clickable nodes"
-     transform="translate(-208.06557,95.428337)">
+     transform="translate(-208.06557,-9.6834526)">
     <ellipse
        style="fill:#ffdd55;stroke-width:0.75"
        id="lab-assistant"
@@ -617,7 +558,14 @@
        style="fill:#666666;stroke-width:0.75"
        id="bottom-extra"
        cx="845.18298"
-       cy="753.27771"
+       cy="734.0744"
+       rx="11.296061"
+       ry="11.013659" />
+    <ellipse
+       style="fill:#666666;stroke-width:0.75"
+       id="bottom-extra-2"
+       cx="575.32257"
+       cy="464.09106"
        rx="11.296061"
        ry="11.013659" />
     <ellipse
@@ -677,51 +625,9 @@
        ry="11.013659" />
     <ellipse
        style="fill:#666666;stroke-width:0.75"
-       id="left-extra"
-       cx="550.04907"
-       cy="462.72513"
-       rx="11.296061"
-       ry="11.013659" />
-    <ellipse
-       style="fill:#666666;stroke-width:0.75"
-       id="left-casper"
-       cx="589.06378"
-       cy="463.13373"
-       rx="11.296061"
-       ry="11.013659" />
-    <ellipse
-       style="fill:#666666;stroke-width:0.75"
-       id="left-science"
-       cx="663.51715"
-       cy="463.1153"
-       rx="11.296061"
-       ry="11.013659" />
-    <ellipse
-       style="fill:#666666;stroke-width:0.75"
-       id="left-math"
-       cx="707.18286"
-       cy="462.86469"
-       rx="11.296061"
-       ry="11.013659" />
-    <ellipse
-       style="fill:#666666;stroke-width:0.75"
-       id="left-english"
-       cx="749.30469"
-       cy="462.43994"
-       rx="11.296061"
-       ry="11.013659" />
-    <ellipse
-       style="fill:#666666;stroke-width:0.75"
        id="top-science"
        cx="844.00256"
        cy="290.78305"
-       rx="11.296061"
-       ry="11.013659" />
-    <ellipse
-       style="fill:#666666;stroke-width:0.75"
-       id="top-casper"
-       cx="844.74335"
-       cy="215.70433"
        rx="11.296061"
        ry="11.013659" />
     <ellipse

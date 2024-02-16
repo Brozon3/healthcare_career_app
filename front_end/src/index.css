@@ -95,11 +95,11 @@ oari-purple {
   max-height: 600px;
 }
 
-ul, li{
-  list-style-type: none;
-}
-
 .pic-container {
   width: 100vh;
   height: 100vh;
+}
+
+.nav-link{
+  background-color: #3A3F91 !important;
 }

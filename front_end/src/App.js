@@ -1,11 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/Navbar";
-import Homepage from "./components/Homepage";
-import CertificatePage from "./components/CertificatePage";
-import DiplomaPage from "./components/DiplomaPage";
-import PostDiplomaPage from "./components/PostDiplomaPage";
+import Homepage from "./pages/Homepage";
+import CertificatePage from "./pages/CertificatePage";
+import DiplomaPage from "./pages/DiplomaPage";
+import PostDiplomaPage from "./pages/PostDiplomaPage";
+import EducationPage from "./pages/EducationPage";
 import DraftImage from "./components/DraftImage";
-import EducationPage from "./components/EducationPage";
+import HSImage from "./components/HSImage";
+
 
 function App() {
   return (
@@ -17,7 +19,8 @@ function App() {
         <Route path="/certificate" element={<CertificatePage />} />
         <Route path="/diploma" element={<DiplomaPage />} />
         <Route path="/postdiploma" element={<PostDiplomaPage />} />
-        <Route path="/highschool" element={<DraftImage />} />
+        <Route path="/postsecondary" element={<DraftImage />} />
+        <Route path="/highschool" element={<HSImage />} />
       </Routes>
     </BrowserRouter>
   );

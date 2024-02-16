@@ -12,22 +12,13 @@ function EducationPage(){
                     <NavLink to={"/highschool"}>
                         <Button className="purple-button">High School</Button>
                     </NavLink>
-                    
                 </Col>
             </Row>
             <Row className="justify-content-md-center">
                 <Col className="p-2 m-2" md="auto">
-                    <Button className="purple-button">Post-Secondary</Button>
-                </Col>    
-            </Row>
-            <Row className="justify-content-md-center">
-                <Col className="p-2 m-2" md="auto">
-                    <Button className="purple-button">Adult Basic Education</Button>
-                </Col>    
-            </Row>
-            <Row className="justify-content-md-center">
-                <Col className="p-2 m-2" md="auto">
-                    <Button className="purple-button">Comprehensive Arts and Sciences Transition</Button>
+                <NavLink to={"/postsecondary"}>
+                        <Button className="purple-button">Post Secondary</Button>
+                    </NavLink>
                 </Col>    
             </Row>
         </Container>
