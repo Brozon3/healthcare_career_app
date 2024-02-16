@@ -22,7 +22,7 @@ function PostDiplomaPage(){
                 </Col>
 
                 <Col className="center-text p-5 my-1">
-                    <Image src="images/hcacert.jpg" thumbnail className="big-pic" />
+                    <Image src="images/postdiplomapic.jpg" thumbnail className="big-pic" />
                 </Col>
             </Row>
         </Container>

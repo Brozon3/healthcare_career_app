@@ -3,15 +3,15 @@ import { Container, OverlayTrigger, Popover }from "react-bootstrap";
 
 function DraftImage() {
     return (
-        <Container fluid className="py-5 my-5 pic-container">
+        <Container fluid className="py-5 my-5">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="100%"
-                height="100%"
+                width="1778.647"
+                height="1311.478"
                 preserveAspectRatio="xMidYMid"
                 version="1"
                 viewBox="0 0 1333.986 983.608"
-            >
+                >
                 <defs>
                     <path d="M713.158 -63.258H944.351V-1.5060000000000002H713.158z"></path>
                     <path d="M748.552 1027.188H849.463V1075.3850000000002H748.552z"></path>
@@ -39,36 +39,36 @@ function DraftImage() {
                 </defs>
                 <g transform="translate(-208.066 95.428)">
                     <g
-                        fill="#000"
-                        stroke="none"
-                        transform="matrix(.1 0 0 -.1 229.31 922.888)"
+                    fill="#000"
+                    stroke="none"
+                    transform="matrix(.1 0 0 -.1 229.31 922.888)"
                     >
                     <g>
                         <path
-                            fill="#fd5"
-                            d="M5730 8837c-14-7-36-29-49-50-17-26-33-38-55-41-17-3-103-16-191-30-144-24-160-25-168-10-14 25-74 46-113 38-37-7-84-53-84-84 0-14-18-23-81-40-93-25-195-58-289-93-64-24-65-24-95-6-58 31.764-117.5 9.764-149.5-31.052S4419 8389.5 4471 8346c68-58 179-16 179 67 0 35 1 36 83 67 107 41 302 100 330 100 12 0 28-9 34-20 7-10 30-24 51-31 57-17 108 9 134 67 16 37 24 44 56 49 20 4 57 10 82 15 25 6 84 14 132 20s94 13 101 16c8 3 22-7 31-21 22-34 77-57 114-49 32 8 71 41 82 70 8 19 19 22 119 28 61 4 116 4 121 1 6-4 10-69 10-161v-154h50l-2 183-3 182-147-1c-141-1-146 0-156 21-11 23-68 55-99 55-10 0-29-6-43-13z"
+                        fill="#fd5"
+                        d="M5730 8837c-14-7-36-29-49-50-17-26-33-38-55-41-17-3-103-16-191-30-144-24-160-25-168-10-14 25-74 46-113 38-37-7-84-53-84-84 0-14-18-23-81-40-93-25-195-58-289-93-64-24-65-24-95-6-58 31.764-117.5 9.764-149.5-31.052S4419 8389.5 4471 8346c68-58 179-16 179 67 0 35 1 36 83 67 107 41 302 100 330 100 12 0 28-9 34-20 7-10 30-24 51-31 57-17 108 9 134 67 16 37 24 44 56 49 20 4 57 10 82 15 25 6 84 14 132 20s94 13 101 16c8 3 22-7 31-21 22-34 77-57 114-49 32 8 71 41 82 70 8 19 19 22 119 28 61 4 116 4 121 1 6-4 10-69 10-161v-154h50l-2 183-3 182-147-1c-141-1-146 0-156 21-11 23-68 55-99 55-10 0-29-6-43-13z"
                         ></path>
                         <path
-                            fill="#00f"
-                            d="M8265 8218c-15-12-34-36-41-54-12-29-12-39 1-72 26-65 96-90 155-56 27 16 28 16 86-26 80-58 168-124 174-130 3-3 22-18 43-33 30-23 37-34 37-62 0-76 45-119 124-117l51 1 162-163c161-160 163-163 163-206 0-62 36-107 94-115 31-5 50-15 64-33 11-15 47-63 81-107 33-44 64-85 69-91s22-30 37-55c16-24 32-47 38-50 5-4 5-14-2-27-33-63 5-134 84-156 44-13 53-26 166-245 60-116 61-126 25-153-5-3-9-28-9-54 0-43 4-51 38-81 23-20 49-33 65-33 25 0 29-8 63-97 20-54 46-128 58-165l23-67-26-24c-34-32-43-76-24-120 14-34 58-67 88-67 16 0 31-50 53-170 9-47 21-111 27-143 10-55 10-58-13-80-14-12-30-36-37-53-18-43 4-97 53-125 32-19 35-25 35-67 0-26 3-104 7-174l6-128h-313v-50l178 2 177 3-3 198-3 197 35 34c31 29 36 40 36 79 0 37-5 51-31 76-17 17-39 31-49 31-15 0-21 16-35 98-16 96-22 127-46 229-12 50-11 54 10 76 52 56 32 147-39 175-38 14-41 19-69 106-16 50-43 127-60 170-28 72-29 81-15 97 21 23 29 83 15 117-14 32-58 62-93 62-20 0-30 13-63 82-22 45-63 123-92 174s-53 98-53 106c0 7 9 24 20 38s20 36 20 50c0 65-81 130-137 109-14-5-29-6-32-2-3 5-25 36-48 68-23 33-65 89-93 125s-62 81-76 101l-25 36 22 37c19 33 20 42 10 76-20 68-85 97-154 71-23-9-38 3-191 155-149 149-165 168-155 186 14 27 5 85-18 110-10 11-33 26-52 34-31 13-38 13-74-5l-39-19-25 21c-14 12-31 27-37 32-6 6-66 51-133 100l-123 89v42c0 35-5 47-35 73-43 38-90 41-130 9z"
+                        fill="#00f"
+                        d="M8265 8218c-15-12-34-36-41-54-12-29-12-39 1-72 26-65 96-90 155-56 27 16 28 16 86-26 80-58 168-124 174-130 3-3 22-18 43-33 30-23 37-34 37-62 0-76 45-119 124-117l51 1 162-163c161-160 163-163 163-206 0-62 36-107 94-115 31-5 50-15 64-33 11-15 47-63 81-107 33-44 64-85 69-91s22-30 37-55c16-24 32-47 38-50 5-4 5-14-2-27-33-63 5-134 84-156 44-13 53-26 166-245 60-116 61-126 25-153-5-3-9-28-9-54 0-43 4-51 38-81 23-20 49-33 65-33 25 0 29-8 63-97 20-54 46-128 58-165l23-67-26-24c-34-32-43-76-24-120 14-34 58-67 88-67 16 0 31-50 53-170 9-47 21-111 27-143 10-55 10-58-13-80-14-12-30-36-37-53-18-43 4-97 53-125 32-19 35-25 35-67 0-26 3-104 7-174l6-128h-313v-50l178 2 177 3-3 198-3 197 35 34c31 29 36 40 36 79 0 37-5 51-31 76-17 17-39 31-49 31-15 0-21 16-35 98-16 96-22 127-46 229-12 50-11 54 10 76 52 56 32 147-39 175-38 14-41 19-69 106-16 50-43 127-60 170-28 72-29 81-15 97 21 23 29 83 15 117-14 32-58 62-93 62-20 0-30 13-63 82-22 45-63 123-92 174s-53 98-53 106c0 7 9 24 20 38s20 36 20 50c0 65-81 130-137 109-14-5-29-6-32-2-3 5-25 36-48 68-23 33-65 89-93 125s-62 81-76 101l-25 36 22 37c19 33 20 42 10 76-20 68-85 97-154 71-23-9-38 3-191 155-149 149-165 168-155 186 14 27 5 85-18 110-10 11-33 26-52 34-31 13-38 13-74-5l-39-19-25 21c-14 12-31 27-37 32-6 6-66 51-133 100l-123 89v42c0 35-5 47-35 73-43 38-90 41-130 9z"
                         ></path>
                         <path
-                            fill="#1a1a1a"
-                            d="M6067 7915c-42-53-77-102-77-109 0-8 8-17 18-21 12-5 29 7 62 45 25 28 48 50 53 50 4 0 7-26 7-57v-603l-6-511-4-529v-758c0-141 0-142-60-142-47 0-180-46-250-87-36-21-100-72-142-114-97-97-160-219-186-358l-17-91H2885l54 48c39 35 53 53 48 65-3 9-14 17-24 17-15 0-91-56-190-140-23-19-14-34 50-84 34-28 79-63 99-79 31-25 40-28 53-17 25 21 18 36-35 77-27 21-49 41-50 46 0 4 27.001 7.266 61 7 394.008-3.608 787.972 0 1182 0h639c246.905-1.301 245.673 0 481 0h212l18-92c40-203 154-366 324-466 64-38 173-77 238-86 79-11 85-14 85-46V1315l-28 35c-46 60-70 80-86 74-28-11-17-38 45-114 33-41 65-83 71-93 17-32 45-14 117 77 72 89 84 119 55 130-15 6-33-10-93-84l-20-25-1 630v630c3.625 159.133-1.882 171.566 0 275 2.92 160.442-1.738 217.09 0 359 2.879 175.58-4.334 192.065 0 361 4.936 192.418 2.409 215.953 2 309l3 35 70 12c282 48 492 249 561 537 8 31 13 61 13 65-7 43-11 42 221 42h2395l-59-53c-56-50-67-77-31-77 22 0 195 149 189 163-10 21-177 147-196 147-32 0-20-24 39-77l58-52-77-1H6840v33c-1 47-32 167-61 232-23 52-78 134-122 182-109 119-256 192-439 218l-38 6v1424l1 1180 20-25c76-92 101-107 107-64 3 22-136 204-156 204-4 0-42-43-85-95z"
+                        fill="#1a1a1a"
+                        d="M6067 7915c-42-53-77-102-77-109 0-8 8-17 18-21 12-5 29 7 62 45 25 28 48 50 53 50 4 0 7-26 7-57v-603l-6-511-4-529v-758c0-141 0-142-60-142-47 0-180-46-250-87-36-21-100-72-142-114-97-97-160-219-186-358l-17-91H2885l54 48c39 35 53 53 48 65-3 9-14 17-24 17-15 0-91-56-190-140-23-19-14-34 50-84 34-28 79-63 99-79 31-25 40-28 53-17 25 21 18 36-35 77-27 21-49 41-50 46 0 4 27.001 7.266 61 7 394.008-3.608 787.972 0 1182 0h639c246.905-1.301 245.673 0 481 0h212l18-92c40-203 154-366 324-466 64-38 173-77 238-86 79-11 85-14 85-46V1315l-28 35c-46 60-70 80-86 74-28-11-17-38 45-114 33-41 65-83 71-93 17-32 45-14 117 77 72 89 84 119 55 130-15 6-33-10-93-84l-20-25-1 630v630c3.625 159.133-1.882 171.566 0 275 2.92 160.442-1.738 217.09 0 359 2.879 175.58-4.334 192.065 0 361 4.936 192.418 2.409 215.953 2 309l3 35 70 12c282 48 492 249 561 537 8 31 13 61 13 65-7 43-11 42 221 42h2395l-59-53c-56-50-67-77-31-77 22 0 195 149 189 163-10 21-177 147-196 147-32 0-20-24 39-77l58-52-77-1H6840v33c-1 47-32 167-61 232-23 52-78 134-122 182-109 119-256 192-439 218l-38 6v1424l1 1180 20-25c76-92 101-107 107-64 3 22-136 204-156 204-4 0-42-43-85-95z"
                         ></path>
                         <path
-                            fill="green"
-                            d="M2497 4730c-51-28-77-73-77-134 0-80 48-136 130-151 43-7 113 26 144 68 29 39 29 125 0 163-52 70-129 91-197 54z"
+                        fill="green"
+                        d="M2497 4730c-51-28-77-73-77-134 0-80 48-136 130-151 43-7 113 26 144 68 29 39 29 125 0 163-52 70-129 91-197 54z"
                         ></path>
                         <path
-                            fill="green"
-                            d="M2000.005 4630.005l-6.006-27.012c-4-14-4-105.995 0-203.994C2000 4231 1999.006 4220 1981.006 4211c-29-16-54.007-78.006-47.007-115.005 6-34 38.004-70 78.003-90 14-7 25.004-23.997 29.004-45.996 3-19 17-90.994 30-158.994 21-110 21.998-124 7.998-135-40-29-51.997-113.01-22.998-155.01 9-12 34.001-29.99 56.001-39.99 3.085-1.312 5.543-2.445 8.189-3.618 1.499-.41 2.986-.842 4.467-1.319 1.643-.5 3.076-1.407 4.585-2.168 1.912.197 3.824.39 5.742.528 6.263.618 12.515.836 18.809.746 5.228.071 10.454.155 15.674.484 4.163.305 8.349.66 12.392 1.758a980.474 980.474 0 0114.122 4.219c4.873 1.878 9.868 3.397 14.399 6.05 2.329 1.363 4.514 2.347 6.562 3.017l17.051 22.295c28 37 34 88.005 15 130.005-11 25-57.006 56.997-81.006 56.997-15 0-24.988 38.001-62.988 240-14 74-14.006 74.995 8.994 94.995 68 58 55.994 162.004-21.006 194.004-29 12-29.987 15-36.987 93.999-3 45-6.006 120.995-6.006 169.995v87.012h310.005v60h-180zm164.59-1212.422c-.885-.27-1.761-.575-2.651-.82.108-.289.316-1.027.424-1.319.053.017.109.027.161.044.698.694 1.391 1.384 2.066 2.095zm352.134-670.825c.084-1.207.18-2.412.263-3.619.105 1.194.24 2.19.337 3.413-.214.057-.389.148-.6.206zm-81.08-195.059c0-2.525-.01-5.049-.028-7.573.175-.142.336-.299.512-.44-.157 2.671-.307 5.343-.483 8.013zm54.464-27.305c.048-1.089.11-2.177.16-3.266.166-.022.318-.067.484-.088-.206 1.12-.422 2.237-.644 3.354zm148.374-94.775c-.31.038-2.832-.07-3.619-.073.135-.338.232-.715.381-1.04.1-.044.2-.09.293-.147 2.503.747 3.966 1.136 2.944 1.26zm93.002-182.227c-5.917-1.546-11.818-3.16-17.724-4.746 4.853.864 9.695 1.774 14.546 2.652.201.159.477.303.644.468.839.552 1.694 1.078 2.534 1.626zm182.842-105.468l-.688-1.26c.228.417 1.027.926.688 1.26zm-11.045-21.812c-.092-.059-.187-.117-.278-.176.036-.01.067-.034.103-.044.057.075.118.146.175.22z"
+                        fill="green"
+                        d="M2000.005 4630.005l-6.006-27.012c-4-14-4-105.995 0-203.994C2000 4231 1999.006 4220 1981.006 4211c-29-16-54.007-78.006-47.007-115.005 6-34 38.004-70 78.003-90 14-7 25.004-23.997 29.004-45.996 3-19 17-90.994 30-158.994 21-110 21.998-124 7.998-135-40-29-51.997-113.01-22.998-155.01 9-12 34.001-29.99 56.001-39.99 3.085-1.312 5.543-2.445 8.189-3.618 1.499-.41 2.986-.842 4.467-1.319 1.643-.5 3.076-1.407 4.585-2.168 1.912.197 3.824.39 5.742.528 6.263.618 12.515.836 18.809.746 5.228.071 10.454.155 15.674.484 4.163.305 8.349.66 12.392 1.758a980.474 980.474 0 0114.122 4.219c4.873 1.878 9.868 3.397 14.399 6.05 2.329 1.363 4.514 2.347 6.562 3.017l17.051 22.295c28 37 34 88.005 15 130.005-11 25-57.006 56.997-81.006 56.997-15 0-24.988 38.001-62.988 240-14 74-14.006 74.995 8.994 94.995 68 58 55.994 162.004-21.006 194.004-29 12-29.987 15-36.987 93.999-3 45-6.006 120.995-6.006 169.995v87.012h310.005v60h-180zm164.59-1212.422c-.885-.27-1.761-.575-2.651-.82.108-.289.316-1.027.424-1.319.053.017.109.027.161.044.698.694 1.391 1.384 2.066 2.095zm352.134-670.825c.084-1.207.18-2.412.263-3.619.105 1.194.24 2.19.337 3.413-.214.057-.389.148-.6.206zm-81.08-195.059c0-2.525-.01-5.049-.028-7.573.175-.142.336-.299.512-.44-.157 2.671-.307 5.343-.483 8.013zm54.464-27.305c.048-1.089.11-2.177.16-3.266.166-.022.318-.067.484-.088-.206 1.12-.422 2.237-.644 3.354zm148.374-94.775c-.31.038-2.832-.07-3.619-.073.135-.338.232-.715.381-1.04.1-.044.2-.09.293-.147 2.503.747 3.966 1.136 2.944 1.26zm93.002-182.227c-5.917-1.546-11.818-3.16-17.724-4.746 4.853.864 9.695 1.774 14.546 2.652.201.159.477.303.644.468.839.552 1.694 1.078 2.534 1.626zm182.842-105.468l-.688-1.26c.228.417 1.027.926.688 1.26zm-11.045-21.812c-.092-.059-.187-.117-.278-.176.036-.01.067-.034.103-.044.057.075.118.146.175.22z"
                         ></path>
                         <path
-                            fill="red"
-                            fillOpacity="1"
-                            d="M9641.758 2316.709c-1.925-6.57-4.151-13-6.563-19.35 1.589 2.487 3.384 5.182 4.937 7.631.393 2.336.816 4.689 1.04 6.973.157 1.586.405 3.163.586 4.746zM6130 797.007V612.993c0-160.999 1.996-183.99 15.996-189.99 9-3 103.009-1.005 208.008 4.995l189.99 11 26.001-30c18-21.999 36.01-31.994 65.01-34.994 43.876-5.265 74.651 7.198 102.48 42.758.203.562.444 1.108.645 1.67 2.28 9.475 4.295 18.908 6.02 28.506 2.1 8.47 4.193 16.84 4.747 25.606 1.201 10.852-.288 21.905-.147 32.798-.374 8.901-.775 17.847-2.373 26.63-1.373 6.473-3.465 12.353-7.69 17.608-.814 1.298-1.487 2.653-2.256 3.97-.683.254-1.176.402-1.89.673-4.36 1.658-7.065 6.408-8.716 12.203C6674.63 614.668 6585.153 601.14 6554 536c-20-41-27.003-43.002-221-52.002L6190 476.997v311l-30 4z"
-                            clipPath="url(#clipPath9)"
+                        fill="red"
+                        fillOpacity="1"
+                        d="M9641.758 2316.709c-1.925-6.57-4.151-13-6.563-19.35 1.589 2.487 3.384 5.182 4.937 7.631.393 2.336.816 4.689 1.04 6.973.157 1.586.405 3.163.586 4.746zM6130 797.007V612.993c0-160.999 1.996-183.99 15.996-189.99 9-3 103.009-1.005 208.008 4.995l189.99 11 26.001-30c18-21.999 36.01-31.994 65.01-34.994 43.876-5.265 74.651 7.198 102.48 42.758.203.562.444 1.108.645 1.67 2.28 9.475 4.295 18.908 6.02 28.506 2.1 8.47 4.193 16.84 4.747 25.606 1.201 10.852-.288 21.905-.147 32.798-.374 8.901-.775 17.847-2.373 26.63-1.373 6.473-3.465 12.353-7.69 17.608-.814 1.298-1.487 2.653-2.256 3.97-.683.254-1.176.402-1.89.673-4.36 1.658-7.065 6.408-8.716 12.203C6674.63 614.668 6585.153 601.14 6554 536c-20-41-27.003-43.002-221-52.002L6190 476.997v311l-30 4z"
+                        clipPath="url(#clipPath9)"
                         ></path>
                     </g>
                     </g>
@@ -86,22 +86,22 @@ function DraftImage() {
                     </tspan>
                     </text>
                     <text
-                        xmlSpace="preserve"
-                        style={{}}
-                        x="478.81"
-                        y="-929.768"
-                        transform="rotate(90)"
+                    xmlSpace="preserve"
+                    style={{}}
+                    x="478.81"
+                    y="-929.768"
+                    transform="rotate(90)"
                     >
                     <tspan x="478.81" y="-929.768" fill="#1a1a1a" strokeWidth="0.75">
                         English
                     </tspan>
                     </text>
                     <text
-                        xmlSpace="preserve"
-                        style={{}}
-                        x="-448.646"
-                        y="758.379"
-                        transform="rotate(-90)"
+                    xmlSpace="preserve"
+                    style={{}}
+                    x="-448.646"
+                    y="758.379"
+                    transform="rotate(-90)"
                     >
                     <tspan x="-448.646" y="758.379" fill="#1a1a1a" strokeWidth="0.75">
                         English
@@ -113,22 +113,22 @@ function DraftImage() {
                     </tspan>
                     </text>
                     <text
-                        xmlSpace="preserve"
-                        style={{}}
-                        x="478.914"
-                        y="-967.006"
-                        transform="rotate(90)"
+                    xmlSpace="preserve"
+                    style={{}}
+                    x="478.914"
+                    y="-967.006"
+                    transform="rotate(90)"
                     >
                     <tspan x="478.914" y="-967.006" strokeWidth="0.75">
                         Science
                     </tspan>
                     </text>
                     <text
-                        xmlSpace="preserve"
-                        style={{}}
-                        x="-448.682"
-                        y="715.268"
-                        transform="rotate(-90)"
+                    xmlSpace="preserve"
+                    style={{}}
+                    x="-448.682"
+                    y="715.268"
+                    transform="rotate(-90)"
                     >
                     <tspan x="-448.682" y="715.268" strokeWidth="0.75">
                         Science
@@ -140,22 +140,22 @@ function DraftImage() {
                     </tspan>
                     </text>
                     <text
-                        xmlSpace="preserve"
-                        style={{}}
-                        x="479.851"
-                        y="-1007.085"
-                        transform="rotate(90)"
+                    xmlSpace="preserve"
+                    style={{}}
+                    x="479.851"
+                    y="-1007.085"
+                    transform="rotate(90)"
                     >
                     <tspan x="479.851" y="-1007.085" strokeWidth="0.75">
                         Math
                     </tspan>
                     </text>
                     <text
-                        xmlSpace="preserve"
-                        style={{}}
-                        x="-449.026"
-                        y="671.213"
-                        transform="rotate(-90)"
+                    xmlSpace="preserve"
+                    style={{}}
+                    x="-449.026"
+                    y="671.213"
+                    transform="rotate(-90)"
                     >
                     <tspan x="-449.026" y="671.213" strokeWidth="0.75">
                         Math
@@ -167,22 +167,22 @@ function DraftImage() {
                     </tspan>
                     </text>
                     <text
-                        xmlSpace="preserve"
-                        style={{}}
-                        x="477.763"
-                        y="-1084.132"
-                        transform="rotate(90)"
+                    xmlSpace="preserve"
+                    style={{}}
+                    x="477.763"
+                    y="-1084.132"
+                    transform="rotate(90)"
                     >
                     <tspan x="477.763" y="-1084.132" strokeWidth="0.75">
                         Casper
                     </tspan>
                     </text>
                     <text
-                        xmlSpace="preserve"
-                        style={{}}
-                        x="-448.064"
-                        y="596.814"
-                        transform="rotate(-90)"
+                    xmlSpace="preserve"
+                    style={{}}
+                    x="-448.064"
+                    y="596.814"
+                    transform="rotate(-90)"
                     >
                     <tspan x="-448.064" y="596.814" strokeWidth="0.75">
                         Casper
@@ -193,28 +193,28 @@ function DraftImage() {
                         Extras
                     </tspan>
                     </text>
-                    <text xmlSpace="preserve" style={{}} x="861.476" y="762.804">
-                    <tspan x="861.476" y="762.804" strokeWidth="0.75">
+                    <text xmlSpace="preserve" style={{}} x="754.443" y="761.207">
+                    <tspan x="754.443" y="761.207" strokeWidth="0.75">
                         Extras
                     </tspan>
                     </text>
                     <text
-                        xmlSpace="preserve"
-                        style={{}}
-                        x="478.453"
-                        y="-1129.466"
-                        transform="rotate(90)"
+                    xmlSpace="preserve"
+                    style={{}}
+                    x="478.453"
+                    y="-1129.466"
+                    transform="rotate(90)"
                     >
                     <tspan x="478.453" y="-1129.466" strokeWidth="0.75">
                         Extras
                     </tspan>
                     </text>
                     <text
-                        xmlSpace="preserve"
-                        style={{}}
-                        x="-447.101"
-                        y="558.265"
-                        transform="rotate(-90)"
+                    xmlSpace="preserve"
+                    style={{}}
+                    x="-447.101"
+                    y="558.265"
+                    transform="rotate(-90)"
                     >
                     <tspan x="-447.101" y="558.265" strokeWidth="0.75">
                         Extras
@@ -246,88 +246,85 @@ function DraftImage() {
                     </tspan>
                     </text>
                     <text
-                        xmlSpace="preserve"
-                        style={{}}
-                        x="481.384"
-                        y="-1251.581"
-                        transform="rotate(90)"
+                    xmlSpace="preserve"
+                    style={{}}
+                    x="481.384"
+                    y="-1251.581"
+                    transform="rotate(90)"
                     >
                     <tspan x="481.384" y="-1251.581" strokeWidth="0.75">
                         Diploma
                     </tspan>
                     </text>
                     <text
-                        xmlSpace="preserve"
-                        style={{}}
-                        x="-447.572"
-                        y="438.332"
-                        transform="rotate(-90)"
+                    xmlSpace="preserve"
+                    style={{}}
+                    x="-447.572"
+                    y="438.332"
+                    transform="rotate(-90)"
                     >
                     <tspan x="-447.572" y="438.332" strokeWidth="0.75">
                         Career Advancement
                     </tspan>
                     </text>
                     <text
-                        xmlSpace="preserve"
-                        style={{
-                            InkscapeFontSpecification: "'Sans, Normal'",
-                            fontVariantLigatures: "normal",
-                            fontVariantCaps: "normal",
-                            fontVariantNumeric: "normal",
-                            fontVariantEastAsian: "normal",
-                        }}
-                        x="-64.263"
-                        y="689.386"
-                        fontStretch="normal"
-                        fontStyle="normal"
-                        fontVariant="normal"
-                        fontWeight="normal"
-                        imageRendering="auto"
-                        transform="rotate(-90)"
+                    xmlSpace="preserve"
+                    style={{
+                        InkscapeFontSpecification: "'Sans, Normal'",
+                        fontVariantLigatures: "normal",
+                        fontVariantCaps: "normal",
+                        fontVariantNumeric: "normal",
+                        fontVariantEastAsian: "normal",
+                    }}
+                    x="508.375"
+                    y="70.459"
+                    fontStretch="normal"
+                    fontStyle="normal"
+                    fontVariant="normal"
+                    fontWeight="normal"
+                    imageRendering="auto"
                     >
-                    <tspan x="-64.263" y="689.386">
+                    <tspan x="508.375" y="70.459">
                         Lab Assistant
                     </tspan>
                     </text>
                     <text
-                        xmlSpace="preserve"
-                        style={{
-                            InkscapeFontSpecification: "'Sans, Normal'",
-                            fontVariantLigatures: "normal",
-                            fontVariantCaps: "normal",
-                            fontVariantNumeric: "normal",
-                            fontVariantEastAsian: "normal",
-                        }}
-                        x="-42.465"
-                        y="755.704"
-                        fontStretch="normal"
-                        fontStyle="normal"
-                        fontVariant="normal"
-                        fontWeight="normal"
-                        transform="rotate(-90)"
+                    xmlSpace="preserve"
+                    style={{
+                        InkscapeFontSpecification: "'Sans, Normal'",
+                        fontVariantLigatures: "normal",
+                        fontVariantCaps: "normal",
+                        fontVariantNumeric: "normal",
+                        fontVariantEastAsian: "normal",
+                    }}
+                    x="685.216"
+                    y="42.143"
+                    fontStretch="normal"
+                    fontStyle="normal"
+                    fontVariant="normal"
+                    fontWeight="normal"
                     >
-                    <tspan x="-42.465" y="755.704">
+                    <tspan x="685.216" y="42.143">
                         HCA
                     </tspan>
                     </text>
                     <text
-                        xmlSpace="preserve"
-                        style={{
-                            InkscapeFontSpecification: "'Sans, Normal'",
-                            fontVariantLigatures: "normal",
-                            fontVariantCaps: "normal",
-                            fontVariantNumeric: "normal",
-                            fontVariantEastAsian: "normal",
-                        }}
-                        x="-30.782"
-                        y="815.196"
-                        fontStretch="normal"
-                        fontStyle="normal"
-                        fontVariant="normal"
-                        fontWeight="normal"
-                        transform="rotate(-90)"
+                    xmlSpace="preserve"
+                    style={{
+                        InkscapeFontSpecification: "'Sans, Normal'",
+                        fontVariantLigatures: "normal",
+                        fontVariantCaps: "normal",
+                        fontVariantNumeric: "normal",
+                        fontVariantEastAsian: "normal",
+                    }}
+                    x="767.256"
+                    y="27.449"
+                    fontStretch="normal"
+                    fontStyle="normal"
+                    fontVariant="normal"
+                    fontWeight="normal"
                     >
-                    <tspan x="-30.782" y="815.196">
+                    <tspan x="767.256" y="27.449">
                         PCA
                     </tspan>
                     </text>
@@ -342,100 +339,100 @@ function DraftImage() {
                     </tspan>
                     </text>
                     <text
-                        xmlSpace="preserve"
-                        style={{
-                            InkscapeFontSpecification: "'Sans, Normal'",
-                            fontVariantLigatures: "normal",
-                            fontVariantCaps: "normal",
-                            fontVariantNumeric: "normal",
-                            fontVariantEastAsian: "normal",
-                        }}
-                        x="1242.567"
-                        y="310.642"
-                        fontStretch="normal"
-                        fontStyle="normal"
-                        fontVariant="normal"
-                        fontWeight="normal"
+                    xmlSpace="preserve"
+                    style={{
+                        InkscapeFontSpecification: "'Sans, Normal'",
+                        fontVariantLigatures: "normal",
+                        fontVariantCaps: "normal",
+                        fontVariantNumeric: "normal",
+                        fontVariantEastAsian: "normal",
+                    }}
+                    x="1242.567"
+                    y="310.642"
+                    fontStretch="normal"
+                    fontStyle="normal"
+                    fontVariant="normal"
+                    fontWeight="normal"
                     >
                     <tspan x="1242.567" y="310.642" strokeWidth="0.75">
                         Radiological Technologist
                     </tspan>
                     </text>
                     <text
-                        xmlSpace="preserve"
-                        style={{
-                            InkscapeFontSpecification: "'Sans, Normal'",
-                            fontVariantLigatures: "normal",
-                            fontVariantCaps: "normal",
-                            fontVariantNumeric: "normal",
-                            fontVariantEastAsian: "normal",
-                        }}
-                        x="1214.326"
-                        y="254.161"
-                        fontStretch="normal"
-                        fontStyle="normal"
-                        fontVariant="normal"
-                        fontWeight="normal"
+                    xmlSpace="preserve"
+                    style={{
+                        InkscapeFontSpecification: "'Sans, Normal'",
+                        fontVariantLigatures: "normal",
+                        fontVariantCaps: "normal",
+                        fontVariantNumeric: "normal",
+                        fontVariantEastAsian: "normal",
+                    }}
+                    x="1214.326"
+                    y="254.161"
+                    fontStretch="normal"
+                    fontStyle="normal"
+                    fontVariant="normal"
+                    fontWeight="normal"
                     >
                     <tspan x="1214.326" y="254.161" strokeWidth="0.75">
                         LPN
                     </tspan>
                     </text>
                     <text
-                        xmlSpace="preserve"
-                        style={{
-                            InkscapeFontSpecification: "'Sans, Normal'",
-                            fontVariantLigatures: "normal",
-                            fontVariantCaps: "normal",
-                            fontVariantNumeric: "normal",
-                            fontVariantEastAsian: "normal",
-                        }}
-                        x="1128.477"
-                        y="153.626"
-                        fontStretch="normal"
-                        fontStyle="normal"
-                        fontVariant="normal"
-                        fontWeight="normal"
+                    xmlSpace="preserve"
+                    style={{
+                        InkscapeFontSpecification: "'Sans, Normal'",
+                        fontVariantLigatures: "normal",
+                        fontVariantCaps: "normal",
+                        fontVariantNumeric: "normal",
+                        fontVariantEastAsian: "normal",
+                    }}
+                    x="1128.477"
+                    y="153.626"
+                    fontStretch="normal"
+                    fontStyle="normal"
+                    fontVariant="normal"
+                    fontWeight="normal"
                     >
                     <tspan x="1128.477" y="153.626" strokeWidth="0.75">
                         Rehabilitation Assistant
                     </tspan>
                     </text>
                     <text
-                        xmlSpace="preserve"
-                        style={{
-                            InkscapeFontSpecification: "'Sans, Normal'",
-                            fontVariantLigatures: "normal",
-                            fontVariantCaps: "normal",
-                            fontVariantNumeric: "normal",
-                            fontVariantEastAsian: "normal",
-                        }}
-                        x="1076.515"
-                        y="111.831"
-                        fontStretch="normal"
-                        fontStyle="normal"
-                        fontVariant="normal"
-                        fontWeight="normal"
+                    xmlSpace="preserve"
+                    style={{
+                        InkscapeFontSpecification: "'Sans, Normal'",
+                        fontVariantLigatures: "normal",
+                        fontVariantCaps: "normal",
+                        fontVariantNumeric: "normal",
+                        fontVariantEastAsian: "normal",
+                    }}
+                    x="1076.515"
+                    y="111.831"
+                    fontStretch="normal"
+                    fontStyle="normal"
+                    fontVariant="normal"
+                    fontWeight="normal"
                     >
                     <tspan x="1076.515" y="111.831" strokeWidth="0.75">
                         Respitory Therapist
                     </tspan>
                     </text>
                     <text
-                        xmlSpace="preserve"
-                        style={{
-                            InkscapeFontSpecification: "'Sans, Normal'",
-                            fontVariantLigatures: "normal",
-                            fontVariantCaps: "normal",
-                            fontVariantNumeric: "normal",
-                            fontVariantEastAsian: "normal",
-                        }}
-                        x="206.718"
-                        y="574.969"
-                        fontStretch="normal"
-                        fontStyle="normal"
-                        fontVariant="normal"
-                        fontWeight="normal"
+                    xmlSpace="preserve"
+                    style={{
+                        InkscapeFontSpecification: "'Sans, Normal'",
+                        fontVariantLigatures: "normal",
+                        fontVariantCaps: "normal",
+                        fontVariantNumeric: "normal",
+                        fontVariantEastAsian: "normal",
+                    }}
+                    x="206.718"
+                    y="574.969"
+                    fontStretch="normal"
+                    fontStyle="normal"
+                    fontVariant="normal"
+                    fontWeight="normal"
                     >
                     <tspan x="206.718" y="574.969" strokeWidth="0.75">
                         CLXR Technologist
@@ -662,7 +659,7 @@ function DraftImage() {
                             <Popover id="popover-basic">
                                 <Popover.Header as="h1">Paramedic</Popover.Header>
                                 <Popover.Body>
-                                <b>Average Salary: </b> $74,131.20
+                                <b>Average Salary: </b> $74,131
                                 <hr/>
                                 <b>Program Name: </b> Primary Care Paramedicine
                                 <hr/>
@@ -695,7 +692,7 @@ function DraftImage() {
                             <Popover id="popover-basic">
                                 <Popover.Header as="h1">Paramedic</Popover.Header>
                                 <Popover.Body>
-                                <b>Average Salary: </b> $74,131.20
+                                <b>Average Salary: </b> $74,131
                                 <hr/>
                                 <b>Program Name: </b> Advanced Care Paramedicine
                                 <hr/>
@@ -1243,19 +1240,16 @@ function DraftImage() {
                             <Popover id="popover-basic">
                                 <Popover.Header as="h1">Science (Left)</Popover.Header>
                                 <Popover.Body>
-                                <b>Average Salary: </b> $12,345
+                                <p>6 Credits from:</p>
                                 <hr/>
-                                <b>Program Name: </b> Health Sciences
+                                <p><b>Course: </b> Biology 2201</p>
+                                <p><b>Minimum Grade:</b> 60%</p>
                                 <hr/>
-                                <b>Program Length: </b> 1 Year
+                                <p><b>Course: </b> Biology 3201</p>
+                                <p><b>Minimum Grade:</b> 60%</p>
                                 <hr/>
-                                <b>Certification: </b> Diploma
-                                <hr/>
-                                <b>School: </b> CNA
-                                <hr/>
-                                <b>Website: </b><a href="#">Link</a>
-                                <hr/>
-                                <b>Notes: </b>
+                                <p><b>Course: </b> Physics 3204</p>
+                                <p><b>Minimum Grade:</b> 60%</p>
                                 </Popover.Body>
                             </Popover>
                     }>
