@@ -5,6 +5,7 @@ import CertificatePage from "./components/CertificatePage";
 import DiplomaPage from "./components/DiplomaPage";
 import PostDiplomaPage from "./components/PostDiplomaPage";
 import DraftImage from "./components/DraftImage";
+import EducationPage from "./components/EducationPage";
 
 function App() {
   return (
@@ -12,10 +13,11 @@ function App() {
       <NavBar/>
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/overview" element={<DraftImage />} />
+        <Route path="/overview" element={<EducationPage />} />
         <Route path="/certificate" element={<CertificatePage />} />
         <Route path="/diploma" element={<DiplomaPage />} />
         <Route path="/postdiploma" element={<PostDiplomaPage />} />
+        <Route path="/highschool" element={<DraftImage />} />
       </Routes>
     </BrowserRouter>
   );
