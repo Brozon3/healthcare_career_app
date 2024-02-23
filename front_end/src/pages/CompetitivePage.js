@@ -1,7 +1,7 @@
 import { Button, Container, Row, Col } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
-function DirectEntryPage() {
+function CompetitivePage() {
 
 return(
     <Container className="py-5 my-5">
@@ -22,16 +22,9 @@ return(
                 </NavLink>
             </Col>    
         </Row>
-        <Row className="justify-content-md-center">
-                <Col className="p-2 m-2" md="auto">
-                <NavLink to={"/certificate"}>
-                        <Button className="purple-button">Certificate</Button>
-                    </NavLink>
-                </Col>    
-            </Row>
     </Container>
 )
 
 }
 
-export default DirectEntryPage
+export default CompetitivePage;

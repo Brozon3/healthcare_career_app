@@ -9,6 +9,7 @@ import DraftImage from "./components/DraftImage";
 import HSImage from "./components/HSImage";
 import EntryPage from "./pages/EntryPage";
 import DirectEntryPage from "./pages/DirectEntryPage";
+import CompetitivePage from "./pages/CompetitivePage";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path="/highschool" element={<HSImage />} />
         <Route path="/entry" element={<EntryPage/>} />
         <Route path="/direct" element={<DirectEntryPage/>}/>
+        <Route path="/competitive" element={<CompetitivePage/>}/>
       </Routes>
     </BrowserRouter>
   );
