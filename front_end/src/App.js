@@ -8,6 +8,7 @@ import EducationPage from "./pages/EducationPage";
 import DraftImage from "./components/DraftImage";
 import HSImage from "./components/HSImage";
 import EntryPage from "./pages/EntryPage";
+import DirectEntryPage from "./pages/DirectEntryPage";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/postsecondary" element={<DraftImage />} />
         <Route path="/highschool" element={<HSImage />} />
         <Route path="/entry" element={<EntryPage/>} />
+        <Route path="/direct" element={<DirectEntryPage/>}/>
       </Routes>
     </BrowserRouter>
   );
