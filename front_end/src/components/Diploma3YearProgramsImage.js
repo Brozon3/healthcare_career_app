@@ -101,32 +101,46 @@ function Diploma3YearProgramsImage() {
                         <Popover>
                             <Popover.Header>Diagnostic Sonographer</Popover.Header>
                             <Popover.Body>
-                            <Tabs fill defaultActiveKey={"details"}    className="mb-3">
-                                <Tab eventKey={"details"} title={"Details"}>
-                                    <b>Average Salary: </b> $78,843
-                                    <hr/>
-                                    <b>Program Name: </b> Diagnostic Ultrasonography
-                                    <hr/>
-                                    <b>Program Length: </b> 3 Years
-                                    <hr/>
-                                    <b>Certification: </b> Diploma
-                                    <hr/>
-                                    <b>School: </b> CNA
-                                    <hr/>
-                                    <b>Website: </b><a href="https://www.cna.nl.ca/program/diagnostic-ultrasonography#tab2">Link</a>
-                                </Tab>
-                                <Tab eventKey={"requirements"} title={"Requirements"}>
-                                    <b>Program Highlights</b>
-                                    <ul>
-                                        <li>Intense training to become an integral part of the healthcare team</li>
-                                        <li>The program is seeking accreditation by Accreditation Canada</li>
-                                        <li>Prepares you to challenge the Sonography Canada certification exam</li>
-                                        <li>Sonography Canada provides portability within Canada</li>
-                                    </ul>
-                                </Tab>
-                            </Tabs>
+                                <Tabs fill defaultActiveKey={"details"}    className="mb-3">
+                                    <Tab eventKey={"details"} title={"Details"}>
+                                        <b>Average Salary: </b> $78,843
+                                        <hr/>
+                                        <b>Program Name: </b> Diagnostic Ultrasonography
+                                        <hr/>
+                                        <b>Program Length: </b> 3 Years
+                                        <hr/>
+                                        <b>Certification: </b> Diploma
+                                        <hr/>
+                                        <b>School: </b> CNA
+                                        <hr/>
+                                        <b>Website: </b><a href="https://www.cna.nl.ca/program/diagnostic-ultrasonography#tab2">Link</a>
+                                    </Tab>
+                                    <Tab eventKey={"requirements"} title={"Requirements"}>
+                                        <b>Competitive Entry</b>
+                                        <hr/>
+                                        English 3201 <b>OR</b> English 3202 (Minimum 60%)
+                                        <hr/>
+                                        Biology 2201
+                                        <hr/>
+                                        Biology 3201
+                                        <hr/>
+                                        Physics 3204
+                                        <hr/>
+                                        4 credits from:
+                                        <br/>
+                                        <b>Advanced: </b>
+                                        <ul>
+                                            <li>Math 2200 (Minimum 50%)</li>
+                                            <li>Math 3200 (Minimum 50%)</li>
+                                        </ul>
+                                        <b>Academic: </b>
+                                        <ul>
+                                            <li>Math 2201 (Minimum 50%)</li>
+                                            <li>Math 3201 (Minimum 60%)</li>
+                                        </ul> 
+                                    </Tab>
+                                </Tabs>
                             </Popover.Body>
-                            
                         </Popover>
                     }
                 >
@@ -208,8 +222,8 @@ function Diploma3YearProgramsImage() {
                         <Popover>
                             <Popover.Header>Medical Laboratory Technologist</Popover.Header>
                             <Popover.Body>
-                            <Tabs fill defaultActiveKey={"details"}    className="mb-3">
-                            <Tab eventKey={"details"} title={"Details"}>
+                                <Tabs fill defaultActiveKey={"details"}    className="mb-3">
+                                    <Tab eventKey={"details"} title={"Details"}>
                                         <b>Average Salary: </b> $73,864
                                         <hr/>
                                         <b>Program Name: </b> Medical Laboratory Technology
@@ -221,20 +235,33 @@ function Diploma3YearProgramsImage() {
                                         <b>School: </b> CNA
                                         <hr/>
                                         <b>Website: </b><a href="https://www.cna.nl.ca/program/medical-laboratory-technology">Link</a>
-                                        </Tab>
-                                        <Tab eventKey={"requirements"} title={"Requirements"}>
-                                            <b>Accreditation</b>
-                                            <p>The Medical Laboratory Technology (MLT) program is accredited by Accreditation Canada until May 2028.</p>
-                                            <p>This program is currently “Accredited” with Accreditation Canada/EQual. Our “Accredited” status serves as 
-                                                an important demonstration of our commitment to providing quality education in alignment with accreditation 
-                                                and regulatory requirements. If you require additional information regarding our accreditation status and 
-                                                endeavors and/or any potential implications our accreditation status may have on your future abilities to 
-                                                practice as a healthcare professional, we encourage you to reach out to the Dean for the School of Health 
-                                                Sciences.</p>
-                                        </Tab>
-                            </Tabs>
+                                    </Tab>
+                                    <Tab eventKey={"requirements"} title={"Requirements"}>
+                                        <b>Competitive Entry</b>
+                                        <hr/>
+                                        English 3201 <b>OR</b> English 3202 (Minimum 60%)
+                                        <hr/>
+                                        Biology 2201 (Minimum 60%)
+                                        <hr/>
+                                        Biology 3201 (Minimum 60%)
+                                        <hr/>
+                                        Chemistry 3202 (Minimum 60%)
+                                        <hr/>
+                                        4 credits from:
+                                        <br/>
+                                        <b>Advanced: </b>
+                                        <ul>
+                                            <li>Math 2200 (Minimum 50%)</li>
+                                            <li>Math 3200 (Minimum 50%)</li>
+                                        </ul>
+                                        <b>Academic: </b>
+                                        <ul>
+                                            <li>Math 2201 (Minimum 50%)</li>
+                                            <li>Math 3201 (Minimum 60%)</li>
+                                        </ul>
+                                    </Tab>
+                                </Tabs>
                             </Popover.Body>
-                            
                         </Popover>
                     }
                 >
@@ -317,30 +344,47 @@ function Diploma3YearProgramsImage() {
                         <Popover>
                             <Popover.Header>Medical Radiation Technologist</Popover.Header>
                             <Popover.Body>
-                            <Tabs fill defaultActiveKey={"details"} className="mb-3">
-                                <Tab eventKey={"details"} title={"Details"}>
-                                    <b>Average Salary: </b> $76,031
-                                    <hr/>
-                                    <b>Program Name: </b> Medical Radiography
-                                    <hr/>
-                                    <b>Program Length: </b> 3 Years
-                                    <hr/>
-                                    <b>Certification: </b> Diploma
-                                    <hr/>
-                                    <b>School: </b> CNA
-                                    <hr/>
-                                    <b>Website: </b><a href="https://www.cna.nl.ca/program/medical-radiography">Link</a>
-                                </Tab>
-                                <Tab eventKey={"requirements"} title={"Requirements"}>
-                                    <b>Program Transferability</b>
-                                    <p>Graduates may elect to further their studies and obtain a Bachelor of Technology 
-                                        degree from Memorial University of Newfoundland or a Bachelor of Sciences 
-                                        (Post Diploma, Human Science) from Athabasca University.</p>
-                                    <b>Certifications</b>
-                                    <p>Students must possess valid Standard First Aid with Cardiopulmonary Resuscitation 
-                                        (CPR) /Basic Life Support (BLS) certification to be eligible for graduation from the College.</p>
-                                </Tab>
-                            </Tabs>
+                                <Tabs fill defaultActiveKey={"details"} className="mb-3">
+                                    <Tab eventKey={"details"} title={"Details"}>
+                                        <b>Average Salary: </b> $76,031
+                                        <hr/>
+                                        <b>Program Name: </b> Medical Radiography
+                                        <hr/>
+                                        <b>Program Length: </b> 3 Years
+                                        <hr/>
+                                        <b>Certification: </b> Diploma
+                                        <hr/>
+                                        <b>School: </b> CNA
+                                        <hr/>
+                                        <b>Website: </b><a href="https://www.cna.nl.ca/program/medical-radiography">Link</a>
+                                    </Tab>
+                                    <Tab eventKey={"requirements"} title={"Requirements"}>
+                                        <b>Competitive Entry</b>
+                                        <hr/>
+                                        English 3201 <b>OR</b> English 3202 (Minimum 60%)
+                                        <hr/>
+                                        Biology 2201
+                                        <hr/>
+                                        Biology 3201
+                                        <hr/>
+                                        Physics 3204
+                                        <hr/>
+                                        4 credits from:
+                                        <br/>
+                                        <b>Advanced: </b>
+                                        <ul>
+                                            <li>Math 2200 (Minimum 50%)</li>
+                                            <li>Math 3200 (Minimum 50%)</li>
+                                        </ul>
+                                        <b>Academic: </b>
+                                        <ul>
+                                            <li>Math 2201 (Minimum 50%)</li>
+                                            <li>Math 3201 (Minimum 60%)</li>
+                                        </ul>
+                                        <hr/>
+                                        Completion of the <a href="https://acuityinsights.app/">Capser Admissions Exam</a> 
+                                    </Tab>
+                                </Tabs>
                             </Popover.Body>
                             
                         </Popover>
@@ -425,27 +469,47 @@ function Diploma3YearProgramsImage() {
                         <Popover>
                             <Popover.Header>Respiratory Therapist</Popover.Header>
                             <Popover.Body>
-                            <Tabs fill defaultActiveKey={"details"} className="mb-3">
-                                <Tab eventKey={"details"} title={"Details"}>
-                                    <b>Average Salary: </b> $77,521
-                                    <hr/>
-                                    <b>Program Name: </b> Respitory Therapy
-                                    <hr/>
-                                    <b>Program Length: </b> 3 Years
-                                    <hr/>
-                                    <b>Certification: </b> Diploma
-                                    <hr/>
-                                    <b>School: </b> CNA
-                                    <hr/>
-                                    <b>Website: </b><a href="https://www.cna.nl.ca/program/respiratory-therapy">Link</a>
-                                    <hr/>
-                                </Tab>
-                                <Tab eventKey={"requirements"} title={"Requirements"}>
-                                    <b>Accreditation</b>
-                                    <p>The Respiratory Therapy (RT) program is accredited by Accreditation Canada until May 2024.</p>
-                                    <p>This program is currently “Accredited” with Accreditation Canada/EQual. Our “Accredited” status serves as an important demonstration of our commitment to providing quality education in alignment with accreditation and regulatory requirements. If you require additional information regarding our accreditation status and endeavors and/or any potential implications our accreditation status may have on your future abilities to practice as a healthcare professional, we encourage you to reach out to the Dean for the School of Health Sciences.</p>
-                                </Tab>
-                            </Tabs>
+                                <Tabs fill defaultActiveKey={"details"} className="mb-3">
+                                    <Tab eventKey={"details"} title={"Details"}>
+                                        <b>Average Salary: </b> $77,521
+                                        <hr/>
+                                        <b>Program Name: </b> Respitory Therapy
+                                        <hr/>
+                                        <b>Program Length: </b> 3 Years
+                                        <hr/>
+                                        <b>Certification: </b> Diploma
+                                        <hr/>
+                                        <b>School: </b> CNA
+                                        <hr/>
+                                        <b>Website: </b><a href="https://www.cna.nl.ca/program/respiratory-therapy">Link</a>
+                                    </Tab>
+                                    <Tab eventKey={"requirements"} title={"Requirements"}>
+                                        <b>Competitive Entry</b>
+                                        <hr/>
+                                        English 3201 <b>OR</b> English 3202 (Minimum 60%)
+                                        <hr/>
+                                        Biology 2201
+                                        <hr/>
+                                        Biology 3201
+                                        <hr/>
+                                        Chemistry 3202
+                                        <hr/>
+                                        4 credits from:
+                                        <br/>
+                                        <b>Advanced: </b>
+                                        <ul>
+                                            <li>Math 2200 (Minimum 50%)</li>
+                                            <li>Math 3200 (Minimum 50%)</li>
+                                        </ul>
+                                        <b>Academic: </b>
+                                        <ul>
+                                            <li>Math 2201 (Minimum 50%)</li>
+                                            <li>Math 3201 (Minimum 60%)</li>
+                                        </ul>
+                                        <hr/>
+                                        Completion of the <a href="https://acuityinsights.app/">Capser Admissions Exam</a>
+                                    </Tab>
+                                </Tabs>
                             </Popover.Body>
                         </Popover>
                     }
