@@ -9,7 +9,7 @@ function EducationPage(){
             </Row>
             <Row className="justify-content-md-center">
                 <Col className="p-2 m-2" md="auto">
-                    <NavLink to={"/highschool"}>
+                    <NavLink to={"/entry"}>
                         <Button className="purple-button">High School</Button>
                     </NavLink>
                 </Col>

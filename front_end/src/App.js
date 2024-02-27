@@ -7,6 +7,9 @@ import PostDiplomaPage from "./pages/PostDiplomaPage";
 import EducationPage from "./pages/EducationPage";
 import DraftImage from "./components/DraftImage";
 import HSImage from "./components/HSImage";
+import EntryPage from "./pages/EntryPage";
+import DirectEntryPage from "./pages/DirectEntryPage";
+import CompetitivePage from "./pages/CompetitivePage";
 import HSPathsImage from "./components/HSPathsImage";
 import HSDiplomaPathsImage from "./components/HSDiplomaPathsImage";
 import Diploma3YearProgramsImage from "./components/Diploma3YearProgramsImage";
@@ -31,6 +34,9 @@ function App() {
         <Route path="/diplomalessthan3yearprograms" element={<DiplomaLessThan3YearProgramsImage />} />
         <Route path="/certprograms" element={<HSCertProgramsImage />} />
         <Route path="/degreeprograms" element={<DegreeProgramsImage />} />
+        <Route path="/entry" element={<EntryPage/>} />
+        <Route path="/direct" element={<DirectEntryPage/>}/>
+        <Route path="/competitive" element={<CompetitivePage/>}/>
       </Routes>
     </BrowserRouter>
   );
