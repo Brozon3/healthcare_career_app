@@ -1,4 +1,4 @@
-import { Container, OverlayTrigger, Popover, Tabs, Tab, Nav} from "react-bootstrap";
+import { Container, OverlayTrigger, Popover, Tabs, Tab } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
 function DiplomaLessThan3YearProgramsImage() {
@@ -118,15 +118,16 @@ function DiplomaLessThan3YearProgramsImage() {
                                         <b>Website: </b><a href="https://www.cna.nl.ca/program/pharmacy-technician#tab2">Link</a>
                                     </Tab>
                                     <Tab eventKey={"requirements"} title={"Requirements"}>
-                                        <b>Competitive Entry</b>
-                                        <hr/>
-                                        English 3201
-                                        <hr/>
-                                        Biology 2201 <b>AND</b> Biology 3201 <b>OR</b> Chemistry 3202
-                                        <hr/>
-                                        Mathematics 3200 <b>OR</b> Mathematics 3201
-                                        <hr/>
-                                        Completion of the <a href="https://acuityinsights.app/">Capser Admissions Exam</a>
+                                        <ul>
+                                            <li>Requirements</li>
+                                            <li>To</li>
+                                            <li>Be</li>
+                                            <li>Announced</li>
+                                            <li>At</li>
+                                            <li>A</li>
+                                            <li>Later</li>
+                                            <li>Date</li>
+                                        </ul>
                                     </Tab>
                                 </Tabs>
                             </Popover.Body>

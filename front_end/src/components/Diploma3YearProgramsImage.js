@@ -1,4 +1,4 @@
-import { Container, OverlayTrigger, Popover, Tabs, Tab, Nav} from "react-bootstrap";
+import { Container, OverlayTrigger, Popover, Tabs, Tab } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
 function Diploma3YearProgramsImage() {
@@ -137,7 +137,9 @@ function Diploma3YearProgramsImage() {
                                         <ul>
                                             <li>Math 2201 (Minimum 50%)</li>
                                             <li>Math 3201 (Minimum 60%)</li>
-                                        </ul> 
+                                        </ul>
+                                        <hr/> 
+                                        Completion of the <a href="https://acuityinsights.app/">Capser Admissions Exam</a> 
                                     </Tab>
                                 </Tabs>
                             </Popover.Body>
@@ -259,6 +261,8 @@ function Diploma3YearProgramsImage() {
                                             <li>Math 2201 (Minimum 50%)</li>
                                             <li>Math 3201 (Minimum 60%)</li>
                                         </ul>
+                                        <hr/>
+                                        Completion of the <a href="https://acuityinsights.app/">Capser Admissions Exam</a> 
                                     </Tab>
                                 </Tabs>
                             </Popover.Body>

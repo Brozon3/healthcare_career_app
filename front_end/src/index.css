@@ -116,3 +116,7 @@ font{
 span{
   pointer-events: none !important;
 }
+
+rect:hover{
+  cursor: pointer;
+}
