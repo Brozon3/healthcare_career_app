@@ -17,14 +17,14 @@ return(
         </Row>
         <Row className="justify-content-md-center">
             <Col className="p-2 m-2" md="auto">
-            <NavLink to={"/diploma"}>
+            <NavLink to={"/directDiploma"}>
                     <Button className="purple-button">Diploma</Button>
                 </NavLink>
             </Col>    
         </Row>
         <Row className="justify-content-md-center">
                 <Col className="p-2 m-2" md="auto">
-                <NavLink to={"/certificate"}>
+                <NavLink to={"/directCert"}>
                         <Button className="purple-button">Certificate</Button>
                     </NavLink>
                 </Col>    

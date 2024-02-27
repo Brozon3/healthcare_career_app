@@ -13,6 +13,9 @@ import Diploma3YearProgramsImage from "./components/Diploma3YearProgramsImage";
 import DiplomaLessThan3YearProgramsImage from "./components/DiplomaLessThan3YearProgramsImage";
 import HSCertProgramsImage from "./components/HSCertProgramsImage";
 import DegreeProgramsImage from "./components/DegreeProgramsImage";
+import CompetitiveDiplomaPage from "./pages/CompetitiveDiplomaPage";
+import DirectCertificatePage from "./pages/DirectCertificatePage";
+import DirectDiplomaPage from "./pages/DirectDiplomaPage";
 
 function App() {
   return (
@@ -31,6 +34,9 @@ function App() {
         <Route path="/entry" element={<EntryPage/>} />
         <Route path="/direct" element={<DirectEntryPage/>}/>
         <Route path="/competitive" element={<CompetitivePage/>}/>
+        <Route path="/compDiploma" element={<CompetitiveDiplomaPage/>}/>
+        <Route path="/directCert" element={<DirectCertificatePage/>}/>
+        <Route path="/directDiploma" element={<DirectDiplomaPage/>}/>
       </Routes>
     </BrowserRouter>
   );

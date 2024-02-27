@@ -17,7 +17,7 @@ return(
         </Row>
         <Row className="justify-content-md-center">
             <Col className="p-2 m-2" md="auto">
-            <NavLink to={"/diploma"}>
+            <NavLink to={"/compDiploma"}>
                     <Button className="purple-button">Diploma</Button>
                 </NavLink>
             </Col>    
