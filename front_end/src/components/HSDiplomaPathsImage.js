@@ -205,7 +205,7 @@ function HSDiplomaPathsImage() {
                                 <Popover.Body>
                                     <ul>
                                         <li>Diagnostic Ultrasonography</li>
-                                        <li>Medical Lab Technology</li>
+                                        <li>Medical Laboratory Technology</li>
                                         <li>Medical Radiography</li>
                                         <li>Respiratory Therapy</li>
                                     </ul>

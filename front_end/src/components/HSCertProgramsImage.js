@@ -127,7 +127,7 @@ function HSCertProgramsImage() {
                                     <hr/>
                                     <b>Website: </b><a href="https://www.cna.nl.ca/program/home-care-assistant#tab2">Link</a>
                                     </Tab>
-                                    <Tab eventKey={"notes"} title={"Notes"}>
+                                    <Tab eventKey={"requirements"} title={"Requirements"}>
                                         <b>Requirements Note:</b>
                                         <p>Eligible participants include those with a minimum of grade 9.</p>
                                         <b>Requirements for Clinical Placement:</b>
@@ -237,7 +237,7 @@ function HSCertProgramsImage() {
                                     <hr/>
                                     <b>Website: </b><a href="https://www.cna.nl.ca/program/personal-care-attendant">Link</a>
                                     </Tab>
-                                    <Tab eventKey={"notes"} title={"Notes"}>
+                                    <Tab eventKey={"requirements"} title={"Requirements"}>
                                         <b>Additional Requirements:</b>
                                         <ul>
                                             <li>2 reference letters supporting enterance into program. May be provided by employers, 
@@ -337,13 +337,13 @@ function HSCertProgramsImage() {
                     rootClose={"true"}
                     overlay={
                         <Popover>
-                            <Popover.Header as="h1">Medical Lab Assistant</Popover.Header>
+                            <Popover.Header as="h1">Medical Labratory Assistant</Popover.Header>
                             <Popover.Body>
                                 <Tabs fill defaultActiveKey={"details"} className="mb-3">
                                     <Tab eventKey={"details"} title={"Details"}>
                                         <b>Average Salary: </b> $47,240
                                         <hr/>
-                                        <b>Program Name: </b> Medical Labratory Assistant
+                                        <b>Program Name: </b> Medical Laboratory Assistant
                                         <hr/>
                                         <b>Program Length: </b> 1 Year
                                         <hr/>
@@ -353,7 +353,7 @@ function HSCertProgramsImage() {
                                         <hr/>
                                         <b>Website: </b><a href="https://www.cna.nl.ca/program/medical-laboratory-assistant#tab2">Link</a>
                                     </Tab>
-                                    <Tab eventKey={"notes"} title={"Notes"}>
+                                    <Tab eventKey={"requirements"} title={"Requirements"}>
                                         <b>Program Highlights:</b>
                                         <ul>
                                             <li>Robust training to become an integral part of the healthcare community and fill the identified occupational need.</li>
@@ -431,7 +431,7 @@ function HSCertProgramsImage() {
                             fontSize: 24,
                             }}
                         >
-                            {"Medical Lab Assistant"}
+                            {"Medical Laboratory Assistant"}
                         </font>
                         </div>
                     </div>

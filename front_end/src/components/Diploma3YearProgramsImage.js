@@ -107,7 +107,7 @@ function Diploma3YearProgramsImage() {
                     rootClose={"true"}
                     overlay={
                         <Popover>
-                            <Popover.Header>Diagnostic Ultrasonography</Popover.Header>
+                            <Popover.Header>Diagnostic Sonographer</Popover.Header>
                             <Popover.Body>
                             <Tabs fill defaultActiveKey={"details"}    className="mb-3">
                                 <Tab eventKey={"details"} title={"Details"}>
@@ -200,7 +200,7 @@ function Diploma3YearProgramsImage() {
                             fontSize: 24,
                             }}
                         >
-                            {"Diagnostic Ultrasonography"}
+                            {"Diagnostic Sonographer"}
                         </font>
                         </div>
                     </div>
@@ -221,13 +221,13 @@ function Diploma3YearProgramsImage() {
                     rootClose={"true"}
                     overlay={
                         <Popover>
-                            <Popover.Header>Medical Labratory Technology</Popover.Header>
+                            <Popover.Header>Medical Laboratory Technologist</Popover.Header>
                             <Popover.Body>
                             <Tabs fill defaultActiveKey={"details"}    className="mb-3">
                             <Tab eventKey={"details"} title={"Details"}>
                                         <b>Average Salary: </b> $73,864
                                         <hr/>
-                                        <b>Program Name: </b> Medical Labratory Technology
+                                        <b>Program Name: </b> Medical Laboratory Technology
                                         <hr/>
                                         <b>Program Length: </b> 3 Years
                                         <hr/>
@@ -317,7 +317,7 @@ function Diploma3YearProgramsImage() {
                             fontSize: 24,
                             }}
                         >
-                            {"Medical Lab Technology"}
+                            {"Medical Laboratory Technologist"}
                         </font>
                         </div>
                     </div>
@@ -337,7 +337,7 @@ function Diploma3YearProgramsImage() {
                     rootClose={"true"}
                     overlay={
                         <Popover>
-                            <Popover.Header>Medical Radiography</Popover.Header>
+                            <Popover.Header>Medical Radiation Technologist</Popover.Header>
                             <Popover.Body>
                             <Tabs fill defaultActiveKey={"details"} className="mb-3">
                                 <Tab eventKey={"details"} title={"Details"}>
@@ -431,7 +431,7 @@ function Diploma3YearProgramsImage() {
                             fontSize: 24,
                             }}
                         >
-                            {"Medical Radiography"}
+                            {"Medical Radiation Technologist"}
                         </font>
                         </div>
                     </div>
@@ -451,7 +451,7 @@ function Diploma3YearProgramsImage() {
                     rootClose={"true"}
                     overlay={
                         <Popover>
-                            <Popover.Header>Respiratory Therapy</Popover.Header>
+                            <Popover.Header>Respiratory Therapist</Popover.Header>
                             <Popover.Body>
                             <Tabs fill defaultActiveKey={"details"} className="mb-3">
                                 <Tab eventKey={"details"} title={"Details"}>
@@ -541,7 +541,7 @@ function Diploma3YearProgramsImage() {
                             fontSize: 24,
                             }}
                         >
-                            {"Respiratory Therapy"}
+                            {"Respiratory Therapist"}
                         </font>
                         </div>
                     </div>
