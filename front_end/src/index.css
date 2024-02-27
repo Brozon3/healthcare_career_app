@@ -103,3 +103,16 @@ oari-purple {
 .nav-link{
   background-color: #3A3F91 !important;
 }
+
+font{
+  pointer-events: none;
+  background-color: transparent;
+}
+
+.unclickable{
+  pointer-events: none !important;
+}
+
+span{
+  pointer-events: none !important;
+}

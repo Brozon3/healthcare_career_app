@@ -649,17 +649,17 @@ function HSImage() {
                                 <Popover.Body>
                                     <Tabs fill defaultActiveKey={"details"} className="mb-3">
                                         <Tab eventKey={"details"} title={"Details"}>
-                                        <b>Average Salary: </b> $76,031
-                                        <hr/>
-                                        <b>Program Name: </b> Medical Radiography
-                                        <hr/>
-                                        <b>Program Length: </b> 3 Years
-                                        <hr/>
-                                        <b>Certification: </b> Diploma
-                                        <hr/>
-                                        <b>School: </b> CNA
-                                        <hr/>
-                                        <b>Website: </b><a href="https://www.cna.nl.ca/program/medical-radiography">Link</a>
+                                            <b>Average Salary: </b> $76,031
+                                            <hr/>
+                                            <b>Program Name: </b> Medical Radiography
+                                            <hr/>
+                                            <b>Program Length: </b> 3 Years
+                                            <hr/>
+                                            <b>Certification: </b> Diploma
+                                            <hr/>
+                                            <b>School: </b> CNA
+                                            <hr/>
+                                            <b>Website: </b><a href="https://www.cna.nl.ca/program/medical-radiography">Link</a>
                                         </Tab>
                                         <Tab eventKey={"notes"} title={"Notes"}>
                                             <b>Program Transferability</b>
