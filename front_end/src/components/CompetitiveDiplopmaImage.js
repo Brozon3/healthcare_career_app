@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap";
+import { Container, Popover, Tab, Tabs, OverlayTrigger } from "react-bootstrap";
 
 function  CompetitiveDiplomaImage() {
     return (
@@ -761,11 +761,191 @@ function  CompetitiveDiplomaImage() {
       fill="#803385"
       d="M659 275c-5.75 4-5.75 4-8 4 .813-1.938.813-1.938 2-4 3-1 3-1 6 0Z"
     />
+
+<OverlayTrigger
+                            placement="right"
+                            trigger={"click"}
+                            rootClose={"true"}
+                            overlay={
+                              <Popover id="popover-basic">
+                              <Popover.Header as="h1">Med. Radiography</Popover.Header>
+                              <Popover.Body>
+                                  <Tabs fill defaultActiveKey={"details"} className="mb-3">
+                                      <Tab eventKey={"details"} title={"Details"}>
+                                      <b>Average Salary: </b> $76,031
+                                      <hr/>
+                                      <b>Program Name: </b> Medical Radiography
+                                      <hr/>
+                                      <b>Program Length: </b> 3 years
+                                      <hr/>
+                                      <b>Certification: </b> Diploma
+                                      <hr/>
+                                      <b>School: </b> CNA
+                                      <hr/>
+                                      <b>Website: </b><a href="https://www.cna.nl.ca/program/medical-radiography">Link</a>
+                                      </Tab>
+                                      <Tab eventKey={"notes"} title={"Notes"}>
+                                          <b>Requirements Note:</b>
+                                          <p>Eligible participants include those with a minimum of grade 9.</p>
+                                          <p>To be added</p>
+                                      </Tab>
+                                  </Tabs>
+                              </Popover.Body>
+                          </Popover>
+                            }
+                        >
+                            <rect
+                                width={386}
+                                height={137}
+                                x={775}
+                                y={137}
+                                fill="grey"
+                                stroke="#000"
+                                pointerEvents="all"
+                                rx={15}
+                                ry={15}
+                                fillOpacity="0.3"
+                            />           
+                        </OverlayTrigger>
+
+                        <OverlayTrigger
+                            placement="right"
+                            trigger={"click"}
+                            rootClose={"true"}
+                            overlay={
+                              <Popover id="popover-basic">
+                              <Popover.Header as="h1">Diagnostic Ultrasonography</Popover.Header>
+                              <Popover.Body>
+                                  <Tabs fill defaultActiveKey={"details"} className="mb-3">
+                                      <Tab eventKey={"details"} title={"Details"}>
+                                      <b>Average Salary: </b> $78,843
+                                      <hr/>
+                                      <b>Program Name: </b> Diagnostic Ultrasonography
+                                      <hr/>
+                                      <b>Program Length: </b> 3 years
+                                      <hr/>
+                                      <b>Certification: </b> Diploma
+                                      <hr/>
+                                      <b>School: </b> CNA
+                                      <hr/>
+                                      <b>Website: </b><a href="https://www.cna.nl.ca/program/emergency-medical-responder-to-primary-care-paramedicine-program">Link</a>
+                                      </Tab>
+                                      <Tab eventKey={"notes"} title={"Notes"}>
+                                          <b>Requirements Note:</b>
+                                          <p>Eligible participants include those with a minimum of grade 9.</p>
+                                          <p>To be added</p>
+                                      </Tab>
+                                  </Tabs>
+                              </Popover.Body>
+                          </Popover>
+                            }
+                        >
+                            <rect
+                                width={510}
+                                height={162}
+                                x={775}
+                                y={317}
+                                fill="grey"
+                                stroke="#000"
+                                pointerEvents="all"
+                                rx={15}
+                                ry={15}
+                                fillOpacity="0.3"
+                            />           
+                        </OverlayTrigger>
+
+                        <OverlayTrigger
+                            placement="right"
+                            trigger={"click"}
+                            rootClose={"true"}
+                            overlay={
+                              <Popover id="popover-basic">
+                              <Popover.Header as="h1">Med. Lab Techology</Popover.Header>
+                              <Popover.Body>
+                                  <Tabs fill defaultActiveKey={"details"} className="mb-3">
+                                      <Tab eventKey={"details"} title={"Details"}>
+                                      <b>Average Salary: </b> $73,864
+                                      <hr/>
+                                      <b>Program Name: </b> Medical Labratory Technology
+                                      <hr/>
+                                      <b>Program Length: </b> 3 years
+                                      <hr/>
+                                      <b>Certification: </b> Diploma
+                                      <hr/>
+                                      <b>School: </b> CNA
+                                      <hr/>
+                                      <b>Website: </b><a href="https://www.cna.nl.ca/program/medical-laboratory-technology">Link</a>
+                                      </Tab>
+                                      <Tab eventKey={"notes"} title={"Notes"}>
+                                          <b>Requirements Note:</b>
+                                          <p>Eligible participants include those with a minimum of grade 9.</p>
+                                          <p>To be added</p>
+                                      </Tab>
+                                  </Tabs>
+                              </Popover.Body>
+                          </Popover>
+                            }
+                        >
+                            <rect
+                                width={383}
+                                height={134}
+                                x={775}
+                                y={497}
+                                fill="grey"
+                                stroke="#000"
+                                pointerEvents="all"
+                                rx={15}
+                                ry={15}
+                                fillOpacity="0.3"
+                            />           
+                        </OverlayTrigger>
+
+                        <OverlayTrigger
+                            placement="right"
+                            trigger={"click"}
+                            rootClose={"true"}
+                            overlay={
+                              <Popover id="popover-basic">
+                              <Popover.Header as="h1">Primary Care Paramedic</Popover.Header>
+                              <Popover.Body>
+                                  <Tabs fill defaultActiveKey={"details"} className="mb-3">
+                                      <Tab eventKey={"details"} title={"Details"}>
+                                      <b>Average Salary: </b> $73,864
+                                      <hr/>
+                                      <b>Program Name: </b> Medical Labratory Technology
+                                      <hr/>
+                                      <b>Program Length: </b> 3 years
+                                      <hr/>
+                                      <b>Certification: </b> Diploma
+                                      <hr/>
+                                      <b>School: </b> CNA
+                                      <hr/>
+                                      <b>Website: </b><a href="https://www.cna.nl.ca/program/medical-laboratory-technology">Link</a>
+                                      </Tab>
+                                      <Tab eventKey={"notes"} title={"Notes"}>
+                                          <b>Requirements Note:</b>
+                                          <p>Eligible participants include those with a minimum of grade 9.</p>
+                                          <p>To be added</p>
+                                      </Tab>
+                                  </Tabs>
+                              </Popover.Body>
+                          </Popover>
+                            }
+                        >
+                            <rect
+                                width={383}
+                                height={121}
+                                x={775}
+                                y={675}
+                                fill="grey"
+                                stroke="#000"
+                                pointerEvents="all"
+                                rx={15}
+                                ry={15}
+                                fillOpacity="0.3"
+                            />           
+                        </OverlayTrigger>
   </svg>
-
-
-
-
 
 
         </Container>
