@@ -139,7 +139,7 @@ function Diploma3YearProgramsImage() {
                                             <li>Math 3201 (Minimum 60%)</li>
                                         </ul>
                                         <hr/> 
-                                        Completion of the <a href="https://acuityinsights.app/">Capser Admissions Exam</a> 
+                                        Completion of the <a href="https://acuityinsights.app/">Casper Admissions Exam</a> 
                                     </Tab>
                                 </Tabs>
                             </Popover.Body>
@@ -262,7 +262,7 @@ function Diploma3YearProgramsImage() {
                                             <li>Math 3201 (Minimum 60%)</li>
                                         </ul>
                                         <hr/>
-                                        Completion of the <a href="https://acuityinsights.app/">Capser Admissions Exam</a> 
+                                        Completion of the <a href="https://acuityinsights.app/">Casper Admissions Exam</a> 
                                     </Tab>
                                 </Tabs>
                             </Popover.Body>
@@ -386,11 +386,10 @@ function Diploma3YearProgramsImage() {
                                             <li>Math 3201 (Minimum 60%)</li>
                                         </ul>
                                         <hr/>
-                                        Completion of the <a href="https://acuityinsights.app/">Capser Admissions Exam</a> 
+                                        Completion of the <a href="https://acuityinsights.app/">Casper Admissions Exam</a> 
                                     </Tab>
                                 </Tabs>
                             </Popover.Body>
-                            
                         </Popover>
                     }
                 >
@@ -511,7 +510,7 @@ function Diploma3YearProgramsImage() {
                                             <li>Math 3201 (Minimum 60%)</li>
                                         </ul>
                                         <hr/>
-                                        Completion of the <a href="https://acuityinsights.app/">Capser Admissions Exam</a>
+                                        Completion of the <a href="https://acuityinsights.app/">Casper Admissions Exam</a>
                                     </Tab>
                                 </Tabs>
                             </Popover.Body>
