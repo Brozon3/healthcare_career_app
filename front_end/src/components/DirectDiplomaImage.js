@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap";
+import { Container, OverlayTrigger, Popover, Tabs, Tab } from "react-bootstrap";
 
 function  DirectDiplomaImage() {
     return (
@@ -388,6 +388,159 @@ function  DirectDiplomaImage() {
       d="m627 589 2 1a209.999 209.999 0 0 1-3.313 2.563l-1.863 1.44L622 595l-3-1a350.591 350.591 0 0 1 3.875-2.563l2.18-1.44L627 589Z"
     />
     <path fill="#FFECFF" d="m661 589 2 1v3h-8c1.964-1.506 3.783-2.891 6-4Z" />
+
+    <OverlayTrigger
+                            placement="right"
+                            trigger={"click"}
+                            rootClose={"true"}
+                            overlay={
+                                <Popover>
+                                    <Popover.Header>Pharmacy Technician</Popover.Header>
+                                    <Popover.Body>
+                                        <Tabs fill defaultActiveKey={"details"}    className="mb-3">
+                                            <Tab eventKey={"details"} title={"Details"}>
+                                                <b>Average Salary: </b> $54,579
+                                                <hr/>
+                                                <b>Program Name: </b> Pharmacy Technician
+                                                <hr/>
+                                                <b>Program Length: </b> 2 Years
+                                                <hr/>
+                                                <b>Certification: </b> Diploma
+                                                <hr/>
+                                                <b>School: </b> CNA
+                                                <hr/>
+                                                <b>Website: </b><a href="https://www.cna.nl.ca/program/pharmacy-technician#tab2">Link</a>
+                                            </Tab>
+                                            <Tab eventKey={"requirements"} title={"Requirements"}>
+                                                <ul>
+                                                    <li>Requirements</li>
+                                                    <li>To</li>
+                                                    <li>Be</li>
+                                                    <li>Announced</li>
+                                                    <li>At</li>
+                                                    <li>A</li>
+                                                    <li>Later</li>
+                                                    <li>Date</li>
+                                                </ul>
+                                            </Tab>
+                                        </Tabs>
+                                    </Popover.Body>
+                          </Popover>
+                            }
+                        >
+                            <rect
+                                width={500}
+                                height={195}
+                                x={1035}
+                                y={535}
+                                fill="grey"
+                                stroke="#000"
+                                pointerEvents="all"
+                                rx={15}
+                                ry={15}
+                                fillOpacity="0.3"
+                            />           
+                        </OverlayTrigger>
+
+                        <OverlayTrigger
+                            placement="right"
+                            trigger={"click"}
+                            rootClose={"true"}
+                            overlay={
+                              <Popover id="popover-basic">
+                              <Popover.Header as="h1">Emergency Medical Responder</Popover.Header>
+                              <Popover.Body>
+                                  <Tabs fill defaultActiveKey={"details"} className="mb-3">
+                                      <Tab eventKey={"details"} title={"Details"}>
+                                      <b>Average Salary: </b> $51,459
+                                      <hr/>
+                                      <b>Program Name: </b> Emergency Medical Responder
+                                      <hr/>
+                                      <b>Program Length: </b> 9 Semesters
+                                      <hr/>
+                                      <b>Certification: </b> Diploma
+                                      <hr/>
+                                      <b>School: </b> CNA
+                                      <hr/>
+                                      <b>Website: </b><a href="https://www.cna.nl.ca/program/emergency-medical-responder-to-primary-care-paramedicine-program">Link</a>
+                                      </Tab>
+                                      <Tab eventKey={"notes"} title={"Notes"}>
+                                          <b>Requirements Note:</b>
+                                          <p>Eligible participants include those with a minimum of grade 9.</p>
+                                          <b>Requirements for Clinical Placement:</b>
+                                          <p>Pre-placement requirements are outlined in affiliation agreements between 
+                                              CNA and our clinical partners. As a part of this process, students should 
+                                              obtain copies of their personal immunization records as early as possible 
+                                              to assist in the completion of the “Student Pre-Placement Immunizations and 
+                                              Communicable Diseases Screening Form”, and applicable waivers. Students must 
+                                              also be willing to obtain an updated criminal record check (certificate of 
+                                              conduct and vulnerable sector check) plus all other requirements outlined by
+                                               the clinical partners for placement purposes.</p>
+                                      </Tab>
+                                  </Tabs>
+                              </Popover.Body>
+                          </Popover>
+                            }
+                        >
+                            <rect
+                                width={510}
+                                height={260}
+                                x={1035}
+                                y={257}
+                                fill="grey"
+                                stroke="#000"
+                                pointerEvents="all"
+                                rx={15}
+                                ry={15}
+                                fillOpacity="0.3"
+                            />           
+                        </OverlayTrigger>
+
+                        <OverlayTrigger
+                            placement="right"
+                            trigger={"click"}
+                            rootClose={"true"}
+                            overlay={
+                              <Popover id="popover-basic">
+                              <Popover.Header as="h1">Rehabilitation Assistant OTA/PTA</Popover.Header>
+                              <Popover.Body>
+                                  <Tabs fill defaultActiveKey={"details"} className="mb-3">
+                                      <Tab eventKey={"details"} title={"Details"}>
+                                      <b>Average Salary: </b> $24.73 per hour
+                                      <hr/>
+                                      <b>Program Name: </b> Rehabilitation Assistant OTA/PTA
+                                      <hr/>
+                                      <b>Program Length: </b> 9 Semesters
+                                      <hr/>
+                                      <b>Certification: </b> Diploma
+                                      <hr/>
+                                      <b>School: </b> CNA
+                                      <hr/>
+                                      <b>Website: </b><a href="https://www.cna.nl.ca/program/rehabilitation-assistant">Link</a>
+                                      </Tab>
+                                      <Tab eventKey={"notes"} title={"Notes"}>
+                                          <b>Requirements Note:</b>
+                                          <p>Eligible participants include those with a minimum of grade 9.</p>
+                                          <p>To be added</p>
+                                      </Tab>
+                                  </Tabs>
+                              </Popover.Body>
+                          </Popover>
+                            }
+                        >
+                            <rect
+                                width={510}
+                                height={260}
+                                x={1035}
+                                y={747}
+                                fill="grey"
+                                stroke="#000"
+                                pointerEvents="all"
+                                rx={15}
+                                ry={15}
+                                fillOpacity="0.3"
+                            />           
+                        </OverlayTrigger>
   </svg>
 
 
