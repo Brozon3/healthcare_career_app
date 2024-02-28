@@ -103,7 +103,7 @@ function HSPathsImage() {
                                 <Popover.Body>
                                     <b>Length: </b> 1 to 3 Years
                                     <hr/>
-                                    <b>Salary: </b> $50,000 to $75,000
+                                    <b>Salary: </b> $50,000 to $80,000
                                 </Popover.Body>
                             </Popover>
                         }
@@ -187,9 +187,9 @@ function HSPathsImage() {
                             <Popover>
                                 <Popover.Header>Degree</Popover.Header>
                                 <Popover.Body>
-                                    <b>Length: </b> 3+ Years
+                                    <b>Length: </b> At Least 3 Years
                                     <hr/>
-                                    <b>Salary: </b> $75,000+
+                                    <b>Salary: </b> $70,000+
                                 </Popover.Body>
                             </Popover>
                         }
@@ -273,9 +273,9 @@ function HSPathsImage() {
                             <Popover>
                                 <Popover.Header>Certificate</Popover.Header>
                                 <Popover.Body>
-                                    <b>Length: </b> Less than 1.5 Years
+                                    <b>Length: </b> 1 Year or Less
                                     <hr/>
-                                    <b>Salary: </b> $45,000 to $75,000
+                                    <b>Salary: </b> $40,000 to $50,000
                                 </Popover.Body>
                             </Popover>
                         }
