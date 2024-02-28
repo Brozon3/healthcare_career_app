@@ -120,3 +120,7 @@ span{
 rect:hover{
   cursor: pointer;
 }
+
+ellipse:hover{
+  cursor: pointer;
+}

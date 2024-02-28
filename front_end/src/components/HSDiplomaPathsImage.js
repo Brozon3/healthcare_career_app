@@ -1,4 +1,4 @@
-import { Container, OverlayTrigger, Popover, Tabs, Tab } from "react-bootstrap";
+import { Container, OverlayTrigger, Popover } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
 function HSDiplomaPathsImage() {
