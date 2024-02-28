@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap";
+import { Container, OverlayTrigger, Popover, Tabs, Tab } from "react-bootstrap";
 
 function  DirectCertificateImage() {
     return (
@@ -234,6 +234,163 @@ function  DirectCertificateImage() {
       fill="#6000A0"
       d="M729 459v1l-3.25.813c-3.315 1.05-5.189 1.933-7.75 4.187 1.446-4.58 1.446-4.58 3.813-6.375 2.715-.776 4.495-.373 7.187.375Z"
     />
+
+<OverlayTrigger
+                            placement="right"
+                            trigger={"click"}
+                            rootClose={"true"}
+                            overlay={
+                              <Popover id="popover-basic">
+                              <Popover.Header as="h1">Home Care Assistant</Popover.Header>
+                              <Popover.Body>
+                                  <Tabs fill defaultActiveKey={"details"} className="mb-3">
+                                      <Tab eventKey={"details"} title={"Details"}>
+                                      <b>Average Salary: </b> $51,459
+                                      <hr/>
+                                      <b>Program Name: </b> Home Care Assistant
+                                      <hr/>
+                                      <b>Program Length: </b> 3 Semesters
+                                      <hr/>
+                                      <b>Certification: </b> Certificate
+                                      <hr/>
+                                      <b>School: </b> CNA
+                                      <hr/>
+                                      <b>Website: </b><a href="https://www.cna.nl.ca/program/home-care-assistant#tab2">Link</a>
+                                      </Tab>
+                                      <Tab eventKey={"notes"} title={"Notes"}>
+                                          <b>Requirements Note:</b>
+                                          <p>Eligible participants include those with a minimum of grade 9.</p>
+                                          <b>Requirements for Clinical Placement:</b>
+                                          <p>Pre-placement requirements are outlined in affiliation agreements between 
+                                              CNA and our clinical partners. As a part of this process, students should 
+                                              obtain copies of their personal immunization records as early as possible 
+                                              to assist in the completion of the “Student Pre-Placement Immunizations and 
+                                              Communicable Diseases Screening Form”, and applicable waivers. Students must 
+                                              also be willing to obtain an updated criminal record check (certificate of 
+                                              conduct and vulnerable sector check) plus all other requirements outlined by
+                                               the clinical partners for placement purposes.</p>
+                                      </Tab>
+                                  </Tabs>
+                              </Popover.Body>
+                          </Popover>
+                            }
+                        >
+                            <rect
+                                width={487}
+                                height={170}
+                                x={1089}
+                                y={113}
+                                fill="grey"
+                                stroke="#000"
+                                pointerEvents="all"
+                                rx={15}
+                                ry={15}
+                                fillOpacity="0.3"
+                            />           
+                        </OverlayTrigger>
+
+                        <OverlayTrigger
+                            placement="right"
+                            trigger={"click"}
+                            rootClose={"true"}
+                            overlay={
+                              <Popover id="popover-basic">
+                              <Popover.Header as="h1">Medical Lab Assistant</Popover.Header>
+                              <Popover.Body>
+                                  <Tabs fill defaultActiveKey={"details"} className="mb-3">
+                                      <Tab eventKey={"details"} title={"Details"}>
+                                      <b>Average Salary: </b> $47,240
+                                      <hr/>
+                                      <b>Program Name: </b> Medical Labratory Assistant
+                                      <hr/>
+                                      <b>Program Length: </b> 1 Year
+                                      <hr/>
+                                      <b>Certification: </b> Certificate
+                                      <hr/>
+                                      <b>School: </b> CNA
+                                      <hr/>
+                                      <b>Website: </b><a href="https://www.cna.nl.ca/program/medical-laboratory-assistant#tab2">Link</a>
+                                      </Tab>
+                                      <Tab eventKey={"notes"} title={"Notes"}>
+                                          <b>Program Highlights:</b>
+                                          <ul>
+                                              <li>Robust training to become an integral part of the healthcare community and fill the identified occupational need.</li>
+                                              <li>The Medical Laboratory Assistant program is accredited by Accreditation Canada.</li>
+                                              <li>You can leverage your certificate for transition into the Medical Laboratory Technologist program at CNA.</li>
+                                              <li>Prepares graduates to challenge the Canadian Society of Medical Laboratory Science (CSMLS) certification exam.</li>
+                                              <li>The CSMLS provides portability to most provinces and territories.</li>
+                                          </ul>
+                                      </Tab>
+                                  </Tabs>
+                              </Popover.Body>
+                          </Popover>
+                            }
+                        >
+                            <rect
+                                width={487}
+                                height={170}
+                                x={1089}
+                                y={366}
+                                fill="grey"
+                                stroke="#000"
+                                pointerEvents="all"
+                                rx={15}
+                                ry={15}
+                                fillOpacity="0.3"
+                            />           
+                        </OverlayTrigger>
+
+                        <OverlayTrigger
+                            placement="right"
+                            trigger={"click"}
+                            rootClose={"true"}
+                            overlay={
+                              <Popover id="popover-basic">
+                              <Popover.Header as="h1">Personal Care Attendant</Popover.Header>
+                              <Popover.Body>
+                                  <Tabs fill defaultActiveKey={"details"} className="mb-3">
+                                      <Tab eventKey={"details"} title={"Details"}>
+                                      <b>Average Salary: </b> $41,246
+                                      <hr/>
+                                      <b>Program Name: </b> Personal Care Attendant
+                                      <hr/>
+                                      <b>Program Length: </b> 2 Semesters
+                                      <hr/>
+                                      <b>Certification: </b> Certificate
+                                      <hr/>
+                                      <b>School: </b> CNA
+                                      <hr/>
+                                      <b>Website: </b><a href="https://www.cna.nl.ca/program/personal-care-attendant">Link</a>
+                                      </Tab>
+                                      <Tab eventKey={"notes"} title={"Notes"}>
+                                          <b>Additional Requirements:</b>
+                                          <ul>
+                                              <li>2 reference letters supporting enterance into program. May be provided by employers, 
+                                                  teachers/instructors, representative from volunteer agency</li>
+                                              <li>Perform 20 volunteer service hours within the past 2 years with written verification 
+                                                  of hours volunteered</li>
+                                              <li>Complete a 1 page written personal statement that includes the reason(s) for interest 
+                                                  in the program, personal skills and abilities and knowledge gained from volunteer experience</li>
+                                          </ul>
+                                      </Tab>
+                                  </Tabs>
+                              </Popover.Body>
+                          </Popover>
+                            }
+                        >
+                            <rect
+                                width={487}
+                                height={170}
+                                x={1089}
+                                y={608}
+                                fill="grey"
+                                stroke="#000"
+                                pointerEvents="all"
+                                rx={15}
+                                ry={15}
+                                fillOpacity="0.3"
+                            />           
+                        </OverlayTrigger>
   </svg>
 
 
