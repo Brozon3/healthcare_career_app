@@ -24,7 +24,7 @@ function EducationPage(){
             <Row className="justify-content-md-center">
                 <Col className="p-2 m-2" md="auto">
                 <NavLink to={"/postsecondary"}>
-                        <Button className="purple-button">Post Secondary</Button>
+                        <Button className="purple-button">High School - 2</Button>
                     </NavLink>
                 </Col>    
             </Row>
