@@ -16,6 +16,7 @@ import DegreeProgramsImage from "./components/DegreeProgramsImage";
 import CompetitiveDiplomaPage from "./pages/CompetitiveDiplomaPage";
 import DirectCertificatePage from "./pages/DirectCertificatePage";
 import DirectDiplomaPage from "./pages/DirectDiplomaPage";
+import DegreePage from "./pages/DegreePage";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path="/compDiploma" element={<CompetitiveDiplomaPage/>}/>
         <Route path="/directCert" element={<DirectCertificatePage/>}/>
         <Route path="/directDiploma" element={<DirectDiplomaPage/>}/>
+        <Route path="/Degree" element={<DegreePage/>}/>
       </Routes>
     </BrowserRouter>
   );
