@@ -3,7 +3,7 @@ import { Container, OverlayTrigger, Popover, Tabs, Tab } from "react-bootstrap";
 function  DirectDiplomaImage() {
     return (
         <Container fluid className="py-5 my-5">
-            <svg xmlns="http://www.w3.org/2000/svg" width={1741} height={1185}>
+            <svg xmlns="http://www.w3.org/2000/svg" width={"95vw"} height={"80vh"}>
     <path fill="#FEFEFE" d="M0 0h1741v1185H0V0Z" />
     <path
       fill="#7B1F82"

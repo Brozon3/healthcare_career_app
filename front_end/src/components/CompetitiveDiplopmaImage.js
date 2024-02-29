@@ -4,7 +4,7 @@ function  CompetitiveDiplomaImage() {
     return (
         <Container fluid className="py-5 my-5">
              
-  <svg xmlns="http://www.w3.org/2000/svg" width={1885} height={907} >
+  <svg xmlns="http://www.w3.org/2000/svg" width={"95vw"} height={"80vh"} >
     <path fill="#FEFEFE" d="M0 0h1885v907H0V0Z" />
     <path
       fill="#7E2484"

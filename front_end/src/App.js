@@ -3,7 +3,6 @@ import NavBar from "./components/Navbar";
 import Homepage from "./pages/Homepage";
 import EducationPage from "./pages/EducationPage";
 import DraftImage from "./components/DraftImage";
-import HSImage from "./components/HSImage";
 import EntryPage from "./pages/EntryPage";
 import DirectEntryPage from "./pages/DirectEntryPage";
 import CompetitivePage from "./pages/CompetitivePage";

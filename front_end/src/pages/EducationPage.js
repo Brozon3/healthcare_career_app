@@ -17,14 +17,14 @@ function EducationPage(){
             <Row className="justify-content-md-center">
                 <Col className="p-2 m-2" md="auto">
                     <NavLink to={"/highschool"}>
-                        <Button className="purple-button">High School - 1</Button>
+                        <Button className="purple-button">High School - Flow Diagrams</Button>
                     </NavLink>
                 </Col>
             </Row>
             <Row className="justify-content-md-center">
                 <Col className="p-2 m-2" md="auto">
                 <NavLink to={"/postsecondary"}>
-                        <Button className="purple-button">High School - 2</Button>
+                        <Button className="purple-button">High School - Circular</Button>
                     </NavLink>
                 </Col>    
             </Row>
