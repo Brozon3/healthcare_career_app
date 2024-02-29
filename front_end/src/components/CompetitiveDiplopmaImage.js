@@ -945,6 +945,98 @@ function  CompetitiveDiplomaImage() {
                                 fillOpacity="0.3"
                             />           
                         </OverlayTrigger>
+
+                        <OverlayTrigger
+                            placement="right"
+                            trigger={"click"}
+                            rootClose={"true"}
+                            overlay={
+                              <Popover id="popover-basic">
+                              <Popover.Header as="h1">Respiratory Therapy</Popover.Header>
+                              <Popover.Body>
+                                  <Tabs fill defaultActiveKey={"details"} className="mb-3">
+                                      <Tab eventKey={"details"} title={"Details"}>
+                                      <b>Average Salary: </b> $37.27 per hour
+                                      <hr/>
+                                      <b>Program Name: </b> Respiratory Therapy
+                                      <hr/>
+                                      <b>Program Length: </b> 3 years
+                                      <hr/>
+                                      <b>Certification: </b> Diploma
+                                      <hr/>
+                                      <b>School: </b> CNA
+                                      <hr/>
+                                      <b>Website: </b><a href="https://www.cna.nl.ca/program/respiratory-therapy">Link</a>
+                                      </Tab>
+                                      <Tab eventKey={"notes"} title={"Notes"}>
+                                          <b>Requirements Note:</b>
+                                          <p>Eligible participants include those with a minimum of grade 9.</p>
+                                          <p>To be added</p>
+                                      </Tab>
+                                  </Tabs>
+                              </Popover.Body>
+                          </Popover>
+                            }
+                        >
+                            <rect
+                                width={360}
+                                height={165}
+                                x={1331}
+                                y={322}
+                                fill="grey"
+                                stroke="#000"
+                                pointerEvents="all"
+                                rx={15}
+                                ry={15}
+                                fillOpacity="0.3"
+                            />           
+                        </OverlayTrigger>
+
+                        <OverlayTrigger
+                            placement="right"
+                            trigger={"click"}
+                            rootClose={"true"}
+                            overlay={
+                              <Popover id="popover-basic">
+                              <Popover.Header as="h1">Practical Nursing</Popover.Header>
+                              <Popover.Body>
+                                  <Tabs fill defaultActiveKey={"details"} className="mb-3">
+                                      <Tab eventKey={"details"} title={"Details"}>
+                                      <b>Average Salary: </b> $34.07 per hour
+                                      <hr/>
+                                      <b>Program Name: </b> Respiratory Therapy
+                                      <hr/>
+                                      <b>Program Length: </b> 19 months
+                                      <hr/>
+                                      <b>Certification: </b> Diploma
+                                      <hr/>
+                                      <b>School: </b> CNA
+                                      <hr/>
+                                      <b>Website: </b><a href="https://www.cna.nl.ca/program/practical-nursing">Link</a>
+                                      </Tab>
+                                      <Tab eventKey={"notes"} title={"Notes"}>
+                                          <b>Requirements Note:</b>
+                                          <p>Eligible participants include those with a minimum of grade 9.</p>
+                                          <p>To be added</p>
+                                      </Tab>
+                                  </Tabs>
+                              </Popover.Body>
+                          </Popover>
+                            }
+                        >
+                            <rect
+                                width={360}
+                                height={165}
+                                x={1331}
+                                y={128}
+                                fill="grey"
+                                stroke="#000"
+                                pointerEvents="all"
+                                rx={15}
+                                ry={15}
+                                fillOpacity="0.3"
+                            />           
+                        </OverlayTrigger>
   </svg>
 
 
