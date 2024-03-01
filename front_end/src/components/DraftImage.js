@@ -50,31 +50,13 @@ function DraftImage() {
                     transform="matrix(.1 0 0 -.1 102.71 885.077)"
                 />
                 
-                <OverlayTrigger
-                    placement="right"
-                    overlay={
-                        <Popover>
-                            <Popover.Header>Diploma</Popover.Header>
-                            <Popover.Body>
-                                Obtaining a diploma typically requires less time and financial investment compared to 
-                                pursuing a degree, making it a more accessible option for many individuals. Diplomas 
-                                often provide hands-on training and practical skills directly applicable to specific 
-                                industries, offering a quicker path to entry-level positions or career advancement. 
-                                Additionally, diplomas can be a strategic choice for those seeking specialized 
-                                knowledge and immediate employment opportunities in fields such as healthcare, 
-                                trades, or technology.
-                            </Popover.Body>
-                        </Popover>
-                    }
-                >
-                    <path
+                <path
                     d="M2497 4730c-51-28-77-73-77-134 0-80 48-136 130-151 43-7 113 26 144 68 29 39 29 125 0 163-52 70-129 91-197 54zM1994 4603c-4-14-4-106 0-204 6-168 5-179-13-188-29-16-54-78-47-115 6-34 38-70 78-90l102 19c68 58 56 162-21 194-29 12-30 15-37 94-3 45-6 121-6 170v87h310v60h-360z"
                     style={{
                         fill: "green",
                     }}
                     transform="matrix(.1 0 0 -.1 102.71 885.077)"
-                />            
-                </OverlayTrigger>
+                />
                 
                 <path
                     d="M9603 4373c-7-3-13-9-13-15 0-17 132-208 144-208 16 0 176 162 176 178 0 7-7 15-16 19-11 4-38-16-85-63-60-59-71-67-80-52-5 9-15 23-22 30s-26 34-42 60c-31 50-41 58-62 51z"

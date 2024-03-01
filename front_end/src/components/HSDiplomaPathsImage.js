@@ -103,7 +103,6 @@ function HSDiplomaPathsImage() {
                                 <Popover.Body>
                                     <ul>
                                         <li>Pharmacy Tech</li>
-                                        <li>Emergency Medical Responder</li>
                                         <li>Practical Nursing</li>
                                         <li>Primary Care Paramedicine</li>
                                         <li>Rehabilitation Assistant OTA/PTA</li>
