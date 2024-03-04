@@ -6,7 +6,7 @@ function Homepage() {
         <Container fluid className="p-5 my-5">
             <Row>
                 <Col>
-                    <Image src="images\NLHCHomePagePhoto.jpg" thumbnail className="m-5"/>
+                    <Image src="images\hospital (2).jpg" thumbnail className="m-5" width={"70%"} height={"70%"}/>
                 </Col>
 
                 <Col className="center-text p-4 m-4">

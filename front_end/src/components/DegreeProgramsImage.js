@@ -1,7 +1,15 @@
 import { Container, OverlayTrigger, Popover, Row, Col} from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import { animated, useSpring } from "react-spring";
 
 function DegreeProgramsImage() {
+
+    const spring = useSpring({
+        from: { opacity: 0},
+        to: { opacity: 1 },
+        config: { duration: 1000 }
+    })
+
     return (
         <Container fluid className="pt-5 mt-5">
             <Row className="justify-content-md-center">
@@ -14,14 +22,15 @@ function DegreeProgramsImage() {
 
             <Row className="justify-content-md-center">
                 <Col className="p-2 m-2" md="auto">
-                    <svg
+                    <animated.svg
                         xmlns="http://www.w3.org/2000/svg"
                         xmlnsXlink="http://www.w3.org/1999/xlink"
                         width={"60vw"}
                         height={"40vh"}
                         className="ge-export-svg-dark"
                         style={{
-                        filter: "invert(100%) hue-rotate(180deg)",
+                            filter: "invert(100%) hue-rotate(180deg)",
+                            ...spring
                         }}
                         viewBox="-0.5 -0.5 526 161"
                     >
@@ -198,7 +207,7 @@ function DegreeProgramsImage() {
                         d="M325.5 75V64.5l19 15.5-19 15.5V85"
                         pointerEvents="all"
                         />
-                    </svg>
+                    </animated.svg>
                 </Col>
             </Row>
             

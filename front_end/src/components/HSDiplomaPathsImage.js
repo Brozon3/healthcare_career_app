@@ -1,20 +1,29 @@
 import { Container, OverlayTrigger, Popover } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import { animated, useSpring } from "react-spring";
 
 function HSDiplomaPathsImage() {
+
+    const spring = useSpring({
+        from: { opacity: 0},
+        to: { opacity: 1 },
+        config: { duration: 1000 }
+    })
+
     return (
         <Container fluid className="pt-5 mt-5">
             <h1 className="text-center purple-text py-2 my-2">
                 <em>Hover</em> or <em>Click</em> to explore
             </h1>
-            <svg
+            <animated.svg
                 xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/1999/xlink"
                 width={"95vw"}
                 height={"80vh"}
                 className="ge-export-svg-dark"
                 style={{
-                filter: "invert(100%) hue-rotate(180deg)",
+                    filter: "invert(100%) hue-rotate(180deg)",
+                    ...spring
                 }}
                 viewBox="-0.5 -0.5 381 461"
             >
@@ -291,7 +300,7 @@ function HSDiplomaPathsImage() {
                 d="M240.5 55V44.5l19 15.5-19 15.5V65"
                 pointerEvents="all"
                 />
-            </svg>
+            </animated.svg>
         </Container>
     )
 }

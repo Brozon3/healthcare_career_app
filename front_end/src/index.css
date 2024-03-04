@@ -104,6 +104,12 @@ oari-purple {
   background-color: #3A3F91 !important;
 }
 
+.nav-link.active{
+  text-decoration: underline;
+  background-color: #6B6FFF !important;
+  border: 1px solid #3A3F91 !important;
+}
+
 font{
   pointer-events: none;
   background-color: transparent;
