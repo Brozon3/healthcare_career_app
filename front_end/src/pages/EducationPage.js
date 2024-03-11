@@ -9,9 +9,9 @@ function EducationPage(){
             </Row>
             <Row className="justify-content-md-center">
                 <Col className="p-2 m-2" md="auto">
-                    <NavLink to={"/entry"}>
-                        <Button className="purple-button" >High School - Question Filter</Button>
-                    </NavLink>
+
+                        <Button className="purple-button" disabled>High School - Question Filter</Button>
+
                 </Col>
             </Row>
             <Row className="justify-content-md-center">

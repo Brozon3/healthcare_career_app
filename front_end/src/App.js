@@ -16,6 +16,7 @@ import CompetitiveDiplomaPage from "./pages/CompetitiveDiplomaPage";
 import DirectCertificatePage from "./pages/DirectCertificatePage";
 import DirectDiplomaPage from "./pages/DirectDiplomaPage";
 import DegreePage from "./pages/DegreePage";
+import CircularImagePage from "./pages/CircularImagePage";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/overview" element={<EducationPage />} />
-        <Route path="/postsecondary" element={<DraftImage />} />
+        <Route path="/postsecondary" element={<CircularImagePage />} />
         <Route path="/highschool" element={<HSPathsImage />} />
         <Route path="/hsdiploma" element={<HSDiplomaPathsImage />} />
         <Route path="/diploma3yearprograms" element={<Diploma3YearProgramsImage />} />

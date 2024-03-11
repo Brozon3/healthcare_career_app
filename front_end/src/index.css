@@ -130,3 +130,7 @@ rect:hover{
 ellipse:hover{
   cursor: pointer;
 }
+
+.purple-border{
+  border: 3px solid #3A3F91;
+}

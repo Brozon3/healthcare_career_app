@@ -220,7 +220,7 @@ function DiplomaLessThan3YearProgramsImage() {
                     rootClose={"true"}
                     overlay={
                         <Popover>
-                            <Popover.Header>Nurse</Popover.Header>
+                            <Popover.Header>Practical Nurse</Popover.Header>
                             <Popover.Body>
                                 <Tabs fill defaultActiveKey={"details"}    className="mb-3">
                                     <Tab eventKey={"details"} title={"Details"}>
@@ -326,7 +326,7 @@ function DiplomaLessThan3YearProgramsImage() {
                             fontSize: 24,
                             }}
                         >
-                            {"Nurse"}
+                            {"Practical Nurse"}
                         </font>
                         </div>
                     </div>

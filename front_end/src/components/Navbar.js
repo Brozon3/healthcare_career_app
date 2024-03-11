@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Container, Button } from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavLink } from 'react-router-dom';
-import { useSpring, animated } from 'react-spring';
+import { animated } from 'react-spring';
 
 function NavBar() {
   const [text, setText] = useState('N');
@@ -23,14 +23,13 @@ function NavBar() {
   }, [index, headerText]);
 
   return (
-    <Navbar collapseOnSelect expand="lg" className="blue-background" fixed="top">
+    <Navbar expand="lg" className="blue-background" fixed="top">
       <Container>
         <Navbar.Brand href="/" className='py-3 white-text nav-link'>
           <animated.h3>
             {text}
           </animated.h3>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <NavLink to={"/overview"}>
             <Button className="purple-button">Explore</Button>
         </NavLink>
