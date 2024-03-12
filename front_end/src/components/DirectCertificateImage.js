@@ -362,10 +362,10 @@ function  DirectCertificateImage() {
                             }
                         >
                             <rect
-                                width={407}
-                                height={170}
-                                x={640}
-                                y={20}
+                                width={368}
+                                height={130}
+                                x={676}
+                                y={33}
                                 fill="grey"
                                 stroke="#000"
                                 pointerEvents="all"
@@ -413,10 +413,10 @@ function  DirectCertificateImage() {
                             }
                         >
                             <rect
-                                width={487}
-                                height={170}
-                                x={640}
-                                y={195}
+                                width={366}
+                                height={130}
+                                x={676}
+                                y={213}
                                 fill="grey"
                                 stroke="#000"
                                 pointerEvents="all"
@@ -465,10 +465,10 @@ function  DirectCertificateImage() {
                             }
                         >
                             <rect
-                                width={487}
-                                height={170}
-                                x={604}
-                                y={360}
+                                width={368}
+                                height={130}
+                                x={676}
+                                y={386}
                                 fill="grey"
                                 stroke="#000"
                                 pointerEvents="all"

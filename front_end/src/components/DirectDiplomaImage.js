@@ -414,10 +414,10 @@ function DirectDiplomaImage() {
               }
             >
               <rect
-                width={350}
-                height={142}
-                x={670}
-                y={210}
+                width={369}
+                height={131}
+                x={672}
+                y={212}
                 fill="grey"
                 stroke="#000"
                 pointerEvents="all"
@@ -468,10 +468,10 @@ function DirectDiplomaImage() {
               }
           >
               <rect
-                  width={330}
-                  height={180}
-                  x={710}
-                  y={8}
+                 width={367}
+                 height={145}
+                 x={678}
+                 y={27}
                   fill="grey"
                   stroke="#000"
                   pointerEvents="all"
@@ -514,10 +514,10 @@ function DirectDiplomaImage() {
               }
           >
               <rect
-                  width={330}
-                  height={180}
-                  x={710}
-                  y={350}
+                  width={370}
+                  height={156}
+                  x={674}
+                  y={387}
                   fill="grey"
                   stroke="#000"
                   pointerEvents="all"

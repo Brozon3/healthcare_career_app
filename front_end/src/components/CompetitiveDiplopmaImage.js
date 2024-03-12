@@ -660,10 +660,10 @@ function  CompetitiveDiplomaImage() {
                             }
                         >
                             <rect
-                                width={340}
-                                height={109}
-                                x={440}
-                                y={55}
+                                width={237}
+                                height={83}
+                                x={486}
+                                y={81}
                                 fill="grey"
                                 stroke="#000"
                                 pointerEvents="all"
@@ -706,10 +706,10 @@ function  CompetitiveDiplomaImage() {
                             }
                         >
                             <rect
-                                width={370}
-                                height={125}
-                                x={443}
-                                y={165}
+                                width={311} 
+                                height={102}
+                                x={486}
+                                y={187}
                                 fill="grey"
                                 stroke="#000"
                                 pointerEvents="all"
@@ -752,10 +752,10 @@ function  CompetitiveDiplomaImage() {
                             }
                         >
                             <rect
-                                width={370}
-                                height={96}
-                                x={443}
-                                y={295}
+                                width={237}
+                                height={83}
+                                x={486}
+                                y={298}
                                 fill="grey"
                                 stroke="#000"
                                 pointerEvents="all"
@@ -798,10 +798,10 @@ function  CompetitiveDiplomaImage() {
                             }
                         >
                             <rect
-                                width={370}
-                                height={96}
-                                x={443}
-                                y={395}
+                                width={237}
+                                height={83}
+                                x={484}
+                                y={403}
                                 fill="grey"
                                 stroke="#000"
                                 pointerEvents="all"
@@ -844,10 +844,10 @@ function  CompetitiveDiplomaImage() {
                             }
                         >
                             <rect
-                                width={230}
-                                height={96}
-                                x={816}
-                                y={190}
+                                width={219}
+                                height={108}
+                                x={823}
+                                y={189}
                                 fill="grey"
                                 stroke="#000"
                                 pointerEvents="all"
@@ -890,10 +890,10 @@ function  CompetitiveDiplomaImage() {
                             }
                         >
                             <rect
-                                width={230}
-                                height={96}
-                                x={816}
-                                y={76}
+                                width={221}
+                                height={108}
+                                x={819}
+                                y={72}
                                 fill="grey"
                                 stroke="#000"
                                 pointerEvents="all"
