@@ -134,3 +134,21 @@ ellipse:hover{
 .purple-border{
   border: 3px solid #3A3F91;
 }
+
+.hospital {
+  position: absolute;
+  z-index: 100;
+}
+
+.ambulance {
+  position: absolute;
+  top: 71%;
+}
+
+.wrap{
+  overflow: hidden;
+  position: relative;
+  width: 700px;
+  height: 650px;
+}
+
