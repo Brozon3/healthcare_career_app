@@ -11,12 +11,11 @@ import Diploma3YearProgramsImage from "./components/Diploma3YearProgramsImage";
 import DiplomaLessThan3YearProgramsImage from "./components/DiplomaLessThan3YearProgramsImage";
 import HSCertProgramsImage from "./components/HSCertProgramsImage";
 import DegreeProgramsImage from "./components/DegreeProgramsImage";
-import CompetitiveDiplomaPage from "./pages/CompetitiveDiplomaPage";
-import DirectCertificatePage from "./pages/DirectCertificatePage";
-import DirectDiplomaPage from "./pages/DirectDiplomaPage";
-import DegreePage from "./pages/DegreePage";
 import CircularImagePage from "./pages/CircularImagePage";
-import CircularImage from "./components/CircularImage";
+import DegreeImage from "./components/DegreeImage";
+import DirectDiplomaImage from "./components/DirectDiplomaImage";
+import DirectCertificateImage from "./components/DirectCertificateImage";
+import CompetitiveDiplomaImage from "./components/CompetitiveDiplopmaImage";
 
 function App() {
   return (
@@ -34,11 +33,11 @@ function App() {
         <Route path="/degreeprograms" element={<DegreeProgramsImage />} />
         <Route path="/entry" element={<EntryPage/>} />
         <Route path="/direct" element={<DirectEntryPage/>}/>
-        <Route path="/competitive" element={<CompetitivePage/>}/>
-        <Route path="/compDiploma" element={<CompetitiveDiplomaPage/>}/>
-        <Route path="/directCert" element={<DirectCertificatePage/>}/>
-        <Route path="/directDiploma" element={<DirectDiplomaPage/>}/>
-        <Route path="/Degree" element={<DegreePage/>}/>
+        <Route path="/competitive" element={<CompetitivePage />}/>
+        <Route path="/compDiploma" element={<CompetitiveDiplomaImage />}/>
+        <Route path="/directCert" element={<DirectCertificateImage />}/>
+        <Route path="/directDiploma" element={<DirectDiplomaImage />}/>
+        <Route path="/degree" element={<DegreeImage />}/>
       </Routes>
     </BrowserRouter>
   );

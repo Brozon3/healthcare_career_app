@@ -3,6 +3,9 @@ import { Container, OverlayTrigger, Popover, Tabs, Tab } from "react-bootstrap";
 function DirectDiplomaImage() {
   return (
     <Container fluid className="py-5 my-5">
+      <h1 className="text-center purple-text py-2 my-2">
+        Direct Diploma Programs
+      </h1>
        <svg xmlns="http://www.w3.org/2000/svg" width={1130} height={569} >
     <path
       fill="#710034"
