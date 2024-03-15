@@ -1,6 +1,7 @@
 import { Container, Row, Col, Form } from "react-bootstrap";
 import DraftImage from "../components/DraftImage";
 import { useState } from "react";
+import CircularImage from "../components/CircularImage";
 
 function CircularImagePage(){
     
@@ -91,7 +92,7 @@ function CircularImagePage(){
                     <h1 className="text-center purple-text">
                         <em>Hover</em> or <em>Click</em> to explore!
                     </h1>
-                    <DraftImage 
+                    <CircularImage 
                         hideCertificates={hideCertificates} 
                         hideDiplomas={hideDiplomas} 
                         hideRequiresPhysics={hideRequiresPhysics} 

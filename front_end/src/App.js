@@ -16,6 +16,7 @@ import DirectCertificatePage from "./pages/DirectCertificatePage";
 import DirectDiplomaPage from "./pages/DirectDiplomaPage";
 import DegreePage from "./pages/DegreePage";
 import CircularImagePage from "./pages/CircularImagePage";
+import CircularImage from "./components/CircularImage";
 
 function App() {
   return (
