@@ -24,7 +24,7 @@ function Homepage() {
               <div>
                 <Image src="images/hospital.jpg" className="hopsital" width={"100%"} height={"100%"} />
               </div>
-              <animated.img src="images/ambulance.png" width={"25%"} height={"25%"} className="ambulance" style={ambulanceAnimation} />
+              <animated.img src="images/ambulance.png" width={"35%"} height={"35%"} className="ambulance" style={ambulanceAnimation} />
             </div>   
           </Col>
 

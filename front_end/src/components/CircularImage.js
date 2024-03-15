@@ -19,6 +19,7 @@ function CircularImage({hideCertificates={hideCertificates}, hideDiplomas={hideD
             preserveAspectRatio="xMidYMid"
             version="1"
             viewBox="0 0 1447.013 543.687"
+            style={{...spring}}
         >
             <g transform="translate(-126.6 -37.812)">
                 {!hideDiplomas && <path
@@ -73,11 +74,11 @@ function CircularImage({hideCertificates={hideCertificates}, hideDiplomas={hideD
                 {!hideDiplomas && <text
                     xmlSpace="preserve"
                     style={{
-                    InkscapeFontSpecification: "'Sans, Normal'",
-                    fontVariantLigatures: "normal",
-                    fontVariantCaps: "normal",
-                    fontVariantNumeric: "normal",
-                    fontVariantEastAsian: "normal",
+                        InkscapeFontSpecification: "'Sans, Normal'",
+                        fontVariantLigatures: "normal",
+                        fontVariantCaps: "normal",
+                        fontVariantNumeric: "normal",
+                        fontVariantEastAsian: "normal",
                     }}
                     x="1305.691"
                     y="470.81"
@@ -93,14 +94,14 @@ function CircularImage({hideCertificates={hideCertificates}, hideDiplomas={hideD
                     Diploma
                     </tspan>
                 </text>}
-                {!hideDiplomas && !hideLessThanThreeYears && <text
+                {!hideDiplomas && !hideLessThanThreeYears && !hideRequiresPhysics && <text
                     xmlSpace="preserve"
                     style={{
-                    InkscapeFontSpecification: "'Sans, Normal'",
-                    fontVariantLigatures: "normal",
-                    fontVariantCaps: "normal",
-                    fontVariantNumeric: "normal",
-                    fontVariantEastAsian: "normal",
+                        InkscapeFontSpecification: "'Sans, Normal'",
+                        fontVariantLigatures: "normal",
+                        fontVariantCaps: "normal",
+                        fontVariantNumeric: "normal",
+                        fontVariantEastAsian: "normal",
                     }}
                     x="1213.197"
                     y="247.384"
@@ -117,11 +118,11 @@ function CircularImage({hideCertificates={hideCertificates}, hideDiplomas={hideD
                 {!hideDiplomas && !hideLessThanThreeYears && !hideRequiresChemsitry && <text
                     xmlSpace="preserve"
                     style={{
-                    InkscapeFontSpecification: "'Sans, Normal'",
-                    fontVariantLigatures: "normal",
-                    fontVariantCaps: "normal",
-                    fontVariantNumeric: "normal",
-                    fontVariantEastAsian: "normal",
+                        InkscapeFontSpecification: "'Sans, Normal'",
+                        fontVariantLigatures: "normal",
+                        fontVariantCaps: "normal",
+                        fontVariantNumeric: "normal",
+                        fontVariantEastAsian: "normal",
                     }}
                     x="1174.79"
                     y="196.551"
@@ -138,11 +139,11 @@ function CircularImage({hideCertificates={hideCertificates}, hideDiplomas={hideD
                 {!hideDiplomas && !hideLessThanThreeYears && !hideRequiresChemsitry && <text
                     xmlSpace="preserve"
                     style={{
-                    InkscapeFontSpecification: "'Sans, Normal'",
-                    fontVariantLigatures: "normal",
-                    fontVariantCaps: "normal",
-                    fontVariantNumeric: "normal",
-                    fontVariantEastAsian: "normal",
+                        InkscapeFontSpecification: "'Sans, Normal'",
+                        fontVariantLigatures: "normal",
+                        fontVariantCaps: "normal",
+                        fontVariantNumeric: "normal",
+                        fontVariantEastAsian: "normal",
                     }}
                     x="1241.437"
                     y="304.994"
@@ -159,11 +160,11 @@ function CircularImage({hideCertificates={hideCertificates}, hideDiplomas={hideD
                 {!hideDiplomas && !hideRequiresChemsitry && <text
                     xmlSpace="preserve"
                     style={{
-                    InkscapeFontSpecification: "'Sans, Normal'",
-                    fontVariantLigatures: "normal",
-                    fontVariantCaps: "normal",
-                    fontVariantNumeric: "normal",
-                    fontVariantEastAsian: "normal",
+                        InkscapeFontSpecification: "'Sans, Normal'",
+                        fontVariantLigatures: "normal",
+                        fontVariantCaps: "normal",
+                        fontVariantNumeric: "normal",
+                        fontVariantEastAsian: "normal",
                     }}
                     x="1259.511"
                     y="361.474"
@@ -180,11 +181,11 @@ function CircularImage({hideCertificates={hideCertificates}, hideDiplomas={hideD
                 {!hideDiplomas && !hideLessThanThreeYears && !hideRequiresPhysics && <text
                     xmlSpace="preserve"
                     style={{
-                    InkscapeFontSpecification: "'Sans, Normal'",
-                    fontVariantLigatures: "normal",
-                    fontVariantCaps: "normal",
-                    fontVariantNumeric: "normal",
-                    fontVariantEastAsian: "normal",
+                        InkscapeFontSpecification: "'Sans, Normal'",
+                        fontVariantLigatures: "normal",
+                        fontVariantCaps: "normal",
+                        fontVariantNumeric: "normal",
+                        fontVariantEastAsian: "normal",
                     }}
                     x="1125.955"
                     y="150.112"
@@ -201,11 +202,11 @@ function CircularImage({hideCertificates={hideCertificates}, hideDiplomas={hideD
                 {!hideDiplomas && <text
                     xmlSpace="preserve"
                     style={{
-                    InkscapeFontSpecification: "'Sans, Normal'",
-                    fontVariantLigatures: "normal",
-                    fontVariantCaps: "normal",
-                    fontVariantNumeric: "normal",
-                    fontVariantEastAsian: "normal",
+                        InkscapeFontSpecification: "'Sans, Normal'",
+                        fontVariantLigatures: "normal",
+                        fontVariantCaps: "normal",
+                        fontVariantNumeric: "normal",
+                        fontVariantEastAsian: "normal",
                     }}
                     x="1292.269"
                     y="578.358"
@@ -222,11 +223,11 @@ function CircularImage({hideCertificates={hideCertificates}, hideDiplomas={hideD
                 {!hideCertificates &&<text
                     xmlSpace="preserve"
                     style={{
-                    InkscapeFontSpecification: "'Sans, Normal'",
-                    fontVariantLigatures: "normal",
-                    fontVariantCaps: "normal",
-                    fontVariantNumeric: "normal",
-                    fontVariantEastAsian: "normal",
+                        InkscapeFontSpecification: "'Sans, Normal'",
+                        fontVariantLigatures: "normal",
+                        fontVariantCaps: "normal",
+                        fontVariantNumeric: "normal",
+                        fontVariantEastAsian: "normal",
                     }}
                     x="422.473"
                     y="429.25"
@@ -243,11 +244,11 @@ function CircularImage({hideCertificates={hideCertificates}, hideDiplomas={hideD
                 {!hideCertificates && <text
                     xmlSpace="preserve"
                     style={{
-                    InkscapeFontSpecification: "'Sans, Normal'",
-                    fontVariantLigatures: "normal",
-                    fontVariantCaps: "normal",
-                    fontVariantNumeric: "normal",
-                    fontVariantEastAsian: "normal",
+                        InkscapeFontSpecification: "'Sans, Normal'",
+                        fontVariantLigatures: "normal",
+                        fontVariantCaps: "normal",
+                        fontVariantNumeric: "normal",
+                        fontVariantEastAsian: "normal",
                     }}
                     x="857.026"
                     y="56.163"
@@ -264,11 +265,11 @@ function CircularImage({hideCertificates={hideCertificates}, hideDiplomas={hideD
                 {!hideCertificates && !hideLessThanFiftyThousand && <text
                     xmlSpace="preserve"
                     style={{
-                    InkscapeFontSpecification: "'Sans, Normal'",
-                    fontVariantLigatures: "normal",
-                    fontVariantCaps: "normal",
-                    fontVariantNumeric: "normal",
-                    fontVariantEastAsian: "normal",
+                        InkscapeFontSpecification: "'Sans, Normal'",
+                        fontVariantLigatures: "normal",
+                        fontVariantCaps: "normal",
+                        fontVariantNumeric: "normal",
+                        fontVariantEastAsian: "normal",
                     }}
                     x="177.348"
                     y="520.748"
@@ -285,11 +286,11 @@ function CircularImage({hideCertificates={hideCertificates}, hideDiplomas={hideD
                 {!hideCertificates && !hideLessThanFiftyThousand && !hideRequiresChemsitry && <text
                     xmlSpace="preserve"
                     style={{
-                    InkscapeFontSpecification: "'Sans, Normal'",
-                    fontVariantLigatures: "normal",
-                    fontVariantCaps: "normal",
-                    fontVariantNumeric: "normal",
-                    fontVariantEastAsian: "normal",
+                        InkscapeFontSpecification: "'Sans, Normal'",
+                        fontVariantLigatures: "normal",
+                        fontVariantCaps: "normal",
+                        fontVariantNumeric: "normal",
+                        fontVariantEastAsian: "normal",
                     }}
                     x="503.804"
                     y="54.221"
@@ -306,11 +307,11 @@ function CircularImage({hideCertificates={hideCertificates}, hideDiplomas={hideD
                 {!hideDiplomas && <text
                     xmlSpace="preserve"
                     style={{
-                    InkscapeFontSpecification: "'Sans, Normal'",
-                    fontVariantLigatures: "normal",
-                    fontVariantCaps: "normal",
-                    fontVariantNumeric: "normal",
-                    fontVariantEastAsian: "normal",
+                        InkscapeFontSpecification: "'Sans, Normal'",
+                        fontVariantLigatures: "normal",
+                        fontVariantCaps: "normal",
+                        fontVariantNumeric: "normal",
+                        fontVariantEastAsian: "normal",
                     }}
                     x="1273.151"
                     y="421.878"
@@ -327,11 +328,11 @@ function CircularImage({hideCertificates={hideCertificates}, hideDiplomas={hideD
                 {!hideDiplomas && !hideRequiresChemsitry && <text
                     xmlSpace="preserve"
                     style={{
-                    InkscapeFontSpecification: "'Sans, Normal'",
-                    fontVariantLigatures: "normal",
-                    fontVariantCaps: "normal",
-                    fontVariantNumeric: "normal",
-                    fontVariantEastAsian: "normal",
+                        InkscapeFontSpecification: "'Sans, Normal'",
+                        fontVariantLigatures: "normal",
+                        fontVariantCaps: "normal",
+                        fontVariantNumeric: "normal",
+                        fontVariantEastAsian: "normal",
                     }}
                     x="1304.695"
                     y="524.137"
@@ -444,6 +445,7 @@ function CircularImage({hideCertificates={hideCertificates}, hideDiplomas={hideD
                 </text>
             </g>
             <g display="inline" transform="translate(-126.6 -37.812)">
+
                 {!hideDiplomas && <OverlayTrigger
                     placement="right"
                     overlay={
@@ -890,6 +892,7 @@ function CircularImage({hideCertificates={hideCertificates}, hideDiplomas={hideD
                         ry="11.014"
                     ></ellipse>        
                 </OverlayTrigger>}
+
                 {!hideDiplomas && !hideLessThanThreeYears && !hideRequiresPhysics && <OverlayTrigger
                     placement="left"
                     trigger={"click"}
@@ -1313,6 +1316,7 @@ function CircularImage({hideCertificates={hideCertificates}, hideDiplomas={hideD
                         transform="rotate(90)"
                     ></ellipse>         
                 </OverlayTrigger>}
+
             </g>
         </animated.svg>
     )
