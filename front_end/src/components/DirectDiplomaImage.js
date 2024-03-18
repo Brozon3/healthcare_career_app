@@ -467,7 +467,7 @@ function DirectDiplomaImage() {
                         <Tab eventKey={"details"} title={"Details"}>
                         <b>Average Salary: </b> $51,459
                         <hr/>
-                        <b>Program Name: </b> Emergency Medical Responder
+                        <b>Program Name: </b> Emergency Medical Responder to Primary Care Paramedicine
                         <hr/>
                         <b>Program Length: </b> 9 Semesters
                         <hr/>
@@ -519,7 +519,7 @@ function DirectDiplomaImage() {
                 <Popover.Body>
                     <Tabs fill defaultActiveKey={"details"} className="mb-3">
                         <Tab eventKey={"details"} title={"Details"}>
-                        <b>Average Salary: </b> $24.73 per hour
+                        <b>Average Salary: </b> $51,438
                         <hr/>
                         <b>Program Name: </b> Rehabilitation Assistant OTA/PTA
                         <hr/>
