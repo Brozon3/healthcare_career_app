@@ -531,12 +531,34 @@ function DirectDiplomaImage() {
                         <hr/>
                         <b>Website: </b><a href="https://www.cna.nl.ca/program/rehabilitation-assistant">Link</a>
                         </Tab>
-                        <Tab eventKey={"notes"} title={"Notes"}>
-                            <b>Requirements Note:</b>
-                            <p>Eligible participants include those with a minimum of grade 9.</p>
-                            <p>To be added</p>
-                        </Tab>
-                    </Tabs>
+                        <Tab eventKey={"requirements"} title={"Requirements"}>
+                                        English 3201 <b>OR</b> English 3202 (Minimum 60%)
+                                        <hr/>
+                                        4 credits from:
+                                        <ul>
+                                            <li>Biology 2201</li>
+                                            <li>Biology 3201</li>
+                                            <li>Physics 3204</li>
+                                            <li>Chemistry 3202</li>
+                                            <li>Earth Systems 3209</li>
+                                        </ul>
+                                        <hr/>
+                                        4 credits from:
+                                        <br/>
+                                        <b>Advanced: </b>
+                                        <ul>
+                                            <li>Math 2200 (Minimum 50%)</li>
+                                            <li>Math 3200 (Minimum 50%)</li>
+                                        </ul>
+                                        <b>Academic: </b>
+                                        <ul>
+                                            <li>Math 2201 (Minimum 50%)</li>
+                                            <li>Math 3201 (Minimum 60%)</li>
+                                        </ul>
+                                        <hr/>
+                                        2 credits from any of the remaining 3000 level courses offered in the Senior High School Program
+                                    </Tab>
+                                </Tabs>
                 </Popover.Body>
             </Popover>
               }

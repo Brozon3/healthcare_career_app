@@ -352,19 +352,13 @@ function  DirectCertificateImage() {
                                       <hr/>
                                       <b>Website: </b><a href="https://www.cna.nl.ca/program/home-care-assistant#tab2">Link</a>
                                       </Tab>
-                                      <Tab eventKey={"notes"} title={"Notes"}>
-                                          <b>Requirements Note:</b>
-                                          <p>Eligible participants include those with a minimum of grade 9.</p>
-                                          <b>Requirements for Clinical Placement:</b>
-                                          <p>Pre-placement requirements are outlined in affiliation agreements between 
-                                              CNA and our clinical partners. As a part of this process, students should 
-                                              obtain copies of their personal immunization records as early as possible 
-                                              to assist in the completion of the “Student Pre-Placement Immunizations and 
-                                              Communicable Diseases Screening Form”, and applicable waivers. Students must 
-                                              also be willing to obtain an updated criminal record check (certificate of 
-                                              conduct and vulnerable sector check) plus all other requirements outlined by
-                                               the clinical partners for placement purposes.</p>
-                                      </Tab>
+                                      <Tab eventKey={"requirements"} title={"Requirements"}>
+                                        <ul>
+                                            <li>Eligible participants include those with a minimum of grade 9</li>
+                                            <li>English as a second language speakers must provide proof of English language skills (e.g. IELTS 6.0; CAEL 60; MELAB 78; TOEFL 550*) or equivalency</li>
+                                            <li> Current Certificate of Conduct obtained from the Royal Newfoundland Constabulary, the Royal Canadian Mounted Police, or provincial/municipal forces, including the "Vulnerable Sector Check". Documents must be dated no more than two months prior to registration. Applicants with a criminal offence may be denied a clinical placement, which will result in not being able to complete the program</li>
+                                        </ul>
+                                    </Tab>
                                   </Tabs>
                               </Popover.Body>
                           </Popover>
@@ -406,16 +400,30 @@ function  DirectCertificateImage() {
                                       <hr/>
                                       <b>Website: </b><a href="https://www.cna.nl.ca/program/medical-laboratory-assistant#tab2">Link</a>
                                       </Tab>
-                                      <Tab eventKey={"notes"} title={"Notes"}>
-                                          <b>Program Highlights:</b>
-                                          <ul>
-                                              <li>Robust training to become an integral part of the healthcare community and fill the identified occupational need.</li>
-                                              <li>The Medical Laboratory Assistant program is accredited by Accreditation Canada.</li>
-                                              <li>You can leverage your certificate for transition into the Medical Laboratory Technologist program at CNA.</li>
-                                              <li>Prepares graduates to challenge the Canadian Society of Medical Laboratory Science (CSMLS) certification exam.</li>
-                                              <li>The CSMLS provides portability to most provinces and territories.</li>
-                                          </ul>
-                                      </Tab>
+                                      <Tab eventKey={"requirements"} title={"Requirements"}>
+                                        English 3201 <b>OR</b> English 3202 (Minimum 60%)
+                                        <hr/>
+                                        Biology 2201 (Minimum 60%)
+                                        <hr/>
+                                        Biology 3201 (Minimum 60%)
+                                        <hr/>
+                                        Chemistry 3202 (Minimum 60%)
+                                        <hr/>
+                                        4 credits from:
+                                        <br/>
+                                        <b>Advanced: </b>
+                                        <ul>
+                                            <li>Math 2200 (Minimum 50%)</li>
+                                            <li>Math 3200 (Minimum 50%)</li>
+                                        </ul>
+                                        <b>Academic: </b>
+                                        <ul>
+                                            <li>Math 2201 (Minimum 50%)</li>
+                                            <li>Math 3201 (Minimum 60%)</li>
+                                        </ul>
+                                        <hr/>
+                                        2 credits chosen from any of the remaining 3000 level courses offered in the Senior High School Program
+                                    </Tab>
                                   </Tabs>
                               </Popover.Body>
                           </Popover>
@@ -457,17 +465,17 @@ function  DirectCertificateImage() {
                                       <hr/>
                                       <b>Website: </b><a href="https://www.cna.nl.ca/program/personal-care-attendant">Link</a>
                                       </Tab>
-                                      <Tab eventKey={"notes"} title={"Notes"}>
-                                          <b>Additional Requirements:</b>
-                                          <ul>
-                                              <li>2 reference letters supporting enterance into program. May be provided by employers, 
-                                                  teachers/instructors, representative from volunteer agency</li>
-                                              <li>Perform 20 volunteer service hours within the past 2 years with written verification 
-                                                  of hours volunteered</li>
-                                              <li>Complete a 1 page written personal statement that includes the reason(s) for interest 
-                                                  in the program, personal skills and abilities and knowledge gained from volunteer experience</li>
-                                          </ul>
-                                      </Tab>
+                                      <Tab eventKey={"requirements"} title={"Requirements"}>
+                                        <ul>
+                                            <li>Grade 12 diploma <b>OR</b> Grade 12 equivalency documentation.</li>
+                                            <li>Current Certificate of Conduct including the “Vulnerable Sector Check”</li>
+                                            <li>2 reference letters supporting entrance into the program. References may be provided by individuals such as: employers, teachers/instructors or representative from a volunteer agency</li>
+                                            <li>Perform 20 volunteer service hours within the past two years. Volunteer service may include, but is not limited to: Community agencies, School programs, Church groups or Charitable organizations</li>
+                                            <li>Complete a one page written personal statement addressing one of the following: Reason(s) for interest in the program, Personal characteristics/skills/abilities that applicants bring to the program or Knowledge gained from volunteer experience(s)</li>
+                                            <li>The School of Health Science Student Information Program Awareness Form</li>
+                                            <li>The Newfoundland and Labrador Student Pre-Placement Immunization and Communicable Diseases Screening Form</li>
+                                        </ul>
+                                    </Tab>
                                   </Tabs>
                               </Popover.Body>
                           </Popover>

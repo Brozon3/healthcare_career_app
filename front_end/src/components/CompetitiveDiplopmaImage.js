@@ -725,7 +725,7 @@ function  CompetitiveDiplomaImage() {
               rootClose={"true"}
               overlay={
                 <Popover id="popover-basic">
-                <Popover.Header as="h1">Medical Radiographist</Popover.Header>
+                <Popover.Header as="h1">Medical Radiation Technologist</Popover.Header>
                 <Popover.Body>
                     <Tabs fill defaultActiveKey={"details"} className="mb-3">
                         <Tab eventKey={"details"} title={"Details"}>
@@ -741,11 +741,32 @@ function  CompetitiveDiplomaImage() {
                         <hr/>
                         <b>Website: </b><a href="https://www.cna.nl.ca/program/medical-radiography">Link</a>
                         </Tab>
-                        <Tab eventKey={"notes"} title={"Notes"}>
-                            <b>Requirements Note:</b>
-                            <p>Eligible participants include those with a minimum of grade 9.</p>
-                            <p>To be added</p>
-                        </Tab>
+                        <Tab eventKey={"requirements"} title={"Requirements"}>
+                                        <b>Competitive Entry</b>
+                                        <hr/>
+                                        English 3201 <b>OR</b> English 3202 (Minimum 60%)
+                                        <hr/>
+                                        Biology 2201 (Minimum 60%)
+                                        <hr/>
+                                        Biology 3201 (Minimum 60%)
+                                        <hr/>
+                                        Chemistry 3202 (Minimum 60%)
+                                        <hr/>
+                                        4 credits from:
+                                        <br/>
+                                        <b>Advanced: </b>
+                                        <ul>
+                                            <li>Math 2200 (Minimum 50%)</li>
+                                            <li>Math 3200 (Minimum 50%)</li>
+                                        </ul>
+                                        <b>Academic: </b>
+                                        <ul>
+                                            <li>Math 2201 (Minimum 50%)</li>
+                                            <li>Math 3201 (Minimum 60%)</li>
+                                        </ul>
+                                        <hr/>
+                                        Completion of the <a href="https://acuityinsights.app/">Casper Admissions Exam</a> 
+                                    </Tab>
                     </Tabs>
                 </Popover.Body>
             </Popover>
@@ -771,7 +792,7 @@ function  CompetitiveDiplomaImage() {
             rootClose={"true"}
             overlay={
               <Popover id="popover-basic">
-              <Popover.Header as="h1">Diagnostic Medical Sonographer</Popover.Header>
+              <Popover.Header as="h1">Diagnostic Sonographer</Popover.Header>
               <Popover.Body>
                 <Tabs fill defaultActiveKey={"details"} className="mb-3">
                     <Tab eventKey={"details"} title={"Details"}>
@@ -787,11 +808,32 @@ function  CompetitiveDiplomaImage() {
                     <hr/>
                     <b>Website: </b><a href="https://www.cna.nl.ca/program/diagnostic-ultrasonography#tab2">Link</a>
                     </Tab>
-                    <Tab eventKey={"notes"} title={"Notes"}>
-                        <b>Requirements Note:</b>
-                        <p>Eligible participants include those with a minimum of grade 9.</p>
-                        <p>To be added</p>
-                    </Tab>
+                    <Tab eventKey={"requirements"} title={"Requirements"}>
+                                        <b>Competitive Entry</b>
+                                        <hr/>
+                                        English 3201 <b>OR</b> English 3202 (Minimum 60%)
+                                        <hr/>
+                                        Biology 2201
+                                        <hr/>
+                                        Biology 3201
+                                        <hr/>
+                                        Physics 3204
+                                        <hr/>
+                                        4 credits from:
+                                        <br/>
+                                        <b>Advanced: </b>
+                                        <ul>
+                                            <li>Math 2200 (Minimum 50%)</li>
+                                            <li>Math 3200 (Minimum 50%)</li>
+                                        </ul>
+                                        <b>Academic: </b>
+                                        <ul>
+                                            <li>Math 2201 (Minimum 50%)</li>
+                                            <li>Math 3201 (Minimum 60%)</li>
+                                        </ul>
+                                        <hr/> 
+                                        Completion of the <a href="https://acuityinsights.app/">Casper Admissions Exam</a> 
+                                    </Tab>
                 </Tabs>
               </Popover.Body>
           </Popover>
@@ -833,11 +875,32 @@ function  CompetitiveDiplomaImage() {
                                       <hr/>
                                       <b>Website: </b><a href="https://www.cna.nl.ca/program/medical-laboratory-technology">Link</a>
                                       </Tab>
-                                      <Tab eventKey={"notes"} title={"Notes"}>
-                                          <b>Requirements Note:</b>
-                                          <p>Eligible participants include those with a minimum of grade 9.</p>
-                                          <p>To be added</p>
-                                      </Tab>
+                                      <Tab eventKey={"requirements"} title={"Requirements"}>
+                                        <b>Competitive Entry</b>
+                                        <hr/>
+                                        English 3201 <b>OR</b> English 3202 (Minimum 60%)
+                                        <hr/>
+                                        Biology 2201 (Minimum 60%)
+                                        <hr/>
+                                        Biology 3201 (Minimum 60%)
+                                        <hr/>
+                                        Chemistry 3202 (Minimum 60%)
+                                        <hr/>
+                                        4 credits from:
+                                        <br/>
+                                        <b>Advanced: </b>
+                                        <ul>
+                                            <li>Math 2200 (Minimum 50%)</li>
+                                            <li>Math 3200 (Minimum 50%)</li>
+                                        </ul>
+                                        <b>Academic: </b>
+                                        <ul>
+                                            <li>Math 2201 (Minimum 50%)</li>
+                                            <li>Math 3201 (Minimum 60%)</li>
+                                        </ul>
+                                        <hr/>
+                                        Completion of the <a href="https://acuityinsights.app/">Casper Admissions Exam</a> 
+                                    </Tab>
                                   </Tabs>
                               </Popover.Body>
                           </Popover>
@@ -863,7 +926,7 @@ function  CompetitiveDiplomaImage() {
                             rootClose={"true"}
                             overlay={
                               <Popover id="popover-basic">
-                              <Popover.Header as="h1">Primary Care Paramedic</Popover.Header>
+                              <Popover.Header as="h1">Paramedic</Popover.Header>
                               <Popover.Body>
                                   <Tabs fill defaultActiveKey={"details"} className="mb-3">
                                       <Tab eventKey={"details"} title={"Details"}>
@@ -879,11 +942,32 @@ function  CompetitiveDiplomaImage() {
                                       <hr/>
                                       <b>Website: </b><a href="https://www.cna.nl.ca/program/primary-care-paramedicine">Link</a>
                                       </Tab>
-                                      <Tab eventKey={"notes"} title={"Notes"}>
-                                          <b>Requirements Note:</b>
-                                          <p>Eligible participants include those with a minimum of grade 9.</p>
-                                          <p>To be added</p>
-                                      </Tab>
+                                      <Tab eventKey={"requirements"} title={"Requirements"}>
+                                                <b>Competitive Entry</b>
+                                                <hr/>
+                                                English 3201 <b>OR</b> English 3202 (Minimum 60%)
+                                                <hr/>
+                                                Biology 2201 
+                                                <hr/>
+                                                Biology 3201 
+                                                <hr/>
+                                                Chemistry 3202
+                                                <hr/>
+                                                4 credits from:
+                                                <br/>
+                                                <b>Advanced: </b>
+                                                <ul>
+                                                    <li>Math 2200 (Minimum 50%)</li>
+                                                    <li>Math 3200 (Minimum 50%)</li>
+                                                </ul>
+                                                <b>Academic: </b>
+                                                <ul>
+                                                    <li>Math 2201 (Minimum 50%)</li>
+                                                    <li>Math 3201 (Minimum 60%)</li>
+                                                </ul>
+                                                <hr/>
+                                                Completion of the <a href="https://acuityinsights.app/">Casper Admissions Exam</a>
+                                            </Tab>
                                   </Tabs>
                               </Popover.Body>
                           </Popover>
@@ -925,11 +1009,32 @@ function  CompetitiveDiplomaImage() {
                                       <hr/>
                                       <b>Website: </b><a href="https://www.cna.nl.ca/program/respiratory-therapy">Link</a>
                                       </Tab>
-                                      <Tab eventKey={"notes"} title={"Notes"}>
-                                          <b>Requirements Note:</b>
-                                          <p>Eligible participants include those with a minimum of grade 9.</p>
-                                          <p>To be added</p>
-                                      </Tab>
+                                      <Tab eventKey={"requirements"} title={"Requirements"}>
+                                        <b>Competitive Entry</b>
+                                        <hr/>
+                                        English 3201 <b>OR</b> English 3202 (Minimum 60%)
+                                        <hr/>
+                                        Biology 2201
+                                        <hr/>
+                                        Biology 3201
+                                        <hr/>
+                                        Chemistry 3202
+                                        <hr/>
+                                        4 credits from:
+                                        <br/>
+                                        <b>Advanced: </b>
+                                        <ul>
+                                            <li>Math 2200 (Minimum 50%)</li>
+                                            <li>Math 3200 (Minimum 50%)</li>
+                                        </ul>
+                                        <b>Academic: </b>
+                                        <ul>
+                                            <li>Math 2201 (Minimum 50%)</li>
+                                            <li>Math 3201 (Minimum 60%)</li>
+                                        </ul>
+                                        <hr/>
+                                        Completion of the <a href="https://acuityinsights.app/">Casper Admissions Exam</a>
+                                    </Tab>
                                   </Tabs>
                               </Popover.Body>
                           </Popover>
@@ -971,11 +1076,28 @@ function  CompetitiveDiplomaImage() {
                                       <hr/>
                                       <b>Website: </b><a href="https://www.cna.nl.ca/program/practical-nursing">Link</a>
                                       </Tab>
-                                      <Tab eventKey={"notes"} title={"Notes"}>
-                                          <b>Requirements Note:</b>
-                                          <p>Eligible participants include those with a minimum of grade 9.</p>
-                                          <p>To be added</p>
-                                      </Tab>
+                                      <Tab eventKey={"requirements"} title={"Requirements"}>
+                                        <b>Competitive Entry</b>
+                                        <hr/>
+                                        English 3201
+                                        <hr/>
+                                        Biology 2201 <b>AND</b> Biology 3201 
+                                        <br/>
+                                        <b>OR</b> 
+                                        <br/>
+                                        Chemistry 3202
+                                        <hr/>
+                                        Math 3200 <b>OR</b> Math 3201
+                                        <hr/>
+                                        One of the following:
+                                        <ul>
+                                            <li>Social Studies 3201 <b>OR</b> equivalent</li>
+                                            <li>Sciences Humaines 3231</li>
+                                            <li>2 credits at the 3000 level in Religious Studies, French or other MCL</li>
+                                        </ul>
+                                        <hr/>
+                                        2 credits in any subject area at the 3000 level
+                                    </Tab>
                                   </Tabs>
                               </Popover.Body>
                           </Popover>
