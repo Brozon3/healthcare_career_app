@@ -1064,7 +1064,7 @@ function  CompetitiveDiplomaImage() {
                               <Popover.Body>
                                   <Tabs fill defaultActiveKey={"details"} className="mb-3">
                                       <Tab eventKey={"details"} title={"Details"}>
-                                      <b>Average Salary: </b> $34.07 per hour
+                                      <b>Average Salary: </b>  $68,140
                                       <hr/>
                                       <b>Program Name: </b> Practical Nursing
                                       <hr/>

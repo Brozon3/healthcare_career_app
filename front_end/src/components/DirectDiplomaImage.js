@@ -477,7 +477,7 @@ function DirectDiplomaImage() {
                         <hr/>
                         <b>Website: </b><a href="https://www.cna.nl.ca/program/emergency-medical-responder-to-primary-care-paramedicine-program">Link</a>
                         </Tab>
-                        <Tab eventKey={"notes"} title={"Notes"}>
+                        <Tab eventKey={"requirements"} title={"Requirements"}>
                             <b>Requirements Note:</b>
                             <p>Eligible participants include those with a minimum of grade 9.</p>
                             <b>Requirements for Clinical Placement:</b>
@@ -515,7 +515,7 @@ function DirectDiplomaImage() {
               rootClose={"true"}
               overlay={
                 <Popover id="popover-basic">
-                <Popover.Header as="h1">Rehabilitation Assistant OTA/PTA</Popover.Header>
+                <Popover.Header as="h1">Rehabilitation Assistant</Popover.Header>
                 <Popover.Body>
                     <Tabs fill defaultActiveKey={"details"} className="mb-3">
                         <Tab eventKey={"details"} title={"Details"}>
