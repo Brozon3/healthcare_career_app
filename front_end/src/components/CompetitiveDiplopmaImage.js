@@ -785,7 +785,7 @@ function  CompetitiveDiplomaImage() {
                     <hr/>
                     <b>School: </b> CNA
                     <hr/>
-                    <b>Website: </b><a href="https://www.cna.nl.ca/program/emergency-medical-responder-to-primary-care-paramedicine-program">Link</a>
+                    <b>Website: </b><a href="https://www.cna.nl.ca/program/diagnostic-ultrasonography#tab2">Link</a>
                     </Tab>
                     <Tab eventKey={"notes"} title={"Notes"}>
                         <b>Requirements Note:</b>
@@ -869,15 +869,15 @@ function  CompetitiveDiplomaImage() {
                                       <Tab eventKey={"details"} title={"Details"}>
                                       <b>Average Salary: </b> $73,864
                                       <hr/>
-                                      <b>Program Name: </b> Medical Labratory Technology
+                                      <b>Program Name: </b> Primary Care Paramedicine
                                       <hr/>
-                                      <b>Program Length: </b> 3 years
+                                      <b>Program Length: </b> 68 weeks
                                       <hr/>
                                       <b>Certification: </b> Diploma
                                       <hr/>
                                       <b>School: </b> CNA
                                       <hr/>
-                                      <b>Website: </b><a href="https://www.cna.nl.ca/program/medical-laboratory-technology">Link</a>
+                                      <b>Website: </b><a href="https://www.cna.nl.ca/program/primary-care-paramedicine">Link</a>
                                       </Tab>
                                       <Tab eventKey={"notes"} title={"Notes"}>
                                           <b>Requirements Note:</b>

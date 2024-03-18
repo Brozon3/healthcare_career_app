@@ -390,7 +390,7 @@ function  DirectCertificateImage() {
                             rootClose={"true"}
                             overlay={
                               <Popover id="popover-basic">
-                              <Popover.Header as="h1">Medical Lab Assistant</Popover.Header>
+                              <Popover.Header as="h1">Medical Labratory Assistant</Popover.Header>
                               <Popover.Body>
                                   <Tabs fill defaultActiveKey={"details"} className="mb-3">
                                       <Tab eventKey={"details"} title={"Details"}>
@@ -449,7 +449,7 @@ function  DirectCertificateImage() {
                                       <hr/>
                                       <b>Program Name: </b> Personal Care Attendant
                                       <hr/>
-                                      <b>Program Length: </b> 2 Semesters
+                                      <b>Program Length: </b> 2 Semesters (30 weeks)
                                       <hr/>
                                       <b>Certification: </b> Certificate
                                       <hr/>

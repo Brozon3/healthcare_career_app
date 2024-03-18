@@ -78,7 +78,7 @@ function  DegreeImage() {
                         rootClose={"true"}
                         overlay={
                           <Popover id="popover-basic">
-                            <Popover.Header as="h1">Medical Lab Assistant</Popover.Header>
+                            <Popover.Header as="h1">MUN</Popover.Header>
                             <Popover.Body>
                                 <Tabs fill defaultActiveKey={"details"} className="mb-3">
                                     <Tab eventKey={"details"} title={"Details"}>
