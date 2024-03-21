@@ -2,6 +2,7 @@ import { Container, OverlayTrigger, Popover, Tabs, Tab } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { animated, useSpring } from "react-spring";
 
+//hard-coded Certificate Programs Image
 function HSCertProgramsImage() {
 
     const spring = useSpring({

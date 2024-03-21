@@ -1,6 +1,7 @@
 import { OverlayTrigger, Popover, Tabs, Tab } from "react-bootstrap";
 import { useSpring, animated } from "react-spring";
 
+//hard-coded Circular Image
 function CircularImage({hideCertificates={hideCertificates}, hideDiplomas={hideDiplomas},
                         hideRequiresPhysics={hideRequiresPhysics}, hideRequiresChemsitry={hideRequiresChemsitry},
                         hideLessThanFiftyThousand={hideLessThanFiftyThousand}, hideLessThanThreeYears={hideLessThanThreeYears}}) {

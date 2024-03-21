@@ -1,15 +1,13 @@
-import express from "express";
-import path from 'path';
+import express from 'express';
 
+// Creating an Express application
 const app = express();
-const port = 5000;
 
-app.use(express.static(path.join(__dirname, 'build')));
+// Defining the port number. It will use the port specified in the environment variable PORT, or default to 5000 if the environment variable is not set.
+const PORT = process.env.PORT || 5000;
 
-app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "build", "index.html"))
-})
-
-app.listen(port, () =>{
-    console.log("Server is running on http://localhost:${port}");
-})
+// Starting the Express server to listen on the specified port
+app.listen(PORT, () => {
+  // Logging a message to the console indicating that the server is running and listening on the specified port
+  console.log(`Server listening on port ${PORT}`);
+});

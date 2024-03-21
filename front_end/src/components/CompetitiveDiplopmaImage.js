@@ -1,5 +1,7 @@
 import { Container, Popover, Tab, Tabs, OverlayTrigger } from "react-bootstrap";
 
+
+//hard-coded Competitive Diploma Image
 function  CompetitiveDiplomaImage() {
     return (
         <Container fluid className="py-5 my-5">

@@ -2,6 +2,7 @@ import { Container, OverlayTrigger, Popover, Row, Col} from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { animated, useSpring } from "react-spring";
 
+//hard-coded Degree Programs Image
 function DegreeProgramsImage() {
 
     const spring = useSpring({

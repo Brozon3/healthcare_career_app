@@ -2,6 +2,7 @@ import { Container, OverlayTrigger, Popover } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { animated, useSpring } from "react-spring";
 
+//hard-coded Diploma Options Image
 function HSDiplomaPathsImage() {
 
     const spring = useSpring({

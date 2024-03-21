@@ -1,6 +1,6 @@
 import { Container, OverlayTrigger, Popover, Row, Tab, Tabs, Col } from "react-bootstrap";
 
-
+//hard-coded Degree Image
 function  DegreeImage() {
     return (
         <Container fluid className="py-5 my-5">

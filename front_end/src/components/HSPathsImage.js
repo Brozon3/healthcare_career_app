@@ -2,6 +2,7 @@ import { Container, OverlayTrigger, Popover } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { useSpring, animated } from 'react-spring';
 
+//hard-coded High School Paths Image
 function HSPathsImage() {
 
     const spring = useSpring({

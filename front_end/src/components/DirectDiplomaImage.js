@@ -1,5 +1,6 @@
 import { Container, OverlayTrigger, Popover, Tabs, Tab } from "react-bootstrap";
 
+//hard-coded DirectDiplomaImage
 function DirectDiplomaImage() {
   return (
     <Container fluid className="py-5 my-5">

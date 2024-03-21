@@ -2,8 +2,10 @@ import { Container, Row, Col, Form } from "react-bootstrap";
 import { useState } from "react";
 import CircularImage from "../components/CircularImage";
 
+// Functional component for the Circular Image Page
 function CircularImagePage(){
     
+    // State variables to manage checkbox states for filtering
     const [ hideCertificates, setHideCertificates ] = useState(false);
     const [ hideDiplomas, setHideDiplomas ] = useState(false);
     const [ hideRequiresPhysics, setHideRequiresPhysics ] = useState(false);
@@ -11,6 +13,7 @@ function CircularImagePage(){
     const [ hideLessThanFiftyThousand, setHideLessThanFiftyThousand ] = useState(false);
     const [ hideLessThanThreeYears, setHideLessThanThreeYears ] = useState(false);
 
+    // Event handlers for checkbox changes
     const handleCertifcatesChange = (event) => {
         setHideCertificates(event.target.checked);
     }
@@ -35,13 +38,16 @@ function CircularImagePage(){
         setHideLessThanThreeYears(event.target.checked);
     }
 
+    // Rendering the component
     return(
         <Container fluid className="pt-5 mt-5">
             <Row className="justify-content-md-center">
 
+                {/* Form to control filtering options */}
                 <Col>
                     <Form className="purple-border p-2">
                         <h3 className=" text-center purple-text">Hide:</h3>
+                        {/* Checkboxes for various filtering options */}
                         <Form.Check
                             type="checkbox"
                             id="certificates"
@@ -87,10 +93,12 @@ function CircularImagePage(){
                     </Form>
                 </Col>
 
+                {/* Circular Image display component */}
                 <Col className="p-2 m-2" md="auto">
                     <h1 className="text-center purple-text">
                         <em>Hover</em> or <em>Click</em> to explore!
                     </h1>
+                    {/* Passing filtering options as props to the CircularImage component */}
                     <CircularImage 
                         hideCertificates={hideCertificates} 
                         hideDiplomas={hideDiplomas} 
@@ -106,4 +114,5 @@ function CircularImagePage(){
     )
 }
 
+// Exporting the CircularImagePage component as default
 export default CircularImagePage;

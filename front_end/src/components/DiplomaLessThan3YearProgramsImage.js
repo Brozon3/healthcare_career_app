@@ -2,6 +2,7 @@ import { Container, OverlayTrigger, Popover, Tabs, Tab } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { animated, useSpring } from "react-spring";
 
+//hard-coded Less Than 3 Year Diploma Programs Image
 function DiplomaLessThan3YearProgramsImage() {
 
     const spring = useSpring({
