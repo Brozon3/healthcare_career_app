@@ -34,7 +34,7 @@ function App() {
 
       // Check if the current month is one of the target months
       if (targetMonths.includes(currentMonth)) {
-        // Call the API to scrape and update the JSON file
+        // Call the API to scrape and update the JSON file (testing with one link)
         const onLoad = async () => {
           const response = await axios.post("/api/scrape", {
             link: "https://www.cna.nl.ca/program/primary-care-paramedicine"
